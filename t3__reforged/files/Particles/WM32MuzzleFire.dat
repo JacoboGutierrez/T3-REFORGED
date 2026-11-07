@@ -1,0 +1,441 @@
+Weapon_RSB80
+{
+	FrontTexture		Textures\Particles\Muzzle-Front-Plasma.tga
+	SideTexture		Textures\Particles\Muzzle-Side-Plasma.tga
+	ParticleFrontSize	0.375
+	ParticleFrontSizeVar	0.10
+	ParticleSideSize	0.50
+	ParticleSideSizeVar	0.10
+	Rotation		0.11
+	Opacity			1.00
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	LightSize		4.47
+	LightRed		1.00
+	LightGreen		0.60
+	LightBlue		0.80
+}
+
+
+
+
+
+Weapon_Wm20
+{
+	FrontTexture		Textures\Particles\Red-Muzzle-Front-Plasma.tga
+	SideTexture		Textures\Particles\Red-Muzzle-Side-Plasma.TGA
+	ParticleFrontSize	0.50
+	ParticleFrontSizeVar	0.10
+	ParticleSideSize	0.50
+	ParticleSideSizeVar	0.10
+	Rotation		0.11
+	Opacity			1.00
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	LightSize		4.47
+	LightRed		1.00
+	LightGreen		0.60
+	LightBlue		0.80
+}
+
+Weapon_M4
+{
+	FrontTexture		Textures\Particles\Muzzle-Front-01.tga
+	SideTexture		Textures\Particles\Muzzle-Side-01.tga
+	ParticleFrontSize	0.25
+	ParticleFrontSizeVar	0.40
+	ParticleSideSize	0.50
+	ParticleSideSizeVar	0.30
+	Rotation		0.11
+	Opacity			1.00
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	LightSize		6.97
+	LightRed		1.00
+	LightGreen		0.95
+	LightBlue		0.80
+}
+
+Weapon_M82a1
+{
+	FrontTexture		Textures\Particles\Muzzle-Front-02.tga
+	SideTexture		Textures\Particles\Muzzle-Side-01.tga
+	ParticleFrontSize	0.60
+	ParticleFrontSizeVar	0.30
+	ParticleSideSize	1.00
+	ParticleSideSizeVar	0.50
+	Rotation		1.00
+	Opacity			1.00
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	LightSize		5.11
+	LightRed		1.00
+	LightGreen		0.95
+	LightBlue		0.80
+}
+
+Weapon_G3
+{
+	FrontTexture		Textures\Particles\Muzzle-Front-02.tga
+	SideTexture		Textures\Particles\Muzzle-Side-01.tga
+	ParticleFrontSize	0.40
+	ParticleFrontSizeVar	0.20
+	ParticleSideSize	0.40
+	ParticleSideSizeVar	0.10
+	Rotation		1.00
+	Opacity			1.00
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	LightSize		1.50
+	LightRed		1.00
+	LightGreen		0.95
+	LightBlue		0.80
+}
+
+Weapon_M249
+{
+	FrontTexture		Textures\Particles\Muzzle-Front-02.tga
+	SideTexture		Textures\Particles\Muzzle-Side-01.tga
+	ParticleFrontSize	0.30
+	ParticleFrontSizeVar	0.50
+	ParticleSideSize	0.50
+	ParticleSideSizeVar	0.50
+	Rotation		0.15
+	Opacity			1.00
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	LightSize		4.10
+	LightRed		1.00
+	LightGreen		0.95
+	LightBlue		0.80
+}
+
+Weapon_M134
+{
+	FrontTexture		Textures\Particles\Muzzle-Front-02.tga
+	SideTexture		Textures\Particles\Muzzle-Side-01.tga
+	ParticleFrontSize	0.40
+	ParticleFrontSizeVar	0.50
+	ParticleSideSize	0.60
+	ParticleSideSizeVar	0.50
+	Rotation		1.00
+	Opacity			1.00
+	Red			1.00
+	Green			0.99
+	Blue			0.98
+	LightSize		10.00
+	LightRed		1.00
+	LightGreen		1.00
+	LightBlue		1.00
+}
+
+Weapon_M47
+{
+	FrontTexture		Textures\Particles\Muzzle-Front.tga
+	SideTexture		Textures\Particles\Muzzle-Side.tga
+	ParticleFrontSize	0.20
+	ParticleFrontSizeVar	0.10
+	ParticleSideSize	0.20
+	ParticleSideSizeVar	0.10
+	Rotation		1.00
+	Opacity			1.00
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	LightSize		10.00
+	LightRed		1.00
+	LightGreen		1.00
+	LightBlue		1.00
+}
+
+Weapon_SMAW
+{
+	FrontTexture		Textures\Particles\Muzzle-Front.tga
+	SideTexture		Textures\Particles\Muzzle-Side.tga
+	ParticleFrontSize	0.20
+	ParticleFrontSizeVar	0.10
+	ParticleSideSize	0.20
+	ParticleSideSizeVar	0.10
+	Rotation		1.00
+	Opacity			1.00
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	LightSize		10.00
+	LightRed		1.00
+	LightGreen		1.00
+	LightBlue		1.00
+}
+
+Weapon_M60
+{
+	FrontTexture		Textures\Particles\Muzzle-Front-01.tga
+	SideTexture		Textures\Particles\Muzzle-Side-01.tga
+	ParticleFrontSize	0.35
+	ParticleFrontSizeVar	0.50
+	ParticleSideSize	0.60
+	ParticleSideSizeVar	0.30
+	Rotation		0.11
+	Opacity			1.00
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	LightSize		6.19
+	LightRed		1.00
+	LightGreen		0.95
+	LightBlue		0.80
+}
+
+Weapon_XM29
+{
+	FrontTexture		Textures\Particles\Muzzle-Front-02.tga
+	SideTexture		Textures\Particles\Muzzle-Side-01.tga
+	ParticleFrontSize	0.20
+	ParticleFrontSizeVar	0.10
+	ParticleSideSize	0.10
+	ParticleSideSizeVar	0.10
+	Rotation		1.00
+	Opacity			1.00
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	LightSize		2.61
+	LightRed		0.95
+	LightGreen		0.95
+	LightBlue		1.00
+}
+
+Weapon_Wm25
+{
+	FrontTexture		Textures\Particles\Muzzle-Front-Plasma.tga
+	SideTexture		Textures\Particles\Muzzle-Side-Plasma.tga
+	ParticleFrontSize	0.60
+	ParticleFrontSizeVar	0.10
+	ParticleSideSize	0.30
+	ParticleSideSizeVar	0.10
+	Rotation		0.16
+	Opacity			1.00
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	LightSize		5.50
+	LightRed		1.00
+	LightGreen		0.60
+	LightBlue		0.80
+}
+
+Weapon_W25D3
+{
+	FrontTexture		Textures\Particles\Muzzle-Front-Plasma.tga
+	SideTexture		Textures\Particles\Muzzle-Side-Plasma.tga
+	ParticleFrontSize	0.20
+	ParticleFrontSizeVar	0.10
+	ParticleSideSize	0.20
+	ParticleSideSizeVar	0.10
+	Rotation		1.00
+	Opacity			1.00
+	Red			1.00
+	Green			0.80
+	Blue			0.85
+	LightSize		5.50
+	LightRed		1.00
+	LightGreen		1.00
+	LightBlue		1.00
+}
+
+Weapon_M2
+{
+	FrontTexture		Textures\Particles\Muzzle-Front-02.tga
+	SideTexture		Textures\Particles\Muzzle-Side-01.tga
+	ParticleFrontSize	0.40
+	ParticleFrontSizeVar	0.50
+	ParticleSideSize	0.60
+	ParticleSideSizeVar	0.10
+	Rotation		0.11
+	Opacity			1.00
+	Red			1.00
+	Green			0.98
+	Blue			0.96
+	LightSize		6.44
+	LightRed		1.00
+	LightGreen		0.95
+	LightBlue		0.80
+}
+
+Weapon_DesertEagle
+{
+	FrontTexture		Textures\Particles\Muzzle-Front-02.tga
+	SideTexture		Textures\Particles\Muzzle-Side-01.tga
+	ParticleFrontSize	0.20
+	ParticleFrontSizeVar	0.10
+	ParticleSideSize	0.20
+	ParticleSideSizeVar	0.10
+	Rotation		1.00
+	Opacity			1.00
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	LightSize		3.50
+	LightRed		1.00
+	LightGreen		1.00
+	LightBlue		1.00
+}
+
+Weapon_TermCannon
+{
+	FrontTexture		Textures\Particles\Muzzle-Front-Plasma-Blue.tga
+	SideTexture		Textures\Particles\Muzzle-Side-Plasma-Blue.tga
+	ParticleFrontSize	0.60
+	ParticleFrontSizeVar	0.10
+	ParticleSideSize	0.70
+	ParticleSideSizeVar	0.10
+	Rotation		1.00
+	Opacity			1.00
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	LightSize		7.50
+	LightRed		0.59
+	LightGreen		0.67
+	LightBlue		1
+}
+
+Weapon_FKPlasma
+{
+	FrontTexture		Textures\Particles\Muzzle-Front-Plasma.tga
+	SideTexture		Textures\Particles\Muzzle-Side-Plasma.tga
+	ParticleFrontSize	0.20
+	ParticleFrontSizeVar	0.10
+	ParticleSideSize	0.70
+	ParticleSideSizeVar	0.10
+	Rotation		1.00
+	Opacity			0.00
+	Red			0.00
+	Green			0.00
+	Blue			0.00
+	LightSize		7.50
+	LightRed		1.00
+	LightGreen		0.60
+	LightBlue		0.80
+}
+
+Weapon_FKMinirocket
+{
+	FrontTexture		Textures\Particles\Muzzle-Front.tga
+	SideTexture		Textures\Particles\Muzzle-Side.tga
+	ParticleFrontSize	0.20
+	ParticleFrontSizeVar	0.10
+	ParticleSideSize	0.20
+	ParticleSideSizeVar	0.10
+	Rotation		1.00
+	Opacity			0.00
+	Red			0.00
+	Green			0.00
+	Blue			0.00
+	LightSize		3.50
+	LightRed		1.00
+	LightGreen		1.00
+	LightBlue		1.00
+}
+
+Weapon_HKTankPlasma
+{
+	FrontTexture		Textures\Particles\Muzzle-Front-Plasma.tga
+	SideTexture		Textures\Particles\Muzzle-Side-Plasma.tga
+	ParticleFrontSize	0.90
+	ParticleFrontSizeVar	0.10
+	ParticleSideSize	1.70
+	ParticleSideSizeVar	0.10
+	Rotation		1.00
+	Opacity			0.00
+	Red			0.00
+	Green			0.00
+	Blue			0.00
+	LightSize		7.50
+	LightRed		1.00
+	LightGreen		0.60
+	LightBlue		0.80
+}
+
+Weapon_FKFlyerPlasma
+{
+	FrontTexture		Textures\Particles\Muzzle-Front-Plasma.tga
+	SideTexture		Textures\Particles\Muzzle-Side-Plasma.tga
+	ParticleFrontSize	1.60
+	ParticleFrontSizeVar	0.10
+	ParticleSideSize	1.70
+	ParticleSideSizeVar	0.10
+	Rotation		1.00
+	Opacity			0.00
+	Red			0.00
+	Green			0.00
+	Blue			0.00
+	LightSize		7.50
+	LightRed		1.00
+	LightGreen		0.60
+	LightBlue		0.80
+}
+
+Weapon_Wm20_2
+{
+	FrontTexture		Textures\Particles\Muzzle-Front.tga
+	SideTexture		Textures\Particles\Muzzle-Side.tga
+	ParticleFrontSize	0.20
+	ParticleFrontSizeVar	0.10
+	ParticleSideSize	0.20
+	ParticleSideSizeVar	0.10
+	Rotation		0.00
+	Opacity			0.20
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	LightSize		0.00
+	LightRed		1.00
+	LightGreen		1.00
+	LightBlue		1.00
+}
+
+Weapon_M4_2
+{
+	FrontTexture		Textures\Particles\Muzzle-Front.tga
+	SideTexture		Textures\Particles\Muzzle-Side.tga
+	ParticleFrontSize	0.20
+	ParticleFrontSizeVar	0.10
+	ParticleSideSize	0.20
+	ParticleSideSizeVar	0.10
+	Rotation		1.00
+	Opacity			0.20
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	LightSize		0.00
+	LightRed		1.00
+	LightGreen		1.00
+	LightBlue		1.00
+}
+
+Weapon_XM29_2
+{
+	FrontTexture		Textures\Particles\Muzzle-Front.tga
+	SideTexture		Textures\Particles\Muzzle-Side.tga
+	ParticleFrontSize	0.20
+	ParticleFrontSizeVar	0.10
+	ParticleSideSize	0.20
+	ParticleSideSizeVar	0.10
+	Rotation		1.00
+	Opacity			0.20
+	Red			0.60
+	Green			0.60
+	Blue			0.60
+	LightSize		0.53
+	LightRed		1.00
+	LightGreen		1.00
+	LightBlue		1.00
+}
+

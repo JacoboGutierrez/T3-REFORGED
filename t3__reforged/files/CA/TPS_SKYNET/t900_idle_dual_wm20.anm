@@ -1,0 +1,164 @@
+//Clevers Animation file
+//Exported by T3-ModTools Blender plugin
+
+Animation
+{
+    Name	"idle_wm20"
+    Fps	25.000000
+    MaxTimeValue	1
+    Time 0
+    {
+        Joint
+        {
+            Name	"|human_root|body_root|root|spinebone1|spinebone2|spinebone3|hands"
+            TransformationMatrix
+            {
+                1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.146973 -0.027010 1.000000
+            } // TransformationMatrix
+        } // Joint
+        Joint
+        {
+            Name	"|human_root|body_root|root|spinebone1|spinebone2|spinebone3|hands|right_upper_arm"
+            TransformationMatrix
+            {
+                0.805308 0.592857 -0.000001 0.000000 -0.592857 0.805308 0.000001 0.000000 0.000002 0.000000 1.000000 0.000000 -0.204448 -0.005054 0.000934 1.000000
+            } // TransformationMatrix
+        } // Joint
+        Joint
+        {
+            Name	"|human_root|body_root|root|spinebone1|spinebone2|spinebone3|hands|right_upper_arm|right_lower_arm"
+            TransformationMatrix
+            {
+                0.222005 -0.671973 -0.706517 0.000000 -0.510630 0.537163 -0.671351 0.000000 0.830645 0.509812 -0.223877 0.000000 -0.213104 -0.172594 -0.023055 1.000000
+            } // TransformationMatrix
+        } // Joint
+        Joint
+        {
+            Name	"|human_root|body_root|root|spinebone1|spinebone2|spinebone3|hands|right_upper_arm|right_lower_arm|right_wrist"
+            TransformationMatrix
+            {
+                0.706518 0.671350 0.223877 0.000000 -0.577164 0.729676 -0.366679 0.000000 -0.409528 0.129852 0.903009 0.000000 -0.204396 -0.189561 -0.053262 1.000000
+            } // TransformationMatrix
+        } // Joint
+        Joint
+        {
+            Name	"|human_root|body_root|root|spinebone1|spinebone2|spinebone3|hands|right_upper_arm|right_lower_arm|right_wrist|right_thirdfinger"
+            TransformationMatrix
+            {
+                1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 -0.081230 0.000913 -0.030649 1.000000
+            } // TransformationMatrix
+        } // Joint
+        Joint
+        {
+            Name	"|human_root|body_root|root|spinebone1|spinebone2|spinebone3|hands|right_upper_arm|right_lower_arm|right_wrist|right_thirdfinger|right_thirdfinger1"
+            TransformationMatrix
+            {
+                -0.537988 0.673872 -0.506425 0.000000 -0.541849 -0.736668 -0.404623 0.000000 -0.645731 0.056724 0.761455 0.000000 -0.056414 -0.006504 -0.024026 1.000000
+            } // TransformationMatrix
+        } // Joint
+        Joint
+        {
+            Name	"|human_root|body_root|root|spinebone1|spinebone2|spinebone3|hands|right_upper_arm|right_lower_arm|right_wrist|right_forefinger"
+            TransformationMatrix
+            {
+                0.694009 0.506014 -0.512153 0.000000 -0.455513 0.859487 0.231927 0.000000 0.557547 0.072333 0.826988 0.000000 -0.093145 0.003300 0.006567 1.000000
+            } // TransformationMatrix
+        } // Joint
+        Joint
+        {
+            Name	"|human_root|body_root|root|spinebone1|spinebone2|spinebone3|hands|right_upper_arm|right_lower_arm|right_wrist|right_forefinger|right_forefinger1"
+            TransformationMatrix
+            {
+                -0.233886 0.651856 -0.721375 0.000000 -0.390187 -0.742514 -0.544451 0.000000 -0.890534 0.154131 0.428009 0.000000 -0.062114 0.001624 -0.025383 1.000000
+            } // TransformationMatrix
+        } // Joint
+        Joint
+        {
+            Name	"|human_root|body_root|root|spinebone1|spinebone2|spinebone3|hands|right_upper_arm|right_lower_arm|right_wrist|right_thumb"
+            TransformationMatrix
+            {
+                0.855228 -0.045367 0.516263 0.000000 -0.515957 -0.168197 0.839940 0.000000 0.048728 -0.984709 -0.167254 0.000000 -0.049936 0.006236 0.043971 1.000000
+            } // TransformationMatrix
+        } // Joint
+        Joint
+        {
+            Name	"|human_root|body_root|root|spinebone1|spinebone2|spinebone3|hands|right_upper_arm|right_lower_arm|right_wrist|right_thumb|right_thumb1"
+            TransformationMatrix
+            {
+                0.906308 -0.365998 -0.211309 0.000000 0.422618 0.784886 0.453154 0.000000 0.000000 -0.500000 0.866025 0.000000 -0.029852 -0.019330 0.042820 1.000000
+            } // TransformationMatrix
+        } // Joint
+        Joint
+        {
+            Name	"|human_root|body_root|root|spinebone1|spinebone2|spinebone3|hands|left_upper_arm"
+            TransformationMatrix
+            {
+                0.805307 -0.592858 0.000000 0.000000 -0.592858 -0.805307 0.000000 0.000000 0.000000 0.000000 -1.000000 0.000000 0.204448 -0.005055 0.000934 1.000000
+            } // TransformationMatrix
+        } // Joint
+        Joint
+        {
+            Name	"|human_root|body_root|root|spinebone1|spinebone2|spinebone3|hands|left_upper_arm|left_lower_arm"
+            TransformationMatrix
+            {
+                0.685281 -0.523238 -0.506568 0.000000 0.370575 -0.348269 0.861037 0.000000 -0.626949 -0.777773 -0.044764 0.000000 0.215506 0.173851 0.023036 1.000000
+            } // TransformationMatrix
+        } // Joint
+        Joint
+        {
+            Name	"|human_root|body_root|root|spinebone1|spinebone2|spinebone3|hands|left_upper_arm|left_lower_arm|left_wrist"
+            TransformationMatrix
+            {
+                -0.346386 0.931541 0.110678 0.000000 -0.812110 -0.356830 0.461683 0.000000 0.469568 0.070038 0.880113 0.000000 0.137927 -0.239274 0.024810 1.000000
+            } // TransformationMatrix
+        } // Joint
+        Joint
+        {
+            Name	"|human_root|body_root|root|spinebone1|spinebone2|spinebone3|hands|left_upper_arm|left_lower_arm|left_wrist|left_thirdfinger"
+            TransformationMatrix
+            {
+                0.029478 0.758484 -0.651024 0.000000 -0.875768 0.333555 0.348958 0.000000 0.481831 0.559859 0.674089 0.000000 -0.087009 -0.007928 -0.004634 1.000000
+            } // TransformationMatrix
+        } // Joint
+        Joint
+        {
+            Name	"|human_root|body_root|root|spinebone1|spinebone2|spinebone3|hands|left_upper_arm|left_lower_arm|left_wrist|left_thirdfinger|left_thirdfinger1"
+            TransformationMatrix
+            {
+                0.826842 -0.559289 -0.059381 0.000000 0.320811 0.555712 -0.766983 0.000000 0.461964 0.615125 0.638913 0.000000 -0.004811 0.048783 -0.041829 1.000000
+            } // TransformationMatrix
+        } // Joint
+        Joint
+        {
+            Name	"|human_root|body_root|root|spinebone1|spinebone2|spinebone3|hands|left_upper_arm|left_lower_arm|left_wrist|left_forefinger"
+            TransformationMatrix
+            {
+                -0.046779 0.235198 -0.970821 0.000000 -0.460551 0.857345 0.229899 0.000000 0.886400 0.457867 0.068215 0.000000 -0.093713 -0.000196 0.031196 1.000000
+            } // TransformationMatrix
+        } // Joint
+        Joint
+        {
+            Name	"|human_root|body_root|root|spinebone1|spinebone2|spinebone3|hands|left_upper_arm|left_lower_arm|left_wrist|left_forefinger|left_forefinger1"
+            TransformationMatrix
+            {
+                0.697765 0.714676 0.048612 0.000000 -0.640324 0.591872 0.489564 0.000000 0.321108 -0.372728 0.870612 0.000000 0.002330 0.048150 -0.046849 1.000000
+            } // TransformationMatrix
+        } // Joint
+        Joint
+        {
+            Name	"|human_root|body_root|root|spinebone1|spinebone2|spinebone3|hands|left_upper_arm|left_lower_arm|left_wrist|left_thumb"
+            TransformationMatrix
+            {
+                0.954358 0.234688 0.184727 0.000000 0.291826 -0.601114 -0.743975 0.000000 -0.063560 0.763927 -0.642166 0.000000 -0.039976 0.014877 0.051904 1.000000
+            } // TransformationMatrix
+        } // Joint
+        Joint
+        {
+            Name	"|human_root|body_root|root|spinebone1|spinebone2|spinebone3|hands|left_upper_arm|left_lower_arm|left_wrist|left_thumb|left_thumb1"
+            TransformationMatrix
+            {
+                1.000000 -0.000001 0.000002 0.000000 0.000001 1.000000 0.000000 0.000000 -0.000002 0.000000 1.000000 0.000000 -0.041109 0.014151 0.046181 1.000000
+            } // TransformationMatrix
+        } // Joint
+    } // Time
+} // Animation

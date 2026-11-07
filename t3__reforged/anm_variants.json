@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "library": "ca/casts/t900s/tps/anim.lib",
+  "pairs": [
+    {
+      "base": "ca/tps_skynet/t900_idle_wm20.anm",
+      "alternative": "ca/tps_skynet/t900_idle_wm20_alt01.anm"
+    },
+    {
+      "base": "ca/tps_skynet/t900_run_wm20.anm",
+      "alternative": "ca/tps_skynet/t900_run_wm20_alt01.anm"
+    },
+    {
+      "base": "ca/tps_skynet/t900_walk_wm20.anm",
+      "alternative": "ca/tps_skynet/t900_walk_wm20_alt01.anm"
+    }
+  ]
+}

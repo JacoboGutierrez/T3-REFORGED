@@ -1,0 +1,55 @@
+
+{
+	type		HK
+	volume		240
+
+	distance	110.0	250.0
+
+	vol_fv		ACCELERATION
+	freq_fv		ACCELERATION
+	fvfile_vol	Sound/Vehicles/HK/hk_vol.fv
+	fvfile_freq	Sound/Vehicles/HK/hk_freq.fv
+
+	filename	Sound/vehicles/HK/hk_idle.wav	//hk_eng_2_kozel.wav
+	loop		ON
+}
+     
+{
+	type		HK
+	volume		255
+
+	distance	90.0	750.0
+
+	vol_fv		ACCELERATION
+	freq_fv		ACCELERATION
+	fvfile_vol	Sound/Vehicles/HK/hk_vol.fv
+	fvfile_freq	Sound/Vehicles/HK/hk_freq.fv
+
+	filename	Sound/vehicles/HK/hk_idle_dist.wav	//hk_eng_2_dist.wav
+	loop		ON
+}
+
+
+
+
+
+
+{
+	type		HK_EXPLOSION
+	volume		255
+
+	distance	200.0	500.0
+
+	filename	Sound/vehicles/HK/hk_explosion.wav
+	loop		OFF
+}
+
+{
+	type		HK_EXPLOSION2
+	volume		255
+
+	distance	200.0	500.0
+
+	filename	Sound/vehicles/vehicle_death_05-tobbdarab.wav
+	loop		OFF
+}

@@ -1,0 +1,339 @@
+
+AnimationLib
+{
+	AnimNum		57
+
+	Anim
+	{
+		Name	"UPDOWN"
+		File	"CA/TPS_SKYNET/t900_updown.anm"
+	}
+	
+	Anim
+	{
+		Name	"IDLE"
+		File	"CA/TPS_SKYNET/t900_idle.anm"
+	}
+
+	Anim
+	{
+		Name	"WALK"
+		File	"CA/TPS_SKYNET/t900_walk.anm"
+		Len 	1.66
+	}
+
+	Anim
+	{
+		Name	"WALK_45_LEFT"
+		File	"CA/TPS_SKYNET/t900_walk_45d_l.anm"
+	}
+	Anim
+	{
+		Name	"WALK_45_RIGHT"
+		File	"CA/TPS_SKYNET/t900_walk_45d_r.anm"
+	}
+
+	Anim
+	{
+		Name	"BACK_WALK"
+		File	"CA/TPS_SKYNET/t900_backwalk.anm"
+	}
+	Anim
+	{
+		Name	"BACK_WALK_45_LEFT"
+		File	"CA/TPS_SKYNET/t900_backwalk_45d_l.anm"
+	}
+	Anim
+	{
+		Name	"BACK_WALK_45_RIGHT"
+		File	"CA/TPS_SKYNET/t900_backwalk_45d_r.anm"
+	}
+
+	Anim
+	{
+		Name	"STRAFE_LEFT_WALK"
+		File	"CA/TPS_SKYNET/t900_strafel.anm"
+	}
+	Anim
+	{
+		Name	"STRAFE_RIGHT_WALK"
+		File	"CA/TPS_SKYNET/t900_strafer.anm"
+	}	
+
+
+	Anim
+	{
+		Name	"RUNNING"
+		File	"CA/TPS_SKYNET/t900_run.anm"
+		Len 	3.33
+	}
+
+	Anim
+	{
+		Name	"RUNNING_45_LEFT"
+		File	"CA/TPS_SKYNET/t900_run_45d_l.anm"
+	}
+	Anim
+	{
+		Name	"RUNNING_45_RIGHT"
+		File	"CA/TPS_SKYNET/t900_run_45d_r.anm"
+	}
+
+	Anim
+	{
+		Name	"BACK_RUNNING"
+		File	"CA/TPS_SKYNET/t900_backrun.anm"
+	}
+	Anim
+	{
+		Name	"BACK_RUNNING_45_LEFT"
+		File	"CA/TPS_SKYNET/t900_backrun_45d_l.anm"
+	}
+	Anim
+	{
+		Name	"BACK_RUNNING_45_RIGHT"
+		File	"CA/TPS_SKYNET/t900_backrun_45d_r.anm"
+	}
+
+	Anim
+	{
+		Name	"STRAFE_LEFT_RUNNING"
+		File	"CA/TPS_SKYNET/t900_strafel.anm"
+	}
+	Anim
+	{
+		Name	"STRAFE_RIGHT_RUNNING"
+		File	"CA/TPS_SKYNET/t900_strafer.anm"
+	}	
+
+	Anim
+	{
+		Name	"SIT"
+		File	"CA/TPS_SKYNET/t900_sit.anm"
+	}	
+
+	Anim
+	{
+		Name	"DRIVER"
+		File	"CA/TPS_SKYNET/t900_driver.anm"
+	}
+
+	Anim
+	{
+		Name	"PASSENGER"
+		File	"CA/TPS_SKYNET/t900_passenger.anm"
+	}
+
+	Anim
+	{
+		Name	"HAND_WM20_IDLE"
+		File	"CA/TPS_SKYNET/t900_idle_wm20.anm"
+	}
+
+	Anim
+	{
+		Name	"HAND_WM20_WALK"
+		File	"CA/TPS_SKYNET/t900_walk_wm20.anm"
+		Len 	1.66
+	}
+
+	Anim
+	{
+		Name	"HAND_WM20_RUNNING"
+		File	"CA/TPS_SKYNET/t900_run_wm20.anm"
+		Len 	3.33
+	}
+
+	Anim
+	{
+		Name	"HAND_WM20_FIRE"
+		File	"CA/TPS_SKYNET/t900_fire_wm20.anm"
+	}
+
+	Anim
+	{
+		Name	"HAND_WM20_SECOUNDARY_FIRE"
+		File	"CA/TPS_SKYNET/t900_secondary_wm20.anm"
+	}
+
+	Anim
+	{
+		Name	"HAND_WM20_CHANGE_BACK"
+		File	"CA/TPS_SKYNET/t900_change_back_wm20.anm"
+	}
+
+	Anim
+	{
+		Name	"HAND_WM20_CHANGE_GO"
+		File	"CA/TPS_SKYNET/t900_change_go_wm20.anm"
+	}
+
+
+	Anim
+	{
+		Name	"HAND_T_AMMO_IDLE"
+		File	"CA/TPS_SKYNET/t900_idle_t_ammo.anm"
+	}
+
+	Anim
+	{
+		Name	"HAND_T_AMMO_WALK"
+		File	"CA/TPS_SKYNET/t900_run_t_ammo.anm"
+	}
+
+	Anim
+	{
+		Name	"HAND_T_AMMO_RUNNING"
+		File	"CA/TPS_SKYNET/t900_run_t_ammo.anm"
+	}
+
+	Anim
+	{
+		Name	"HAND_T_AMMO_FIRE"
+		File	"CA/TPS_SKYNET/t900_fire_t_ammo.anm"
+	}
+
+	Anim
+	{
+		Name	"HAND_T_AMMO_RELOAD"
+		File	"CA/TPS_SKYNET/t900_reload_t_ammo.anm"
+	}
+
+	Anim
+	{
+		Name	"HAND_T_AMMO_CHANGE_BACK"
+		File	"CA/TPS_SKYNET/t900_change_back_t_ammo.anm"
+	}
+	Anim
+	{
+		Name	"HAND_T_AMMO_CHANGE_GO"
+		File	"CA/TPS_SKYNET/t900_change_go_t_ammo.anm"
+	}
+
+
+	Anim
+	{
+		Name	"DEATH"
+		File	"CA/TPS_SKYNET/t900_death.anm"
+	}
+
+	Anim
+	{
+		Name	"LEFT_STEP"
+		File	"CA/TPS_SKYNET/t900_fordul_l.anm"
+	}
+	Anim
+	{
+		Name	"RIGHT_STEP"
+		File	"CA/TPS_SKYNET/t900_fordul_r.anm"
+	}
+
+	Anim
+	{
+		Name	"IDLE_HK_TANK"
+		File	"CA/TPS_SKYNET/t900_hk_tank.anm"
+	}
+
+	Anim
+	{
+		Name	"UPDOWN_HK_TANK"
+		File	"CA/TPS_SKYNET/t900_hk_tank.anm"
+	}
+
+	Anim
+	{
+		Name	"HANDS_HK_TANK"
+		File	"CA/TPS_SKYNET/t900_hk_tank.anm"
+	}
+
+	Anim
+	{
+		Name	"LEFT_HK_TANK"
+		File	"CA/TPS_SKYNET/t900_hk_tank.anm"
+	}
+
+	Anim
+	{
+		Name	"RIGHT_HK_TANK"
+		File	"CA/TPS_SKYNET/t900_hk_tank.anm"
+	}
+
+
+
+
+Anim
+	{
+		Name	"HAND_WM27_IDLE"
+		File	"CA/TPS_SKYNET/t900_idle_wm20.anm"
+	}
+Anim
+	{
+		Name	"HAND_WM27_WALK"
+		File	"CA/TPS_SKYNET/t900_walk_wm20.anm"
+		Len 	1.66
+	}
+Anim
+	{
+		Name	"HAND_WM27_RUNNING"
+		File	"CA/TPS_SKYNET/t900_run_wm20.anm"
+		Len 	3.33
+	}
+Anim
+	{
+		Name	"HAND_WM27_FIRE"
+		File	"CA/TPS_SKYNET/t900_fire_wm20.anm"
+	}
+Anim
+	{
+		Name	"HAND_WM27_SECOUNDARY_FIRE"
+		File	"CA/TPS_SKYNET/t900_secondary_wm20.anm"
+	}
+Anim
+	{
+		Name	"HAND_WM27_CHANGE_BACK"
+		File	"CA/TPS_SKYNET/t900_change_back_wm20.anm"
+	}
+Anim
+	{
+		Name	"HAND_WM27_CHANGE_GO"
+		File	"CA/TPS_SKYNET/t900_change_go_wm20.anm"
+	}
+
+Anim
+	{
+		Name	"HAND_WM32_IDLE"
+		File	"CA/TPS_SKYNET/t900_idle_wm20.anm"
+	}
+Anim
+	{
+		Name	"HAND_WM32_WALK"
+		File	"CA/TPS_SKYNET/t900_walk_wm20.anm"
+		Len 	1.66
+	}
+Anim
+	{
+		Name	"HAND_WM32_RUNNING"
+		File	"CA/TPS_SKYNET/t900_run_wm20.anm"
+		Len 	3.33
+	}
+Anim
+	{
+		Name	"HAND_WM32_FIRE"
+		File	"CA/TPS_SKYNET/t900_fire_wm20.anm"
+	}
+Anim
+	{
+		Name	"HAND_WM32_SECOUNDARY_FIRE"
+		File	"CA/TPS_SKYNET/t900_secondary_wm20.anm"
+	}
+Anim
+	{
+		Name	"HAND_WM32_CHANGE_BACK"
+		File	"CA/TPS_SKYNET/t900_change_back_wm20.anm"
+	}
+Anim
+	{
+		Name	"HAND_WM32_CHANGE_GO"
+		File	"CA/TPS_SKYNET/t900_change_go_wm20.anm"
+	}
+}

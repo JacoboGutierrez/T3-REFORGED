@@ -1,0 +1,156 @@
+#define	EXPLODE_TERRAINHARD	0x0f0003
+#define	EXPLODE_TERRAINSOFT	0x0f0001
+#define	EXPLODE_CONCRATE	0x0f0002
+#define	EXPLODE_STEEL		0x0f0004
+#define	EXPLODE_GLASS		0x0f0005
+#define	EXPLODE_WOOD		0x0f0006
+
+#define	EXPLODE_SPARKSTEEL	0x0f0009
+
+#define	EXPLODE_VEHICLE	0x100000
+#define EXPLODE_HUMAN	0x1000000
+
+{
+	type		FIRE
+	filename	Sound/Weapons/hk_tank/plasma_06_hk-tank.wav
+	volume		215
+
+	distance	40.0	221.0
+	attachtohuman	ON
+}
+
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_SPARKSTEEL
+	randomfiles	7
+	randomfilename	Sound/Weapons/impact_hk_1.wav
+	randomfilename	Sound/Weapons/impact_hk_2.wav
+	randomfilename	Sound/Weapons/impact_hk_3.wav
+	randomfilename	Sound/Weapons/impact_hk_4.wav
+	randomfilename	Sound/Weapons/impact_hk_5.wav
+	randomfilename	Sound/Weapons/impact_hk_6.wav
+	randomfilename	Sound/Weapons/impact_hk_7.wav
+
+	volume		255
+
+	distance	12.2	95.0
+}
+
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_CONCRATE
+	randomfiles	7
+	randomfilename	Sound/Weapons/impact_hk_1.wav
+	randomfilename	Sound/Weapons/impact_hk_2.wav
+	randomfilename	Sound/Weapons/impact_hk_3.wav
+	randomfilename	Sound/Weapons/impact_hk_4.wav
+	randomfilename	Sound/Weapons/impact_hk_5.wav
+	randomfilename	Sound/Weapons/impact_hk_6.wav
+	randomfilename	Sound/Weapons/impact_hk_7.wav
+
+	volume		255
+
+	distance	12.2	95.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_TERRAINHARD
+	randomfiles	7
+	randomfilename	Sound/Weapons/impact_hk_1.wav
+	randomfilename	Sound/Weapons/impact_hk_2.wav
+	randomfilename	Sound/Weapons/impact_hk_3.wav
+	randomfilename	Sound/Weapons/impact_hk_4.wav
+	randomfilename	Sound/Weapons/impact_hk_5.wav
+	randomfilename	Sound/Weapons/impact_hk_6.wav
+	randomfilename	Sound/Weapons/impact_hk_7.wav
+
+	volume		255
+
+	distance	12.2	95.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_TERRAINSOFT
+	randomfiles	7
+	randomfilename	Sound/Weapons/impact_hk_1.wav
+	randomfilename	Sound/Weapons/impact_hk_2.wav
+	randomfilename	Sound/Weapons/impact_hk_3.wav
+	randomfilename	Sound/Weapons/impact_hk_4.wav
+	randomfilename	Sound/Weapons/impact_hk_5.wav
+	randomfilename	Sound/Weapons/impact_hk_6.wav
+	randomfilename	Sound/Weapons/impact_hk_7.wav
+	volume		255
+
+	distance	12.2	95.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_WOOD
+	randomfiles	7
+	randomfilename	Sound/Weapons/impact_hk_1.wav
+	randomfilename	Sound/Weapons/impact_hk_2.wav
+	randomfilename	Sound/Weapons/impact_hk_3.wav
+	randomfilename	Sound/Weapons/impact_hk_4.wav
+	randomfilename	Sound/Weapons/impact_hk_5.wav
+	randomfilename	Sound/Weapons/impact_hk_6.wav
+	randomfilename	Sound/Weapons/impact_hk_7.wav
+	volume		255
+
+	distance	12.2	95.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_GLASS
+	randomfiles	7
+	randomfilename	Sound/Weapons/impact_hk_1.wav
+	randomfilename	Sound/Weapons/impact_hk_2.wav
+	randomfilename	Sound/Weapons/impact_hk_3.wav
+	randomfilename	Sound/Weapons/impact_hk_4.wav
+	randomfilename	Sound/Weapons/impact_hk_5.wav
+	randomfilename	Sound/Weapons/impact_hk_6.wav
+	randomfilename	Sound/Weapons/impact_hk_7.wav
+
+
+	volume		255
+
+	distance	12.2	95.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_STEEL
+	randomfiles	7
+	randomfilename	Sound/Weapons/impact_hk_1.wav
+	randomfilename	Sound/Weapons/impact_hk_2.wav
+	randomfilename	Sound/Weapons/impact_hk_3.wav
+	randomfilename	Sound/Weapons/impact_hk_4.wav
+	randomfilename	Sound/Weapons/impact_hk_5.wav
+	randomfilename	Sound/Weapons/impact_hk_6.wav
+	randomfilename	Sound/Weapons/impact_hk_7.wav
+	volume		255
+
+	distance	12.2	95.0
+}
+
+{
+	type		RELOAD
+	filename	Sound/krack.wav
+	volume		255
+
+	distance	1.0	20.0
+}
+
+{
+	type		EMPTYWEAPON
+	filename	Sound/Weapons/rsb80/plazma_empty_01.wav
+	volume		100
+
+	distance	1.0	15.0
+	attachtohuman	ON
+}

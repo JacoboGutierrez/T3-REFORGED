@@ -1,0 +1,279 @@
+Weapon_RSB80
+{
+	TextureSide		Textures\Particles\lazerglowred01.tga
+	TextureFront		Textures\Particles\Muzzle-Front-Plasma.tga
+	ParticleSideSizeX	5.00
+	ParticleSideSizeY	0.6
+	ParticleFrontSize	0.6
+	ParticleFrontPosition	0.75
+	OpacityMinDistance	17.0
+	OpacityMaxDistance	20.2
+}
+
+Weapon_Wm20
+{
+	TextureSide		Textures\Particles\red-lazer.tga
+	TextureFront		Textures\Particles\Red-Muzzle-Front-Plasma.tga
+	ParticleSideSizeX	5.00
+	ParticleSideSizeY	0.6
+	ParticleFrontSize	0.6
+	ParticleFrontPosition	0.75
+	OpacityMinDistance	17.0
+	OpacityMaxDistance	20.2
+}
+
+Weapon_M4
+{
+	TextureSide		Textures\Particles\lazerglowblue01.tga
+	TextureFront		Textures\Particles\Muzzle-Front-02.tga
+	ParticleSideSizeX	10.00
+	ParticleSideSizeY	0.21
+	ParticleFrontSize	0.21
+	ParticleFrontPosition	0.90
+	OpacityMinDistance	11.2
+	OpacityMaxDistance	20.0
+}
+
+Weapon_M82a1
+{
+	TextureSide		Textures\Particles\lazerglowblue01.tga
+	TextureFront		Textures\Particles\Muzzle-Front-02.tga
+	ParticleSideSizeX	10.00
+	ParticleSideSizeY	0.25
+	ParticleFrontSize	0.25
+	ParticleFrontPosition	0.90
+	OpacityMinDistance	10.1
+	OpacityMaxDistance	20.0
+}
+
+Weapon_G3
+{
+	TextureSide		Textures\Particles\lazerglowblue01.tga
+	TextureFront		Textures\Particles\Muzzle-Front-02.tga
+	ParticleSideSizeX	10.00
+	ParticleSideSizeY	0.20
+	ParticleFrontSize	0.20
+	ParticleFrontPosition	0.90
+	OpacityMinDistance	10.1
+	OpacityMaxDistance	20.0
+}
+
+Weapon_M249
+{
+	TextureSide		Textures\Particles\lazerglowblue01.tga
+	TextureFront		Textures\Particles\Muzzle-Front-02.tga
+	ParticleSideSizeX	10.00
+	ParticleSideSizeY	0.28
+	ParticleFrontSize	0.28
+	ParticleFrontPosition	0.90
+	OpacityMinDistance	10.1
+	OpacityMaxDistance	20.0
+}
+
+Weapon_M134
+{
+	TextureSide		Textures\Particles\lazerglowblue01.tga
+	TextureFront		Textures\Particles\Muzzle-Front-02.tga
+	ParticleSideSizeX	8.00
+	ParticleSideSizeY	0.20
+	ParticleFrontSize	0.20
+	ParticleFrontPosition	0.90
+	OpacityMinDistance	10.1
+	OpacityMaxDistance	20.0
+}
+
+Weapon_M47
+{
+	TextureSide		Textures\Particles\robbanas02.tga
+	TextureFront		Textures\Particles\robbanas02.tga
+	ParticleSideSizeX	1.00
+	ParticleSideSizeY	1.00
+	ParticleFrontSize	1.00
+	ParticleFrontPosition	0.90
+	OpacityMinDistance	2.0
+	OpacityMaxDistance	10.0
+}
+
+Weapon_SMAW
+{
+	TextureSide		Textures\Particles\robbanas02.tga
+	TextureFront		Textures\Particles\robbanas02.tga
+	ParticleSideSizeX	1.00
+	ParticleSideSizeY	1.00
+	ParticleFrontSize	1.00
+	ParticleFrontPosition	0.90
+	OpacityMinDistance	2.0
+	OpacityMaxDistance	10.0
+}
+
+Weapon_M60
+{
+	TextureSide		Textures\Particles\lazerglowblue01.tga
+	TextureFront		Textures\Particles\Muzzle-Front-02.tga
+	ParticleSideSizeX	8.00
+	ParticleSideSizeY	0.3
+	ParticleFrontSize	0.3
+	ParticleFrontPosition	0.90
+	OpacityMinDistance	10.1
+	OpacityMaxDistance	20.0
+}
+
+Weapon_XM29
+{
+	TextureSide		Textures\Particles\lazerglowblue01.tga
+	TextureFront		Textures\Particles\Muzzle-Front-02.tga
+	ParticleSideSizeX	4.00
+	ParticleSideSizeY	0.25
+	ParticleFrontSize	0.25
+	ParticleFrontPosition	0.90
+	OpacityMinDistance	10.1
+	OpacityMaxDistance	20.0
+}
+
+Weapon_Wm25
+{
+	TextureSide		Textures\Particles\lazerglowred01.tga
+	TextureFront		Textures\Particles\Muzzle-Front-Plasma.tga
+	ParticleSideSizeX	4.00
+	ParticleSideSizeY	0.5
+	ParticleFrontSize	0.5
+	ParticleFrontPosition	0.75
+	OpacityMinDistance	10.1
+	OpacityMaxDistance	20.0
+}
+
+Weapon_W25D3
+{
+	TextureSide		Textures\Particles\lazerglowred01.tga
+	TextureFront		Textures\Particles\Muzzle-Front-Plasma.tga
+	ParticleSideSizeX	4.00
+	ParticleSideSizeY	0.80
+	ParticleFrontSize	0.80
+	ParticleFrontPosition	0.75
+	OpacityMinDistance	2.0
+	OpacityMaxDistance	10.0
+}
+
+Weapon_M2
+{
+	TextureSide		Textures\Particles\lazerglowblue01.tga
+	TextureFront		Textures\Particles\Muzzle-Front-02.tga
+	ParticleSideSizeX	8.00
+	ParticleSideSizeY	0.3
+	ParticleFrontSize	0.3
+	ParticleFrontPosition	0.90
+	OpacityMinDistance	10.1
+	OpacityMaxDistance	20.0
+}
+
+Weapon_DesertEagle
+{
+	TextureSide		Textures\Particles\lazerglowblue01.tga
+	TextureFront		Textures\Particles\Muzzle-Front-02.tga
+	ParticleSideSizeX	10.00
+	ParticleSideSizeY	0.20
+	ParticleFrontSize	0.16
+	ParticleFrontPosition	0.90
+	OpacityMinDistance	10.1
+	OpacityMaxDistance	20.0
+}
+
+Weapon_TermCannon
+{
+	TextureSide		Textures\Particles\lazerblue.tga
+	TextureFront		Textures\Particles\Muzzle-Front-Plasma-Blue.tga
+	ParticleSideSizeX	6.00
+	ParticleSideSizeY	0.80
+	ParticleFrontSize	0.80
+	ParticleFrontPosition	0.75
+	OpacityMinDistance	10.0
+	OpacityMaxDistance	20.0
+}
+
+Weapon_FKPlasma
+{
+	TextureSide		Textures\Particles\lazerglowred01.tga
+	TextureFront		Textures\Particles\Muzzle-Front-Plasma.tga
+	ParticleSideSizeX	10.00
+	ParticleSideSizeY	0.60
+	ParticleFrontSize	0.60
+	ParticleFrontPosition	0.75
+	OpacityMinDistance	8.0
+	OpacityMaxDistance	8.5
+}
+
+Weapon_FKMinirocket
+{
+	TextureSide		Textures\Particles\lazerglowred01.tga
+	TextureFront		Textures\Particles\Muzzle-Front-Plasma.tga
+	ParticleSideSizeX	1.00
+	ParticleSideSizeY	1.00
+	ParticleFrontSize	1.54
+	ParticleFrontPosition	1.00
+	OpacityMinDistance	2.0
+	OpacityMaxDistance	10.0
+}
+
+Weapon_HKTankPlasma
+{
+	TextureSide		Textures\Particles\lazerglowred01.tga
+	TextureFront		Textures\Particles\Muzzle-Front-Plasma.tga
+	ParticleSideSizeX	7.00
+	ParticleSideSizeY	0.80
+	ParticleFrontSize	0.80
+	ParticleFrontPosition	1.00
+	OpacityMinDistance	5.0
+	OpacityMaxDistance	5.5
+}
+
+Weapon_FKFlyerPlasma
+{
+	TextureSide		Textures\Particles\lazerglowred01.tga
+	TextureFront		Textures\Particles\Muzzle-Front-Plasma.tga
+	ParticleSideSizeX	15.00
+	ParticleSideSizeY	1.01
+	ParticleFrontSize	0.80
+	ParticleFrontPosition	1.00
+	OpacityMinDistance	15.0
+	OpacityMaxDistance	20.0
+}
+
+Weapon_Wm20_2
+{
+	TextureSide		Textures\Particles\robbanas02.tga
+	TextureFront		Textures\Particles\robbanas02.tga
+	ParticleSideSizeX	1.00
+	ParticleSideSizeY	1.00
+	ParticleFrontSize	1.00
+	ParticleFrontPosition	1.00
+	OpacityMinDistance	2.0
+	OpacityMaxDistance	10.0
+}
+
+Weapon_M4_2
+{
+	TextureSide		Textures\Particles\robbanas02.tga
+	TextureFront		Textures\Particles\robbanas02.tga
+	ParticleSideSizeX	1.00
+	ParticleSideSizeY	1.00
+	ParticleFrontSize	1.00
+	ParticleFrontPosition	1.00
+	OpacityMinDistance	2.0
+	OpacityMaxDistance	10.0
+}
+
+Weapon_XM29_2
+{
+	TextureSide		Textures\Particles\robbanas02.tga
+	TextureFront		Textures\Particles\robbanas02.tga
+	ParticleSideSizeX	1.00
+	ParticleSideSizeY	1.00
+	ParticleFrontSize	1.00
+	ParticleFrontPosition	1.00
+	OpacityMinDistance	2.0
+	OpacityMaxDistance	10.0
+}
+
+
+
+

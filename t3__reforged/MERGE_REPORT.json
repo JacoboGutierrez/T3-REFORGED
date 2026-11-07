@@ -1,0 +1,3921 @@
+{
+  "format_version": 1,
+  "name": "T3: REFORGED",
+  "priority_rule": "Highest listed source wins case-insensitive duplicate internal paths.",
+  "sources": [
+    {
+      "priority": 1,
+      "id": "wm32_dual",
+      "name": "Dual WM-32 Plasma",
+      "version": "1.0.5",
+      "author": "santisurf936"
+    },
+    {
+      "priority": 2,
+      "id": "wm27_dual",
+      "name": "Dual WM-27 Plasma",
+      "version": "1.0.1",
+      "author": "santisurf936"
+    },
+    {
+      "priority": 3,
+      "id": "wm32_plasma",
+      "name": "WM-32 Plasma",
+      "version": "1.0.0",
+      "author": "santisurf936"
+    },
+    {
+      "priority": 4,
+      "id": "wm27",
+      "name": "WM-27 Plasma",
+      "version": "1.1.0",
+      "author": "santisurf936"
+    },
+    {
+      "priority": 5,
+      "id": "t3_enhanced_sfx",
+      "name": "T3 - Enhanced SFX",
+      "version": "1.2.2",
+      "author": "santisurf936"
+    },
+    {
+      "priority": 6,
+      "id": "t900_heavy_assault",
+      "name": "T-900 Heavy Assault",
+      "version": "0.11.30",
+      "author": "santisurf936"
+    },
+    {
+      "priority": 7,
+      "id": "fixed_weapons",
+      "name": "Fixed Weapons",
+      "version": "1.3.0",
+      "author": "santisurf936"
+    },
+    {
+      "priority": 8,
+      "id": "t3_original_soundtracks",
+      "name": "T3 Original Soundtracks",
+      "version": "1.0.0",
+      "author": "santisurf936"
+    },
+    {
+      "priority": 9,
+      "id": "t3_enhanced_units",
+      "name": "T3 - Enhanced Units",
+      "version": "1.0.0",
+      "author": "santisurf936"
+    }
+  ],
+  "asset_files": 337,
+  "asset_overlaps": [
+    {
+      "path": "MenuDatas/Weapons.dat",
+      "previous_mod": "wm27_dual",
+      "winning_mod": "wm32_dual"
+    },
+    {
+      "path": "CA/casts/T900HeavyAssault.dat",
+      "previous_mod": "wm27_dual",
+      "winning_mod": "wm32_dual"
+    },
+    {
+      "path": "MenuDatas/Weapons.dat",
+      "previous_mod": "wm32_plasma",
+      "winning_mod": "wm32_dual"
+    },
+    {
+      "path": "MenuDatas/Weapons.dat",
+      "previous_mod": "wm27",
+      "winning_mod": "wm32_dual"
+    },
+    {
+      "path": "CA/casts/T900S.dat",
+      "previous_mod": "wm27",
+      "winning_mod": "wm32_plasma"
+    },
+    {
+      "path": "CA/casts/T900S/fps/Anim.lib",
+      "previous_mod": "wm27",
+      "winning_mod": "wm32_plasma"
+    },
+    {
+      "path": "CA/casts/T900S/tps/Anim.lib",
+      "previous_mod": "wm27",
+      "winning_mod": "wm32_plasma"
+    },
+    {
+      "path": "Particles/BulletHitPlasmaRed.dat",
+      "previous_mod": "t3_enhanced_sfx",
+      "winning_mod": "wm32_plasma"
+    },
+    {
+      "path": "Textures/Particles/Red-Muzzle-Front-Plasma.tga",
+      "previous_mod": "t3_enhanced_sfx",
+      "winning_mod": "wm32_plasma"
+    },
+    {
+      "path": "Textures/Particles/Red-Muzzle-Side-Plasma.TGA",
+      "previous_mod": "t3_enhanced_sfx",
+      "winning_mod": "wm32_plasma"
+    },
+    {
+      "path": "Textures/Particles/red-lazer.tga",
+      "previous_mod": "t3_enhanced_sfx",
+      "winning_mod": "wm32_plasma"
+    },
+    {
+      "path": "MenuDatas/Weapons.dat",
+      "previous_mod": "t900_heavy_assault",
+      "winning_mod": "wm32_dual"
+    },
+    {
+      "path": "CA/casts/T900HeavyAssault.dat",
+      "previous_mod": "t900_heavy_assault",
+      "winning_mod": "wm32_dual"
+    },
+    {
+      "path": "CA/casts/T900HeavyAssault/tps/Anim.lib",
+      "previous_mod": "t900_heavy_assault",
+      "winning_mod": "wm32_dual"
+    },
+    {
+      "path": "Sound11/Sound/Weapons/weapons.dat",
+      "previous_mod": "t900_heavy_assault",
+      "winning_mod": "wm27"
+    },
+    {
+      "path": "Sound22/Sound/Weapons/weapons.dat",
+      "previous_mod": "t900_heavy_assault",
+      "winning_mod": "wm27"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/weapons.dat",
+      "previous_mod": "t900_heavy_assault",
+      "winning_mod": "wm27"
+    }
+  ],
+  "executable_patches": 339,
+  "patch_sources": [
+    {
+      "id": "p1_wm32_dual_wm27_bot_default_loadout",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_bot_default_loadout",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p2_wm32_dual_wm27_handheld_lookup_48890a",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_48890a",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p3_wm32_dual_wm27_handheld_lookup_48898c",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_48898c",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p4_wm32_dual_wm27_handheld_lookup_488a56",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_488a56",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p5_wm32_dual_wm27_handheld_lookup_488ab9",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_488ab9",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p6_wm32_dual_wm27_handheld_lookup_488b36",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_488b36",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p7_wm32_dual_wm27_handheld_lookup_488bb4",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_488bb4",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p8_wm32_dual_wm27_handheld_lookup_488c1e",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_488c1e",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p9_wm32_dual_wm27_handheld_lookup_488c9d",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_488c9d",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p10_wm32_dual_wm27_handheld_lookup_488d25",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_488d25",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p11_wm32_dual_wm27_handheld_lookup_488da5",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_488da5",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p12_wm32_dual_wm27_handheld_lookup_488e54",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_488e54",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p13_wm32_dual_wm27_handheld_lookup_488eab",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_488eab",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p14_wm32_dual_wm27_handheld_lookup_488f24",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_488f24",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p15_wm32_dual_wm27_handheld_lookup_488f81",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_488f81",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p16_wm32_dual_wm27_handheld_lookup_48900d",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_48900d",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p17_wm32_dual_wm27_handheld_lookup_48906a",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_48906a",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p18_wm32_dual_wm27_handheld_lookup_4892fa",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_4892fa",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p19_wm32_dual_wm27_handheld_lookup_489371",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_489371",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p20_wm32_dual_wm27_handheld_lookup_489586",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_489586",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p21_wm32_dual_wm27_handheld_lookup_489724",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_489724",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p22_wm32_dual_wm27_handheld_lookup_4898a1",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_4898a1",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p23_wm32_dual_wm27_handheld_lookup_489a85",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_489a85",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p24_wm32_dual_wm27_handheld_lookup_489cd4",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_489cd4",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p25_wm32_dual_wm27_handheld_lookup_48b191",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_48b191",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p26_wm32_dual_wm27_handheld_lookup_48b1ff",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_handheld_lookup_48b1ff",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p27_wm32_dual_wm27_executable_padding",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_executable_padding",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p28_wm32_dual_wm27_animation_adapter",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_animation_adapter",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p29_wm32_dual_wm27_animation_adapter_dual_adapter",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_animation_adapter_dual_adapter",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p30_wm32_dual_wm27_bots_adapter_heavy_adapter",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_bots_adapter_heavy_adapter",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p31_wm32_dual_wm27_bots_adapter",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_bots_adapter",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p32_wm32_dual_wm32_dual_graphics_precache",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm32_dual_graphics_precache",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p33_wm32_dual_wm32_dual_precache",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm32_dual_precache",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p34_wm32_dual_wm32_dual_names",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm32_dual_names",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p35_wm32_dual_wm27_dual_hud_storage_0a90fc",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_storage_0a90fc",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p36_wm32_dual_wm27_dual_hud_storage_0a9cd2",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_storage_0a9cd2",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p37_wm32_dual_wm27_dual_hud_storage_0ad940",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_storage_0ad940",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p38_wm32_dual_wm27_dual_hud_storage_0ada96",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_storage_0ada96",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p39_wm32_dual_wm27_dual_hud_storage_0adb4e",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_storage_0adb4e",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p40_wm32_dual_wm27_dual_hud_storage_0adcb9",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_storage_0adcb9",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p41_wm32_dual_wm27_dual_hud_storage_0add71",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_storage_0add71",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p42_wm32_dual_wm27_dual_hud_storage_0ade77",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_storage_0ade77",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p43_wm32_dual_wm27_dual_hud_storage_0adeb1",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_storage_0adeb1",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p44_wm32_dual_wm27_dual_hud_storage_0adf87",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_storage_0adf87",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p45_wm32_dual_wm27_dual_hud_storage_0ae005",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_storage_0ae005",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p46_wm32_dual_wm27_dual_hud_storage_0a3441",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_storage_0a3441",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p47_wm32_dual_wm27_dual_hud_storage_0a914a",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_storage_0a914a",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p48_wm32_dual_wm27_dual_hud_storage_0a9d1e",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_storage_0a9d1e",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p49_wm32_dual_wm27_dual_hud_storage_0adf03",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_storage_0adf03",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p50_wm32_dual_wm27_dual_hud_storage_0a220e",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_storage_0a220e",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p51_wm32_dual_wm27_dual_hud_storage_0a912e",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_storage_0a912e",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p52_wm32_dual_wm27_dual_hud_storage_0a9d02",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_storage_0a9d02",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p53_wm32_dual_wm27_dual_hud_storage_0adee7",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_storage_0adee7",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p54_wm32_dual_wm27_dual_hud_storage_0b3a5b",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_storage_0b3a5b",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p55_wm32_dual_wm27_dual_hud_capacity_0a2213",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_capacity_0a2213",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p56_wm32_dual_wm27_dual_hud_capacity_0a343b",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_capacity_0a343b",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p57_wm32_dual_wm27_dual_hud_capacity_0a915f",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_capacity_0a915f",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p58_wm32_dual_wm27_dual_hud_capacity_0a916d",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_capacity_0a916d",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p59_wm32_dual_wm27_dual_hud_capacity_0a9d33",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_capacity_0a9d33",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p60_wm32_dual_wm27_dual_hud_capacity_0a9d41",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_capacity_0a9d41",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p61_wm32_dual_wm27_dual_hud_capacity_0ad98e",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_capacity_0ad98e",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p62_wm32_dual_wm27_dual_hud_capacity_0adbb3",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_capacity_0adbb3",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p63_wm32_dual_wm27_dual_hud_capacity_0addd6",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_capacity_0addd6",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p64_wm32_dual_wm27_dual_hud_capacity_0adf18",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_capacity_0adf18",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p65_wm32_dual_wm27_dual_hud_capacity_0adf26",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_capacity_0adf26",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p66_wm32_dual_wm27_dual_hud_capacity_0adfc5",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm27_dual_hud_capacity_0adfc5",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p67_wm32_dual_wm32_dual_parallel_attachment_extension",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm32_dual_parallel_attachment_extension",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p68_wm32_dual_wm32_dual_parallel_attachment_hook",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm32_dual_parallel_attachment_hook",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p69_wm32_dual_wm32_dual_live_muzzles",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm32_dual_live_muzzles",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p70_wm32_dual_wm32_dual_fire_extension",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm32_dual_fire_extension",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p71_wm32_dual_wm32_dual_run_pose_extension",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm32_dual_run_pose_extension",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p72_wm32_dual_wm32_dual_run_pose_load_role",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm32_dual_run_pose_load_role",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p73_wm32_dual_wm32_dual_run_pose_select_clip",
+      "source_mod": "wm32_dual",
+      "source_patch": "wm32_dual_run_pose_select_clip",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p74_wm27_dual_wm27_dual_graphics_precache",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_graphics_precache",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p75_wm27_dual_wm27_dual_precache",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_precache",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p76_wm27_dual_wm27_dual_names",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_names",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p77_wm27_dual_wm27_dual_hud_storage_0a90fc",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_storage_0a90fc",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p78_wm27_dual_wm27_dual_hud_storage_0a9cd2",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_storage_0a9cd2",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p79_wm27_dual_wm27_dual_hud_storage_0ad940",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_storage_0ad940",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p80_wm27_dual_wm27_dual_hud_storage_0ada96",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_storage_0ada96",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p81_wm27_dual_wm27_dual_hud_storage_0adb4e",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_storage_0adb4e",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p82_wm27_dual_wm27_dual_hud_storage_0adcb9",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_storage_0adcb9",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p83_wm27_dual_wm27_dual_hud_storage_0add71",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_storage_0add71",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p84_wm27_dual_wm27_dual_hud_storage_0ade77",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_storage_0ade77",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p85_wm27_dual_wm27_dual_hud_storage_0adeb1",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_storage_0adeb1",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p86_wm27_dual_wm27_dual_hud_storage_0adf87",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_storage_0adf87",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p87_wm27_dual_wm27_dual_hud_storage_0ae005",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_storage_0ae005",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p88_wm27_dual_wm27_dual_hud_storage_0a3441",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_storage_0a3441",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p89_wm27_dual_wm27_dual_hud_storage_0a914a",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_storage_0a914a",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p90_wm27_dual_wm27_dual_hud_storage_0a9d1e",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_storage_0a9d1e",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p91_wm27_dual_wm27_dual_hud_storage_0adf03",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_storage_0adf03",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p92_wm27_dual_wm27_dual_hud_storage_0a220e",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_storage_0a220e",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p93_wm27_dual_wm27_dual_hud_storage_0a912e",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_storage_0a912e",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p94_wm27_dual_wm27_dual_hud_storage_0a9d02",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_storage_0a9d02",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p95_wm27_dual_wm27_dual_hud_storage_0adee7",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_storage_0adee7",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p96_wm27_dual_wm27_dual_hud_storage_0b3a5b",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_storage_0b3a5b",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p97_wm27_dual_wm27_dual_hud_capacity_0a2213",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_capacity_0a2213",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p98_wm27_dual_wm27_dual_hud_capacity_0a343b",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_capacity_0a343b",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p99_wm27_dual_wm27_dual_hud_capacity_0a915f",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_capacity_0a915f",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p100_wm27_dual_wm27_dual_hud_capacity_0a916d",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_capacity_0a916d",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p101_wm27_dual_wm27_dual_hud_capacity_0a9d33",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_capacity_0a9d33",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p102_wm27_dual_wm27_dual_hud_capacity_0a9d41",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_capacity_0a9d41",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p103_wm27_dual_wm27_dual_hud_capacity_0ad98e",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_capacity_0ad98e",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p104_wm27_dual_wm27_dual_hud_capacity_0adbb3",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_capacity_0adbb3",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p105_wm27_dual_wm27_dual_hud_capacity_0addd6",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_capacity_0addd6",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p106_wm27_dual_wm27_dual_hud_capacity_0adf18",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_capacity_0adf18",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p107_wm27_dual_wm27_dual_hud_capacity_0adf26",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_capacity_0adf26",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p108_wm27_dual_wm27_dual_hud_capacity_0adfc5",
+      "source_mod": "wm27_dual",
+      "source_patch": "wm27_dual_hud_capacity_0adfc5",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p109_wm32_plasma_wm27_bot_default_loadout",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_bot_default_loadout",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p110_wm32_plasma_wm27_handheld_lookup_48890a",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_48890a",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p111_wm32_plasma_wm27_handheld_lookup_48898c",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_48898c",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p112_wm32_plasma_wm27_handheld_lookup_488a56",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_488a56",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p113_wm32_plasma_wm27_handheld_lookup_488ab9",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_488ab9",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p114_wm32_plasma_wm27_handheld_lookup_488b36",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_488b36",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p115_wm32_plasma_wm27_handheld_lookup_488bb4",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_488bb4",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p116_wm32_plasma_wm27_handheld_lookup_488c1e",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_488c1e",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p117_wm32_plasma_wm27_handheld_lookup_488c9d",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_488c9d",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p118_wm32_plasma_wm27_handheld_lookup_488d25",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_488d25",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p119_wm32_plasma_wm27_handheld_lookup_488da5",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_488da5",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p120_wm32_plasma_wm27_handheld_lookup_488e54",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_488e54",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p121_wm32_plasma_wm27_handheld_lookup_488eab",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_488eab",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p122_wm32_plasma_wm27_handheld_lookup_488f24",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_488f24",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p123_wm32_plasma_wm27_handheld_lookup_488f81",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_488f81",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p124_wm32_plasma_wm27_handheld_lookup_48900d",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_48900d",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p125_wm32_plasma_wm27_handheld_lookup_48906a",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_48906a",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p126_wm32_plasma_wm27_handheld_lookup_4892fa",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_4892fa",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p127_wm32_plasma_wm27_handheld_lookup_489371",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_489371",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p128_wm32_plasma_wm27_handheld_lookup_489586",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_489586",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p129_wm32_plasma_wm27_handheld_lookup_489724",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_489724",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p130_wm32_plasma_wm27_handheld_lookup_4898a1",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_4898a1",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p131_wm32_plasma_wm27_handheld_lookup_489a85",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_489a85",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p132_wm32_plasma_wm27_handheld_lookup_489cd4",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_489cd4",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p133_wm32_plasma_wm27_handheld_lookup_48b191",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_48b191",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p134_wm32_plasma_wm27_handheld_lookup_48b1ff",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_handheld_lookup_48b1ff",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p135_wm32_plasma_wm27_executable_padding",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_executable_padding",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p136_wm32_plasma_wm27_animation_adapter",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_animation_adapter",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p137_wm32_plasma_wm27_animation_adapter_dual_adapter",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_animation_adapter_dual_adapter",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p138_wm32_plasma_wm27_bots_adapter_heavy_adapter",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_bots_adapter_heavy_adapter",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p139_wm32_plasma_wm27_bots_adapter",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm27_bots_adapter",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p140_wm32_plasma_wm32_precache",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_precache",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p141_wm32_plasma_wm32_precache_adapter",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_precache_adapter",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p142_wm32_plasma_wm32_name_adapter",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_name_adapter",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p143_wm32_plasma_wm32_fx_tracer_init_call",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tracer_init_call",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p144_wm32_plasma_wm32_fx_muzzle_init_call",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_muzzle_init_call",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p145_wm32_plasma_wm32_fx_tracer_path",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tracer_path",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p146_wm32_plasma_wm32_fx_muzzle_path",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_muzzle_path",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p147_wm32_plasma_wm32_fx_muzzle_add",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_muzzle_add",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p148_wm32_plasma_wm32_fx_tracer_add",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tracer_add",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p149_wm32_plasma_wm32_fx_tracer_index",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tracer_index",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p150_wm32_plasma_wm32_fx_sound",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_sound",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p151_wm32_plasma_wm32_fx_tracer_draw_4f3b94",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tracer_draw_4f3b94",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p152_wm32_plasma_wm32_fx_muzzle_draw_4f3b89",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_muzzle_draw_4f3b89",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p153_wm32_plasma_wm32_fx_tracer_settings_4f5cfd",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tracer_settings_4f5cfd",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p154_wm32_plasma_wm32_fx_tracer_settings_4f604e",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tracer_settings_4f604e",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p155_wm32_plasma_wm32_fx_tracer_done_4fa821",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tracer_done_4fa821",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p156_wm32_plasma_wm32_fx_muzzle_done_4fa7b3",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_muzzle_done_4fa7b3",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p157_wm32_plasma_wm32_fx_muzzle_position",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_muzzle_position",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p158_wm32_plasma_wm32_fx_muzzle_light",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_muzzle_light",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p159_wm32_plasma_wm32_fx_impact_init",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_impact_init",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p160_wm32_plasma_wm32_fx_impact_path",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_impact_path",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p161_wm32_plasma_wm32_fx_impact_classify",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_impact_classify",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p162_wm32_plasma_wm32_fx_impact_add",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_impact_add",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p163_wm32_plasma_wm32_fx_impact_draw",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_impact_draw",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p164_wm32_plasma_wm32_fx_impact_settings",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_impact_settings",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p165_wm32_plasma_wm32_fx_impact_done",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_impact_done",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p166_wm32_plasma_wm32_fx_resource_tail",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_resource_tail",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p167_wm32_plasma_wm32_fx_tail_11b9300",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b9300",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p168_wm32_plasma_wm32_fx_tail_11b9310",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b9310",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p169_wm32_plasma_wm32_fx_tail_11b9350",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b9350",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p170_wm32_plasma_wm32_fx_tail_11b9380",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b9380",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p171_wm32_plasma_wm32_fx_tail_11b93c0",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b93c0",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p172_wm32_plasma_wm32_fx_tail_11b9400",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b9400",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p173_wm32_plasma_wm32_fx_tail_11b9430",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b9430",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p174_wm32_plasma_wm32_fx_tail_11b9460",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b9460",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p175_wm32_plasma_wm32_fx_tail_11b94e0",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b94e0",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p176_wm32_plasma_wm32_fx_tail_11b9590",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b9590",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p177_wm32_plasma_wm32_fx_tail_11b95f0",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b95f0",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p178_wm32_plasma_wm32_fx_tail_11b9620",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b9620",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p179_wm32_plasma_wm32_fx_tail_11b9640",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b9640",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p180_wm32_plasma_wm32_fx_tail_11b9660",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b9660",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p181_wm32_plasma_wm32_fx_tail_11b9680",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b9680",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p182_wm32_plasma_wm32_fx_tail_11b96a0",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b96a0",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p183_wm32_plasma_wm32_fx_tail_11b96c0",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b96c0",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p184_wm32_plasma_wm32_fx_tail_11b96f0",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b96f0",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p185_wm32_plasma_wm32_fx_tail_11b9720",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b9720",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p186_wm32_plasma_wm32_fx_tail_11b97b0",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b97b0",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p187_wm32_plasma_wm32_fx_tail_11b97e0",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b97e0",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p188_wm32_plasma_wm32_fx_tail_11b9810",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b9810",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p189_wm32_plasma_wm32_fx_tail_11b9860",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b9860",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p190_wm32_plasma_wm32_fx_tail_11b9890",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b9890",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p191_wm32_plasma_wm32_fx_tail_11b98c0",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b98c0",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p192_wm32_plasma_wm32_fx_tail_11b98f0",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b98f0",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p193_wm32_plasma_wm32_fx_tail_11b9920",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b9920",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p194_wm32_plasma_wm32_fx_tail_11b9950",
+      "source_mod": "wm32_plasma",
+      "source_patch": "wm32_fx_tail_11b9950",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p195_wm27_wm27_bot_default_loadout",
+      "source_mod": "wm27",
+      "source_patch": "wm27_bot_default_loadout",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p196_wm27_wm27_handheld_lookup_48890a",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_48890a",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p197_wm27_wm27_handheld_lookup_48898c",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_48898c",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p198_wm27_wm27_handheld_lookup_488a56",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_488a56",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p199_wm27_wm27_handheld_lookup_488ab9",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_488ab9",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p200_wm27_wm27_handheld_lookup_488b36",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_488b36",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p201_wm27_wm27_handheld_lookup_488bb4",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_488bb4",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p202_wm27_wm27_handheld_lookup_488c1e",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_488c1e",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p203_wm27_wm27_handheld_lookup_488c9d",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_488c9d",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p204_wm27_wm27_handheld_lookup_488d25",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_488d25",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p205_wm27_wm27_handheld_lookup_488da5",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_488da5",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p206_wm27_wm27_handheld_lookup_488e54",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_488e54",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p207_wm27_wm27_handheld_lookup_488eab",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_488eab",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p208_wm27_wm27_handheld_lookup_488f24",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_488f24",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p209_wm27_wm27_handheld_lookup_488f81",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_488f81",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p210_wm27_wm27_handheld_lookup_48900d",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_48900d",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p211_wm27_wm27_handheld_lookup_48906a",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_48906a",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p212_wm27_wm27_handheld_lookup_4892fa",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_4892fa",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p213_wm27_wm27_handheld_lookup_489371",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_489371",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p214_wm27_wm27_handheld_lookup_489586",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_489586",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p215_wm27_wm27_handheld_lookup_489724",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_489724",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p216_wm27_wm27_handheld_lookup_4898a1",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_4898a1",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p217_wm27_wm27_handheld_lookup_489a85",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_489a85",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p218_wm27_wm27_handheld_lookup_489cd4",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_489cd4",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p219_wm27_wm27_handheld_lookup_48b191",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_48b191",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p220_wm27_wm27_handheld_lookup_48b1ff",
+      "source_mod": "wm27",
+      "source_patch": "wm27_handheld_lookup_48b1ff",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p221_wm27_wm27_tracer",
+      "source_mod": "wm27",
+      "source_patch": "wm27_tracer",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p222_wm27_wm27_muzzle",
+      "source_mod": "wm27",
+      "source_patch": "wm27_muzzle",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p223_wm27_wm27_plasma_impact",
+      "source_mod": "wm27",
+      "source_patch": "wm27_plasma_impact",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p224_wm27_wm27_graphics_precache",
+      "source_mod": "wm27",
+      "source_patch": "wm27_graphics_precache",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p225_wm27_wm27_executable_padding",
+      "source_mod": "wm27",
+      "source_patch": "wm27_executable_padding",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p226_wm27_wm27_animation_adapter",
+      "source_mod": "wm27",
+      "source_patch": "wm27_animation_adapter",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p227_wm27_wm27_precache_adapter",
+      "source_mod": "wm27",
+      "source_patch": "wm27_precache_adapter",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p228_wm27_wm27_animation_adapter_dual_adapter",
+      "source_mod": "wm27",
+      "source_patch": "wm27_animation_adapter_dual_adapter",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p229_wm27_wm27_bots_adapter_heavy_adapter",
+      "source_mod": "wm27",
+      "source_patch": "wm27_bots_adapter_heavy_adapter",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p230_wm27_wm27_impact_adapter",
+      "source_mod": "wm27",
+      "source_patch": "wm27_impact_adapter",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p231_wm27_wm27_bots_adapter",
+      "source_mod": "wm27",
+      "source_patch": "wm27_bots_adapter",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p232_wm27_wm27_names_adapter",
+      "source_mod": "wm27",
+      "source_patch": "wm27_names_adapter",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p233_t3_enhanced_sfx_blue_impact_code",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "blue_impact_code",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p234_t3_enhanced_sfx_blue_impact_data",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "blue_impact_data",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p235_t3_enhanced_sfx_route_wm20_termcannon_blue",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "route_wm20_termcannon_blue",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p236_t3_enhanced_sfx_select_blue_dat_path",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "select_blue_dat_path",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p237_t3_enhanced_sfx_initialize_blue_bank",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "initialize_blue_bank",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p238_t3_enhanced_sfx_route_blue_addnew_1",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "route_blue_addnew_1",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p239_t3_enhanced_sfx_route_blue_addnew_2",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "route_blue_addnew_2",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p240_t3_enhanced_sfx_route_blue_addnew_3",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "route_blue_addnew_3",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p241_t3_enhanced_sfx_route_blue_addnew_4",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "route_blue_addnew_4",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p242_t3_enhanced_sfx_route_blue_addnew_5",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "route_blue_addnew_5",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p243_t3_enhanced_sfx_draw_blue_bank",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "draw_blue_bank",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p244_t3_enhanced_sfx_settings_blue_bank_1",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "settings_blue_bank_1",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p245_t3_enhanced_sfx_settings_blue_bank_2",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "settings_blue_bank_2",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p246_t3_enhanced_sfx_destroy_blue_bank",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "destroy_blue_bank",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p247_t3_enhanced_sfx_search_text_binary_opacity",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "search_text_binary_opacity",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p248_t3_enhanced_sfx_scan_frame_owned_code",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "scan_frame_owned_code",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p249_t3_enhanced_sfx_scan_frame_before_hud_render",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "scan_frame_before_hud_render",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p250_t3_enhanced_sfx_rce2_scroll_owned_code",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "rce2_scroll_owned_code",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p251_t3_enhanced_sfx_skynet_outline_bootstrap",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "skynet_outline_bootstrap",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p252_t3_enhanced_sfx_sfx_distance_tls_executable",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "sfx_distance_tls_executable",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p253_t3_enhanced_sfx_sfx_distance_code",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "sfx_distance_code",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p254_t3_enhanced_sfx_sfx_distance_eq_software_loading",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "sfx_distance_eq_software_loading",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p255_t3_enhanced_sfx_sfx_distance_human",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "sfx_distance_human",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p256_t3_enhanced_sfx_sfx_distance_other",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "sfx_distance_other",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p257_t3_enhanced_sfx_sfx_distance_human_audibility",
+      "source_mod": "t3_enhanced_sfx",
+      "source_patch": "sfx_distance_human_audibility",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p258_t900_heavy_assault_t900_heavy_assault_native_t900s_type",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "t900_heavy_assault_native_t900s_type",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p259_t900_heavy_assault_wm20_dual_b3_b4_left_wrist_code",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_b3_b4_left_wrist_code",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p260_t900_heavy_assault_wm20_dual_b3_b4_skin_matrix_helper",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_b3_b4_skin_matrix_helper",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p261_t900_heavy_assault_wm20_dual_visible_render_adapter",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_visible_render_adapter",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p262_t900_heavy_assault_wm20_dual_fps_render_adapter",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_fps_render_adapter",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p263_t900_heavy_assault_wm20_dual_left_wrist_manual_alignment_ma",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_left_wrist_manual_alignment_matrix",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p264_t900_heavy_assault_wm20_dual_b4_bone_name",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_b4_bone_name",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p265_t900_heavy_assault_wm20_dual_b3_b4_left_wrist_hook",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_b3_b4_left_wrist_hook",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p266_t900_heavy_assault_wm20_dual_fps_b3_b4_left_wrist_hook",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_fps_b3_b4_left_wrist_hook",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p267_t900_heavy_assault_wm20_dual_exact_family_prefix_guard_hook",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_exact_family_prefix_guard_hook",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p268_t900_heavy_assault_trace_wm20_dual_animation_family_flags",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "trace_wm20_dual_animation_family_flags",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p269_t900_heavy_assault_wm20_dual_fps_alignment_matrix",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_fps_alignment_matrix",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p270_t900_heavy_assault_wm20_dual_exact_family_prefix_guard_code",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_exact_family_prefix_guard_code",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p271_t900_heavy_assault_register_wm20_dual_animation_family_entr",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "register_wm20_dual_animation_family_entry",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p272_t900_heavy_assault_move_weapon_animation_table_sentinel",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "move_weapon_animation_table_sentinel",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p273_t900_heavy_assault_precache_wm20_dual_weapon_hook",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "precache_wm20_dual_weapon_hook",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p274_t900_heavy_assault_precache_wm20_dual_weapon_code",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "precache_wm20_dual_weapon_code",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p275_t900_heavy_assault_wm20_dual_player_primary_wrapper",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_player_primary_wrapper",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p276_t900_heavy_assault_wm20_dual_player_primary_hook",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_player_primary_hook",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p277_t900_heavy_assault_wm20_dual_ai_primary_wrapper",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_ai_primary_wrapper",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p278_t900_heavy_assault_wm20_dual_ai_primary_hook",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_ai_primary_hook",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p279_t900_heavy_assault_wm20_dual_player_primary_continuation",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_player_primary_continuation",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p280_t900_heavy_assault_wm20_dual_ai_primary_continuation",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_ai_primary_continuation",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p281_t900_heavy_assault_wm20_dual_player_primary_stub",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_player_primary_stub",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p282_t900_heavy_assault_wm20_dual_player_secondary_stub",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_player_secondary_stub",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p283_t900_heavy_assault_wm20_dual_player_secondary_hook",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_player_secondary_hook",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p284_t900_heavy_assault_wm20_dual_ai_primary_stub",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_ai_primary_stub",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p285_t900_heavy_assault_wm20_dual_ai_secondary_stub",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_ai_secondary_stub",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p286_t900_heavy_assault_wm20_dual_ai_secondary_hook",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_ai_secondary_hook",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p287_t900_heavy_assault_wm20_dual_player_restore_helper",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_player_restore_helper",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p288_t900_heavy_assault_wm20_dual_projectile_lateral_constants",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_projectile_lateral_constants",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p289_t900_heavy_assault_wm20_dual_muzzle_state_v2",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_muzzle_state_v2",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p290_t900_heavy_assault_wm20_dual_muzzle_selector_wrapper_v2",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_muzzle_selector_wrapper_v2",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p291_t900_heavy_assault_wm20_dual_muzzle_add_fps_hook_v2",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_muzzle_add_fps_hook_v2",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p292_t900_heavy_assault_wm20_dual_muzzle_copy_wrapper_v3",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_muzzle_copy_wrapper_v3",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p293_t900_heavy_assault_wm20_dual_muzzle_key_wrapper_v4",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_muzzle_key_wrapper_v4",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p294_t900_heavy_assault_wm20_dual_muzzle_render_hook",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_muzzle_render_hook",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p295_t900_heavy_assault_wm20_dual_muzzle_render_setup",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_muzzle_render_setup",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p296_t900_heavy_assault_wm20_dual_muzzle_render_index",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_muzzle_render_index",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p297_t900_heavy_assault_wm20_dual_muzzle_render_tail",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_muzzle_render_tail",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p298_t900_heavy_assault_wm20_dual_muzzle_primary_markers_v9",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_muzzle_primary_markers_v9",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p299_t900_heavy_assault_wm20_dual_make_data1_executable",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_make_data1_executable",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p300_t900_heavy_assault_wm20_dual_muzzle_native_injection",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_muzzle_native_injection",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p301_t900_heavy_assault_wm20_dual_muzzle_b3_capture_wrapper_v1",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_muzzle_b3_capture_wrapper_v1",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p302_t900_heavy_assault_wm20_dual_bullet_hit_suppression_wrapper",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_bullet_hit_suppression_wrapper_v1",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p303_t900_heavy_assault_wm20_dual_bullet_hit_suppression_hook_v1",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_bullet_hit_suppression_hook_v1",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p304_t900_heavy_assault_wm20_dual_muzzle_axis_offset_helper_v1",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_muzzle_axis_offset_helper_v1",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p305_t900_heavy_assault_wm20_dual_muzzle_live_update_wrapper_v1",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_muzzle_live_update_wrapper_v1",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p306_t900_heavy_assault_wm20_dual_muzzle_live_update_hook_v1",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_muzzle_live_update_hook_v1",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p307_t900_heavy_assault_wm20_dual_muzzle_axis_runtime_data_v1",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_muzzle_axis_runtime_data_v1",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p308_t900_heavy_assault_wm20_dual_shadow_render_adapter_v1",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_shadow_render_adapter_v1",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p309_t900_heavy_assault_wm20_dual_shadow_d3_d4_hook_v1",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_shadow_d3_d4_hook_v1",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p310_t900_heavy_assault_wm20_dual_secondary_center_helper",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_secondary_center_helper",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p311_t900_heavy_assault_wm20_dual_ai_secondary_center_helper",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_ai_secondary_center_helper",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p312_t900_heavy_assault_precache_t900_heavy_assault_cast_code",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "precache_t900_heavy_assault_cast_code",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p313_t900_heavy_assault_precache_t900_heavy_assault_cast_hook",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "precache_t900_heavy_assault_cast_hook",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p314_t900_heavy_assault_precache_t900_heavy_assault_character_co",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "precache_t900_heavy_assault_character_code",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p315_t900_heavy_assault_precache_t900_heavy_assault_character_ho",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "precache_t900_heavy_assault_character_hook",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p316_t900_heavy_assault_t900_heavy_assault_terminator_hud_classi",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "t900_heavy_assault_terminator_hud_classifier",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p317_t900_heavy_assault_wm20_dual_ai_phobject_queue_helper_v2",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_ai_phobject_queue_helper_v2",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p318_t900_heavy_assault_wm20_dual_muzzle_dual_actor_validator_v1",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "wm20_dual_muzzle_dual_actor_validator_v1",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p319_t900_heavy_assault_t900_heavy_assault_ai_aim_profile_code",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "t900_heavy_assault_ai_aim_profile_code",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p320_t900_heavy_assault_t900_heavy_assault_ai_aim_profile_hook",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "t900_heavy_assault_ai_aim_profile_hook",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p321_t900_heavy_assault_t900_heavy_assault_ai_spawn_share_code",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "t900_heavy_assault_ai_spawn_share_code",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p322_t900_heavy_assault_t900_heavy_assault_ai_spawn_share_hook",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "t900_heavy_assault_ai_spawn_share_hook",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p323_t900_heavy_assault_t900_heavy_assault_ai_spawn_chance_code",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "t900_heavy_assault_ai_spawn_chance_code",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p324_t900_heavy_assault_t900_heavy_assault_ai_spawn_chance_hook",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "t900_heavy_assault_ai_spawn_chance_hook",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p325_t900_heavy_assault_dual_ai_position_independent_primary",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "dual_ai_position_independent_primary",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p326_t900_heavy_assault_dual_ai_position_independent_secondary",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "dual_ai_position_independent_secondary",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p327_t900_heavy_assault_dual_ai_position_independent_marker",
+      "source_mod": "t900_heavy_assault",
+      "source_patch": "dual_ai_position_independent_marker",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p328_fixed_weapons_fixed_weapons_make_data1_executable",
+      "source_mod": "fixed_weapons",
+      "source_patch": "fixed_weapons_make_data1_executable",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p329_fixed_weapons_fixed_weapons_global_fire_mode_sync_code",
+      "source_mod": "fixed_weapons",
+      "source_patch": "fixed_weapons_global_fire_mode_sync_code",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p330_fixed_weapons_fixed_weapons_global_fire_mode_sync_hook",
+      "source_mod": "fixed_weapons",
+      "source_patch": "fixed_weapons_global_fire_mode_sync_hook",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p331_fixed_weapons_fixed_weapons_overlap_consecutive_fire_sounds",
+      "source_mod": "fixed_weapons",
+      "source_patch": "fixed_weapons_overlap_consecutive_fire_sounds",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p332_fixed_weapons_fixed_weapons_immediate_fire_sound_dispatch",
+      "source_mod": "fixed_weapons",
+      "source_patch": "fixed_weapons_immediate_fire_sound_dispatch",
+      "target": "T3.exe"
+    },
+    {
+      "id": "p333_t3_enhanced_units_supply_request_helper",
+      "source_mod": "t3_enhanced_units",
+      "source_patch": "supply_request_helper",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p334_t3_enhanced_units_supply_request_weapon_lookup",
+      "source_mod": "t3_enhanced_units",
+      "source_patch": "supply_request_weapon_lookup",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p335_t3_enhanced_units_supply_request_find_t900s",
+      "source_mod": "t3_enhanced_units",
+      "source_patch": "supply_request_find_t900s",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p336_t3_enhanced_units_supply_request_t900s_cost",
+      "source_mod": "t3_enhanced_units",
+      "source_patch": "supply_request_t900s_cost",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p337_t3_enhanced_units_supply_request_t900s_squad",
+      "source_mod": "t3_enhanced_units",
+      "source_patch": "supply_request_t900s_squad",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p338_t3_enhanced_units_supply_request_skynet_message_gate",
+      "source_mod": "t3_enhanced_units",
+      "source_patch": "supply_request_skynet_message_gate",
+      "target": "Ai.Dll"
+    },
+    {
+      "id": "p339_t3_enhanced_units_supply_request_skynet_f1_gate",
+      "source_mod": "t3_enhanced_units",
+      "source_patch": "supply_request_skynet_f1_gate",
+      "target": "Ai.Dll"
+    }
+  ],
+  "replaced_legacy_patches": [
+    {
+      "source_mod": "t3_enhanced_units",
+      "source_patch": "anm_missing_joint_local_bind",
+      "target": "T3.exe"
+    },
+    {
+      "source_mod": "t3_enhanced_units",
+      "source_patch": "anm_aim_tls_executable",
+      "target": "T3.exe"
+    },
+    {
+      "source_mod": "t3_enhanced_units",
+      "source_patch": "anm_wm20_aim_compositor",
+      "target": "T3.exe"
+    },
+    {
+      "source_mod": "t3_enhanced_units",
+      "source_patch": "anm_wm20_aim_hook",
+      "target": "T3.exe"
+    },
+    {
+      "source_mod": "t3_enhanced_units",
+      "source_patch": "anm_t900s_navigation_heading",
+      "target": "Ai.Dll"
+    },
+    {
+      "source_mod": "t3_enhanced_units",
+      "source_patch": "anm_t900s_navigation_hook",
+      "target": "Ai.Dll"
+    }
+  ],
+  "animation_variant_pairs": 3,
+  "animation_variant_sources": [
+    {
+      "file": "D:\\Users\\Santi\\Documents\\Codex Projects\\T3-Modding\\T3\\mods\\t3_enhanced_units\\anm_variants.json",
+      "sha256": "925bfa10b57374db74a9e9e6f5b6713b3d2be91a5e78d431b0b994941c6ac494"
+    }
+  ],
+  "files": [
+    {
+      "path": "CA/Bone/T900HeavyAssault.bon",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "cb80c1d4606b76139d03e0d7fc9babb702ad600ffb9cb12a5db6a351323978dc"
+    },
+    {
+      "path": "CA/casts/t900heavy/tps/model.lod",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "803c29ab03f9cdc43fee9f7e1ae4ad345908fc7db16468b26c0b31cd3c466e15"
+    },
+    {
+      "path": "CA/casts/t900heavy/tps/model.sca",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "4e690daf9980240e57f7d332a334932d662ffccca5c88f1c1bdeeb4c96565301"
+    },
+    {
+      "path": "CA/casts/T900HeavyAssault.dat",
+      "source_mod": "wm32_dual",
+      "sha256": "aba854306ee2977857f15518624a4d705808041535365398ed4b8108d20ae37a"
+    },
+    {
+      "path": "CA/casts/T900HeavyAssault/fps/anim.lib",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "b44f9c7150a7f2c3c3a73adadb94f29e55053b455ad8f61c2333461045d038aa"
+    },
+    {
+      "path": "CA/casts/T900HeavyAssault/fps/model.sca",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "03cb19a851471ffd2c88197664c84a691edb7c1d6b7f9882189937358193a6bb"
+    },
+    {
+      "path": "CA/casts/T900HeavyAssault/tps/Anim.lib",
+      "source_mod": "wm32_dual",
+      "sha256": "20d3397650ab648d3bccc8ec84c2c8964b84bb036c0bddf4ab31978ecf7bad9f"
+    },
+    {
+      "path": "CA/casts/T900HeavyAssault/tps/model.lod",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "34a84bd86896614b84c04ba3806fd51a9785d700c8e599196fae785777c18e31"
+    },
+    {
+      "path": "CA/casts/T900HeavyAssault/tps/model.sca",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "9f4e13b97cb62951ee8f6dde3bcdba2c139929891f4166f0e415b29fbc2b21a8"
+    },
+    {
+      "path": "CA/casts/T900HeavyAssault/tps/soldier.human",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "cbfcf9c4b56d3e119b624fa9e7845ccc1adbce4db00cf0fd3438fce6159e38ae"
+    },
+    {
+      "path": "CA/casts/T900S.dat",
+      "source_mod": "wm32_plasma",
+      "sha256": "28e8428f45da2fb89b42b1ba46667134e5e6f7ee6242b0a6d0c4f5002158a9ed"
+    },
+    {
+      "path": "CA/casts/T900S/fps/Anim.lib",
+      "source_mod": "wm32_plasma",
+      "sha256": "639f7b205b90b99bb28abb89340c516a4b14b538f4e4c16925b72c10b4be0274"
+    },
+    {
+      "path": "CA/casts/T900S/tps/Anim.lib",
+      "source_mod": "wm32_plasma",
+      "sha256": "35018dd336d7d24a71ed862c5529c208fa4d46796fc0279395370ef2c5ac6011"
+    },
+    {
+      "path": "CA/casts/T900S/tps/model.lod",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "8e44533be5d800db0fd10b7bf57aa43e724f5fef163e44a94840a6a2418cd2e8"
+    },
+    {
+      "path": "CA/casts/T900S/tps/model.sca",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "b812f8fc919f77ddcb3e7d68b54289b4d383f842f046d87f01f139ed410a6704"
+    },
+    {
+      "path": "CA/fps_skynet/t900fps_fire_dual_wm20.anm",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "7d959a543a70905ac304f429ce54db8afc48e81a9374185c764ead8542e5b04c"
+    },
+    {
+      "path": "CA/fps_skynet/t900fps_idle_dual_wm20.anm",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "4e6fef6b93d70782c1a22bfd4dc4b96321a722b0cd55133d7d62ea11fd1ef225"
+    },
+    {
+      "path": "CA/fps_skynet/t900fps_run_dual_wm20.anm",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "840b8e70e99fe6abd6695a458cace8c69f4b33275e5bbcf47420f79fdab51833"
+    },
+    {
+      "path": "CA/fps_skynet/t900fps_secondary_dual_wm20.anm",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "3557653bdac80b09e41d13aea1fc5681a1aa028d26b6e0cf955a5c6978bf637e"
+    },
+    {
+      "path": "CA/fps_skynet/t900fps_walk_dual_wm20.anm",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "e6a9b0466c2ce861eada4eb90da47957fbaf37329ec4d93eccd23df3c1e45317"
+    },
+    {
+      "path": "CA/textures/017.mat",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "aee30b16dfefe19bada65754bf0826aa61a973948214a55e0af0dcaaee9f8671"
+    },
+    {
+      "path": "CA/textures/t900.mat",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "81e1cb19057f274b7230dd6202c908c6876fa2b496b87b8a1142b49c5981f35c"
+    },
+    {
+      "path": "CA/textures/t900_heavy.mat",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "81e1cb19057f274b7230dd6202c908c6876fa2b496b87b8a1142b49c5981f35c"
+    },
+    {
+      "path": "CA/textures/t900_heavy.tga",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "8b34c3c772c38a12a305e51df520e626507658f542fbddab6316972fa96534ee"
+    },
+    {
+      "path": "CA/textures/t900_heavy_assault.mat",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "81e1cb19057f274b7230dd6202c908c6876fa2b496b87b8a1142b49c5981f35c"
+    },
+    {
+      "path": "CA/textures/t900_heavy_assault.tga",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "e10bc5be43f5ba06dc8212bc10c759190ec098c6922cd90c2921bf5804c7b699"
+    },
+    {
+      "path": "CA/textures/t900_sillum_03.tga",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "791b3a88ab80cc4372a3320404514a625b2db4762a6ed11858ec7916013abf52"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_backrun.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "91a968d0c05910ce6136125e41a74f792f11a14e65c12e28841c811d5bb1b42f"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_backrun_45d_l.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "89c09e6f189054bab92f40c0b4a6c8a4b5cbcd806d4f79d3f18c267191c1fd56"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_backrun_45d_r.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "a84c59dffd956a65776209504e832eb2065b8fccc7ff5a808aa457bd08530573"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_backwalk.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "91a968d0c05910ce6136125e41a74f792f11a14e65c12e28841c811d5bb1b42f"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_backwalk_45d_l.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "448f935dccd80519a6f5767e3453df56ac15adbba26deb02dbc779068e13e751"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_backwalk_45d_r.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "d14a7dbe0a1fa2aac285abd62ab6adcfc3555ea9f08e092d6ff981de9ba5b4e5"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_change_back_wm20.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "f3f9eee45864fa5c7b91e53cb5abf9f95b58999e940bd679cf1a6bb3600d2fff"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_change_go_wm20.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "3e4b4a49c4b924a8f7b5f911052542e55dcaf668b2559bdfddb9e6aabcde7e05"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_fire_dual_wm20.anm",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "3635927bed1d4cb36e0a2e63182670a40a20dc867b62cf95913c9e38541661ba"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_fire_wm20.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "f3fed65a8b34805f7999e564a3775f247fd8978de245723274cd78cf75775457"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_fordul_l.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "07852319a6edc0651c49ba490d80b8d52c509e339de138641a2edcdb9a39fc24"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_fordul_r.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "b48f3dd31d378a6a7c0a8ef2c929dc3b461793231923919a3e1962ba550a9ad8"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_idle.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "e6d69a1c8cfe44a8df88abbbac91e439e0448ad7deb392e631b42f8b6958fb40"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_idle_dual_wm20.anm",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "5e82dad0cab4b7b9f229336ec834f86f6f90bc28b9253e83390aa5b9d3be73d8"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_idle_wm20.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "37a1ba77e8fbbea5581f4a240ea665a1d9fdc78ba180ddb1fe86064d0af700a6"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_idle_wm20_alt01.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "165fc1c5e5ba424a2c7b8f1f494957a2ad53cc5dcf3ee972a915b12072b5e088"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_run.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "8ef72bd6605492923e0337bb6a140dcd5607a8b91857642460956f837c3b1852"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_run_45d_l.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "a6d373563a00e3aeb9abc5b7c25d2c565fbff767ff3ff2ee74705d3a134af221"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_run_45d_r.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "31be4e07fd59d53c2e9b75e2ba81fad0f8f2718b51b840837ffacadabf4c5ad5"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_run_dual_wm20.anm",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "bc0738a24ecc5756d1e5ebc4ac1a3737b6855a140f3207c632317f38fad2d623"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_run_dual_wm32.anm",
+      "source_mod": "wm32_dual",
+      "sha256": "20a03030d118e2b74622df6791b66b361561a75ee38fa7671a78fd38d049d158"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_run_wm20.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "cdbf190856022deb8247dc1b197cd6542ea3235ecace1ba3e480c666096d2436"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_run_wm20_alt01.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "002040554fec9851d02a72a31d2ea064e2b9852a8aef66319c63dfec49c92328"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_secondary_dual_wm20.anm",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "bfbd11d48c85397eaf42f77833e70c047ff6f9d6209358cdb084978628068421"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_secondary_wm20.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "42b035115efc70371040d73fd7c8da89da186263050a4c369af192d4993ab40e"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_strafel.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "c919252c951aa06f67f27f392ac5cb4c59eafc2e409b05d92eef5e65a81bd684"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_strafer.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "0633241d01034e0cb3ebf109920ac48f212351fc358d7b0887bf26b5e3e53c2c"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_walk.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "8ef72bd6605492923e0337bb6a140dcd5607a8b91857642460956f837c3b1852"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_walk_45d_l.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "a6d373563a00e3aeb9abc5b7c25d2c565fbff767ff3ff2ee74705d3a134af221"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_walk_45d_r.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "31be4e07fd59d53c2e9b75e2ba81fad0f8f2718b51b840837ffacadabf4c5ad5"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_walk_dual_wm20.anm",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "bc0738a24ecc5756d1e5ebc4ac1a3737b6855a140f3207c632317f38fad2d623"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_walk_wm20.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "cdbf190856022deb8247dc1b197cd6542ea3235ecace1ba3e480c666096d2436"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900_walk_wm20_alt01.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "002040554fec9851d02a72a31d2ea064e2b9852a8aef66319c63dfec49c92328"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900h_fire_rsb80.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "d219c07fb06d0e024b22ee5e56c76b450d1af40106932704483a5f2026ba2182"
+    },
+    {
+      "path": "CA/TPS_SKYNET/t900h_idle.anm",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "e6d69a1c8cfe44a8df88abbbac91e439e0448ad7deb392e631b42f8b6958fb40"
+    },
+    {
+      "path": "MenuDatas/3DModells/t900_heavy_assault.sca",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "ae26621a03ba6c22e1669bb34323513ff5a252def3fb35c171ee9592056ab6f8"
+    },
+    {
+      "path": "MenuDatas/3DModells/t900_posed.sca",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "6e6ffa29e9b751900081bb5b33e14ade2616d53cf51df260243a80cc4e1b8a73"
+    },
+    {
+      "path": "MenuDatas/3DModells/t900_s_illum.tga",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "e839e229c3dfd4268dac6382c3c599326f72b971935b580a0a6260370bf6c624"
+    },
+    {
+      "path": "MenuDatas/3DModells/t900_s_illum2.tga",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "7407404bea91194b5a0bfc798517637c1a2d51a3851857dab7e5d78d8a97ac38"
+    },
+    {
+      "path": "MenuDatas/3DModells/t900_s_illum3.tga",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "791b3a88ab80cc4372a3320404514a625b2db4762a6ed11858ec7916013abf52"
+    },
+    {
+      "path": "MenuDatas/3DModells/t900_supply.sca",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "71e7355bcd915432b4c6eab0c56f43c1f0e06f9026f3cd68f64aabf2b8f71e69"
+    },
+    {
+      "path": "MenuDatas/3DModells/wm20_dual_menu.sca",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "4e1864da222f0eb57720fd8ce6da356f7c7a0548189ebe4dd3a375370ec472e7"
+    },
+    {
+      "path": "MenuDatas/3DModells/wm27_dual_menu.sca",
+      "source_mod": "wm27_dual",
+      "sha256": "80029033cf50728b924438ed70522c8e3fc3cc75b0a692854fa8c836981ad8b1"
+    },
+    {
+      "path": "MenuDatas/3DModells/wm27_dual_menu.tga",
+      "source_mod": "wm27_dual",
+      "sha256": "d440757ed7d83048c3a58227fbca2a50bbf8fdcd8546125409bfa61de9dac1fa"
+    },
+    {
+      "path": "MenuDatas/3DModells/wm27_menu.sca",
+      "source_mod": "wm27",
+      "sha256": "857a5b120db258556d731c97fcef866b53f911c9d32cc1c3fe67ea1619194f56"
+    },
+    {
+      "path": "MenuDatas/3DModells/wm27_menu.tga",
+      "source_mod": "wm27",
+      "sha256": "d440757ed7d83048c3a58227fbca2a50bbf8fdcd8546125409bfa61de9dac1fa"
+    },
+    {
+      "path": "MenuDatas/3DModells/wm32_dual_menu.sca",
+      "source_mod": "wm32_dual",
+      "sha256": "0af5e7794586f7d178ce265334c9e64ed018d713d2023b797de7ffc503e24ce4"
+    },
+    {
+      "path": "MenuDatas/3DModells/wm32_dual_menu.tga",
+      "source_mod": "wm32_dual",
+      "sha256": "0f7e7b74ac166ee5e92da68218985020114da4599e0d22d427b7c14a48d32c46"
+    },
+    {
+      "path": "MenuDatas/3DModells/wm32_dual_menu_alpha.tga",
+      "source_mod": "wm32_dual",
+      "sha256": "80b1128557e27d669ebcfce4ca4f29c1d95c5a1e65f3a949c5223f53f4eb264c"
+    },
+    {
+      "path": "MenuDatas/3DModells/wm32_menu.sca",
+      "source_mod": "wm32_plasma",
+      "sha256": "fc1a4065209a91539392c5315d8ff49f7602b6dbcb21f346e195f65484aefdb7"
+    },
+    {
+      "path": "MenuDatas/3DModells/wm32_menu.tga",
+      "source_mod": "wm32_plasma",
+      "sha256": "0f7e7b74ac166ee5e92da68218985020114da4599e0d22d427b7c14a48d32c46"
+    },
+    {
+      "path": "MenuDatas/3DModells/wm32_menu_alpha.tga",
+      "source_mod": "wm32_plasma",
+      "sha256": "80b1128557e27d669ebcfce4ca4f29c1d95c5a1e65f3a949c5223f53f4eb264c"
+    },
+    {
+      "path": "MenuDatas/English.lng",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "ee58c6323b6151d7479d3af5987f0764d68212c5325fcd6c8934216d7e87bb3a"
+    },
+    {
+      "path": "MenuDatas/hud.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "63d862ca733b9f5a09b68c76e91d562ced6e3ed5394b4768f6de453bd93839d7"
+    },
+    {
+      "path": "MenuDatas/RCE2.txt",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "f5fea69e1b11914c3512c9fe0a0f306f34b1586ded5befd1291176c6f51f476e"
+    },
+    {
+      "path": "MenuDatas/Weapons.dat",
+      "source_mod": "wm32_dual",
+      "sha256": "553b535e74929e91e19ab6a6cc6d7bae85186ee094010d39db7359945a4d3780"
+    },
+    {
+      "path": "Musics/MIX_FINAL.ogg",
+      "source_mod": "t3_original_soundtracks",
+      "sha256": "4a8aa7dc058fbf4751463c68fe7446e6e8712bb0c93416d3bcbd5c372bd4332c"
+    },
+    {
+      "path": "Musics/palya10.ogg",
+      "source_mod": "t3_original_soundtracks",
+      "sha256": "4a8aa7dc058fbf4751463c68fe7446e6e8712bb0c93416d3bcbd5c372bd4332c"
+    },
+    {
+      "path": "Musics/palya13.ogg",
+      "source_mod": "t3_original_soundtracks",
+      "sha256": "a9b485a28463f7c8dec08015c3aa518ab36fc08a089b81fda0b6e61e5068bde5"
+    },
+    {
+      "path": "Musics/palya4.ogg",
+      "source_mod": "t3_original_soundtracks",
+      "sha256": "a78157c0877685361bada3525536fda77b91e9fbbd7c66a9806886e287a98586"
+    },
+    {
+      "path": "Musics/palya5.ogg",
+      "source_mod": "t3_original_soundtracks",
+      "sha256": "937f152d1f7952ce8361c583186b166e202ac55604b95ca584f4dba2a3768224"
+    },
+    {
+      "path": "Musics/palya6.ogg",
+      "source_mod": "t3_original_soundtracks",
+      "sha256": "ac9914beb228d7e90116d8fc04b4abd38805a7cfe72bb405034be8588bf947c0"
+    },
+    {
+      "path": "Musics/palya8.ogg",
+      "source_mod": "t3_original_soundtracks",
+      "sha256": "fbeb1f0e2cd9bfa77d40badfe9141875fa5bbd00f303a09126600b4a19136d2f"
+    },
+    {
+      "path": "Particles/BulletHitPlasma.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "9b58efcd1098aca3cc702eaa6d377dd0ab96ee2c131741d3d970a76bade5f765"
+    },
+    {
+      "path": "Particles/BulletHitPlasmaBlue.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "0518605aa9a0c29beba05b0c5e4b2ac5560caddb988fb3e1354a774138692349"
+    },
+    {
+      "path": "Particles/BulletHitPlasmaRed.dat",
+      "source_mod": "wm32_plasma",
+      "sha256": "f9e6fc4f7ac8df115b14eb377cbfcb64246b424a593a0d9f8d8d562a44db53f2"
+    },
+    {
+      "path": "Particles/FiredBullet.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "9ac9762a5b3f985f4df26fbd0fcd4200067517bd0435bff3bb4eed229f7d6a29"
+    },
+    {
+      "path": "Particles/FKEngine.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "071ac86786e633713bc2017de165583213ab57846c951d25a0fba746fef56636"
+    },
+    {
+      "path": "Particles/MuzzleFire.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "0b1b81b08f49dd811241e6c8e400afc8229c90e943ffd1fa744e50864ab753e9"
+    },
+    {
+      "path": "Particles/WM32FiredBullet.dat",
+      "source_mod": "wm32_plasma",
+      "sha256": "0133b0fce4eafe18f70399a5e7f57e7d38597007e4634da1dc69a3962fc01344"
+    },
+    {
+      "path": "Particles/WM32MuzzleFire.dat",
+      "source_mod": "wm32_plasma",
+      "sha256": "6888f6ba87c323d5868a84719fffb42195238b1b933dbf63465e22126ffac9e9"
+    },
+    {
+      "path": "Sound11/Sound/Casts/casts.dat",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "5f5f43aea8b924690e584e0517d0b2e8c5e17c942aabf416181057b3ce752a9f"
+    },
+    {
+      "path": "Sound11/Sound/Casts/T900HeavyAssault/human.dat",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "b60fdaf84c7e663810bc8f4cf0f5ca7340f20273d6c632474bba69e2c6ec32d5"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/deserteagle/desert_bass.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "98ae0ada08eefa790e453628e60b68cb95d26e7673c4ca4d2d791f37c26a596f"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/g3/g3_uj_01.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "cb432d296facb4e5236c391029ca5b8fe4fa6bf315db3bc1fa833791d79a5941"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/grenade/grenade_throw.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "f2936f208c2f3bd1c030ae8e425ba7949c386db65a7931728a5ca60d64c8dec4"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/hk/hk_fire.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "93fde01778200dd375771c289f836ce528cef1a75f28d6cee1ebb6c2ab74564b"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/hk_tank/plasma_06_hk-tank.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "6dd8165219dc1ae23f6814c30edb862e71d8bd6eaccf0ac7286c684995e68393"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/m134/minigun.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "3f9e8d6e64e9cafecb2687822bad3ce51811d9d3dfeafa5b8343777e79841cde"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/m2/m2_.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "9bf8050e77a81ca0b6246d9b67c8725c47f2be61c2f1c69cf9dd04d44b04bf64"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/m249_saw/m249_00.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "601a597de8bda3460c76bae9688042fe07716eb14ff1a68aea35a6592802fb5a"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/m4/m4_01_filter.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "a42d82bd3329443e5375b5605291597234ca782df3e026a4d95467053cc3f59d"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/m60/m60_single.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "54a7d4f03efa25389f6860a5c3b54c331056d9fc4d61172b2851683d0a9df5d4"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/m60_60/m60_single.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "54a7d4f03efa25389f6860a5c3b54c331056d9fc4d61172b2851683d0a9df5d4"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/m60_60_stand/m60_single.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "54a7d4f03efa25389f6860a5c3b54c331056d9fc4d61172b2851683d0a9df5d4"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/m82a1/m82_00.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "762c84b99fad8d0470d604392cd38504406a30f9e521dae139be12863490ba8b"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/plasmarifle/plazma_000.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "d10520d95f5992cda72b6bc4592a0a673f884acbb682f8781cfb8dc173ac0ecf"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/plastic/drop_item.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "00def9c421471c3cd546673f25972b4075d4f07e1578fe87bde4eb4055692b20"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/proxy/grenade_throw.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "f2936f208c2f3bd1c030ae8e425ba7949c386db65a7931728a5ca60d64c8dec4"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/rsb80/plasma_08_rsb80_filter.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "67de07c92bd7a5ab9f80b62f128d9a1b4a7e81c26312c9abffdffc8251e5e406"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/termcannon/plasma_single_v2.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "7ddba0b5feccf9ecedb0947390c1ef8910d4da75f00cf936fd331c3fcceb9485"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/w25/plasma_02_nagyobb.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "66884d11b0fc0638fe2d71a9f9d89a61f42b82e1272be15b80af5f5c210b4071"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/westinghouse/rsb80_toltessel.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "618824d6cdf73396cdc5ea1cc149141235e785a549dc1699ff237a9024745ac5"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/wm20/plasma_04_jo.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "f0e28c171c680ae039dfc983331721c1e41b2feaf3f10cfb65de3eb744022643"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/wm27/wm27_fire.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "82541325185f3473b0268e4e6a23ef57db824856ddd10f39b87c3e73d63f9570"
+    },
+    {
+      "path": "Sound11/Sound/eq/weapons/xm29/xm29_uj.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "a4b726cdf2074791f672914b2c00981319cf05a1f5ecea038fbffbbb4bec96b3"
+    },
+    {
+      "path": "Sound11/Sound/Weapons/weapons.dat",
+      "source_mod": "wm27",
+      "sha256": "13884aa1947965e8b2a2be8a9a03db9de4c7fe71ee042b034b124f905b4920f1"
+    },
+    {
+      "path": "Sound11/Sound/Weapons/WM20_DUAL/weapon.dat",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "3ee3228731bae47f9ec2b20ee350fc9b6225f4f710513fa279fb57cf18aff79d"
+    },
+    {
+      "path": "Sound11/Sound/Weapons/WM20_DUAL_secondary/weapon.dat",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "3870af24943047e717b8be3a1e3715e2424eabf97148d2531caf7673e7a87671"
+    },
+    {
+      "path": "Sound11/Sound/Weapons/WM27/weapon.dat",
+      "source_mod": "wm27",
+      "sha256": "315e00c374cbb5ba742d7b4213353171ccb263cd85483e54184362d5ad80fcbf"
+    },
+    {
+      "path": "Sound11/Sound/Weapons/WM27/wm27_fire.wav",
+      "source_mod": "wm27",
+      "sha256": "c1ab99ad70c803ec24d2836f1ee0f7297e989bbd46a3c66e54f44658c834572f"
+    },
+    {
+      "path": "Sound22/Sound/Casts/casts.dat",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "5f5f43aea8b924690e584e0517d0b2e8c5e17c942aabf416181057b3ce752a9f"
+    },
+    {
+      "path": "Sound22/Sound/Casts/T900HeavyAssault/human.dat",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "b60fdaf84c7e663810bc8f4cf0f5ca7340f20273d6c632474bba69e2c6ec32d5"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/deserteagle/desert_bass.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "798b1d64d3a34185a8d827b2b385e1065c97183f435bb955039e3e8de3b2c0f4"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/g3/g3_uj_01.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "e667917291674b2cdcb803ff0047a84625b3ba96c6232d0a133823a138f05dde"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/grenade/grenade_throw.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "c27b414a8a31d42768a4d5907e26256bf17c8538f838f7ab5558dd5055012f23"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/hk/hk_fire.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "fff87091fadaebf13a6f4e681057cc28ae54d054e5dce7ffe233b88c6388d3cd"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/hk_tank/plasma_06_hk-tank.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "7db65eba55ff9a694064e58967c8016465edc3a35ea77c85f66c1e9fe20dbcc4"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/m134/minigun.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "11072c8f32818862e35a46a39f0d0c40fa26e02ff255d72914f3e209af352f09"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/m2/m2_.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "a79fff7f350d0e5b2888514d876a955c6fef0ce1ad2ea44b2c067dc4def7247a"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/m249_saw/m249_00.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "60ce57134a29d3cc3b52c248eec1664692a30b8b856e72cf80bf0ac5050a7c54"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/m4/m4_01_filter.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "a202ec87697e5ac71f940b59d0c2e8e17df5700ff4223b12ac3ba863904ebe8d"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/m60/m60_single.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "7e4825b2696cb63091f68ce1445b9b8b8792f4d3665fd7d6549d1224fca239e2"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/m60_60/m60_single.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "7e4825b2696cb63091f68ce1445b9b8b8792f4d3665fd7d6549d1224fca239e2"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/m60_60_stand/m60_single.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "7e4825b2696cb63091f68ce1445b9b8b8792f4d3665fd7d6549d1224fca239e2"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/m82a1/m82_00.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "c0949b9363977bbb1b5edf025d5f60c954512f67262d9dd13815b511bad94462"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/plasmarifle/plazma_000.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "fb61a8ad819611884bfb679080a9ccc6b46f033d76fe1cceeacd40c8a979da05"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/plastic/drop_item.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "ac466b0df56699dc595de1600e50f1aac846312a3a27a39da674b72f19a3a620"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/proxy/grenade_throw.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "c27b414a8a31d42768a4d5907e26256bf17c8538f838f7ab5558dd5055012f23"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/rsb80/plasma_08_rsb80_filter.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "7affe8c0642ca4f37fe66faf06dfd03935529e884bfc74794ecbc7b1fa86dde5"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/termcannon/plasma_single_v2.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "91984c1dd359f71f11745cc1589afeb5967e8e31111a53bdda7b9dbabd38a117"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/w25/plasma_02_nagyobb.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "4d000b9623678b2517f811d769a5f5f651786995737c13d472f7589da48df730"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/westinghouse/rsb80_toltessel.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "f15081a5c963c14540a88082231cb02dc74a93bd04b89d4c75d38fa0c28cd102"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/wm20/plasma_04_jo.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "8bbdb097ef5fa5a9214233c858d8aa73eb109db68c0eef86611cdfc70698e6d4"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/wm27/wm27_fire.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "993843b0eec7fdfb813ff022b5fb2b2d04dd9f3102a19b801e0f35ad9c91f616"
+    },
+    {
+      "path": "Sound22/Sound/eq/weapons/xm29/xm29_uj.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "06ee9f8b1ac657c74425a215139e512021070306b0095e2b852d86ac70f90940"
+    },
+    {
+      "path": "Sound22/Sound/Weapons/weapons.dat",
+      "source_mod": "wm27",
+      "sha256": "13884aa1947965e8b2a2be8a9a03db9de4c7fe71ee042b034b124f905b4920f1"
+    },
+    {
+      "path": "Sound22/Sound/Weapons/WM20_DUAL/weapon.dat",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "3ee3228731bae47f9ec2b20ee350fc9b6225f4f710513fa279fb57cf18aff79d"
+    },
+    {
+      "path": "Sound22/Sound/Weapons/WM20_DUAL_secondary/weapon.dat",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "3870af24943047e717b8be3a1e3715e2424eabf97148d2531caf7673e7a87671"
+    },
+    {
+      "path": "Sound22/Sound/Weapons/WM27/weapon.dat",
+      "source_mod": "wm27",
+      "sha256": "315e00c374cbb5ba742d7b4213353171ccb263cd85483e54184362d5ad80fcbf"
+    },
+    {
+      "path": "Sound22/Sound/Weapons/WM27/wm27_fire.wav",
+      "source_mod": "wm27",
+      "sha256": "669b7193ef667d834bde7ef3e4e7271bd508321e21f5299f67e25478b5243fa7"
+    },
+    {
+      "path": "Sound44/Sound/Casts/casts.dat",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "5f5f43aea8b924690e584e0517d0b2e8c5e17c942aabf416181057b3ce752a9f"
+    },
+    {
+      "path": "Sound44/Sound/Casts/Fk/fk_engine_alex_uj.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "ed9cf4eec460631273b61b99ec653b5353c0bf2493d79dd41b1d274d15780402"
+    },
+    {
+      "path": "Sound44/Sound/Casts/Fk/fk_inside.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "1d20c799c72a33eac3194be190d7c96ec3cc7899ea03a61fa2be1ce80b42ff19"
+    },
+    {
+      "path": "Sound44/Sound/Casts/Fk/human.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "5fbb3c3d4abc3d3df287220d21156e9ba0c9a1b2b9f45f59f8b3c0f71a6d684b"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900Heavy/lep_ember_fold_bal_02.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "d72ff7b97b3a95aab6d1c07428c7295e4feee0eefc860897a59ab6fc6d061c97"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900Heavy/lep_ember_fold_bal_03.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "032ff22cdfad6373ec4d54e57998a8bedc4e1fc65067fd23bab3a313598ee348"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900Heavy/lep_ember_fold_jobb_01.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "29c261b75b8e0a6d90807684ef4cbff89cf45dbab81243362695ca43663b41ee"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900Heavy/lep_ember_fold_jobb_02.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "ac7fbdbe31f9c3e068a320733d41447603290427010560e3799bcca3292d5502"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900Heavy/lep_t800_001.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "9093128f0cf5eeeb2d2e7b08014d981a530f4e775927afe393e3a2a2c5d6b302"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900Heavy/lep_t800_002.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "992e35fc2580642ec99c43e759a0c84d70af570171572de967cfa1b897eaf0f9"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900Heavy/lep_t800_003.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "2c86d5860dd9c0b1bb3a80c6395ed3e60a5b49a43315a4d97c0cfc2e1ea9bf18"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900Heavy/lep_t800_004.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "08ac30698cca24cac8dc157f0f763d92b2fdd3022ae759721473fa67b17432ad"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900Heavy/lep_t800_005.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "e2011207f6b5a4ac3ac586bcc1daf6427d1302f98d7b1e67c687f3faf02fbc81"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900Heavy/lep_t800_bal_01.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "02e2d96a96c08b558f6ff553dd2b13b78b942c7e889ff5f44e69e11ce855e600"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900Heavy/lep_t800_bal_02.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "24ab72b919ac527d41a56c5a363b7ba28bc79c14b27d6969614218c5cfec0d37"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900Heavy/lep_t800_jobb_01.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "068e689da9f64f7442218db73e4b2a637bd7174b43403703c3a8c1901e102f1f"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900Heavy/lep_t800_jobb_02.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "ae865b5113756e6ecd140451e9eb38fccded44d1042d980b526692a7e8674e23"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900HeavyAssault/human.dat",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "b60fdaf84c7e663810bc8f4cf0f5ca7340f20273d6c632474bba69e2c6ec32d5"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900S/lep_ember_fold_bal_02.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "d72ff7b97b3a95aab6d1c07428c7295e4feee0eefc860897a59ab6fc6d061c97"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900S/lep_ember_fold_bal_03.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "032ff22cdfad6373ec4d54e57998a8bedc4e1fc65067fd23bab3a313598ee348"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900S/lep_ember_fold_jobb_01.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "29c261b75b8e0a6d90807684ef4cbff89cf45dbab81243362695ca43663b41ee"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900S/lep_ember_fold_jobb_02.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "ac7fbdbe31f9c3e068a320733d41447603290427010560e3799bcca3292d5502"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900S/lep_t800_001.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "9093128f0cf5eeeb2d2e7b08014d981a530f4e775927afe393e3a2a2c5d6b302"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900S/lep_t800_002.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "992e35fc2580642ec99c43e759a0c84d70af570171572de967cfa1b897eaf0f9"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900S/lep_t800_003.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "2c86d5860dd9c0b1bb3a80c6395ed3e60a5b49a43315a4d97c0cfc2e1ea9bf18"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900S/lep_t800_004.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "08ac30698cca24cac8dc157f0f763d92b2fdd3022ae759721473fa67b17432ad"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900S/lep_t800_005.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "e2011207f6b5a4ac3ac586bcc1daf6427d1302f98d7b1e67c687f3faf02fbc81"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900S/lep_t800_bal_01.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "02e2d96a96c08b558f6ff553dd2b13b78b942c7e889ff5f44e69e11ce855e600"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900S/lep_t800_bal_02.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "24ab72b919ac527d41a56c5a363b7ba28bc79c14b27d6969614218c5cfec0d37"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900S/lep_t800_jobb_01.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "068e689da9f64f7442218db73e4b2a637bd7174b43403703c3a8c1901e102f1f"
+    },
+    {
+      "path": "Sound44/Sound/Casts/T900S/lep_t800_jobb_02.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "ae865b5113756e6ecd140451e9eb38fccded44d1042d980b526692a7e8674e23"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/deserteagle/desert_bass.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "462ecc2f762cd8da5d0a08c8810b593352b026e457f00d944976004a4500c220"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/g3/g3_uj_01.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "b16bb829e6efc4fdfea793385ccf53e908a4aefe244f06369f5c0ece96f73f08"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/grenade/grenade_throw.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "9eb4a91c9cc4e81af8d89b624280d930d722c507765a1a990124b7b8ed60c8d8"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/hk/hk_fire.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "097d56eb6037c36f561b2998638f8e4875cc8181dfde7e8cf2354a7399735836"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/hk_tank/plasma_06_hk-tank.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "9fb93953fb7da11e737b43f60a9aa8415279834c087c09017088938f1afab6c2"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/m134/minigun.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "d0b3f87f53a2aaba7297cbf9b53e3e26e19edda0a16b4e4a76d7b9afb3e7a39a"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/m2/m2_.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "0528a1b4042232985dccb753508b63bfc31dff62b25ba7058354ab75dc9032f2"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/m249_saw/m249_00.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "76d31bb6a6f2dab0dfd2def1312f59a09ef45791d723307789d0fdf375e98514"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/m4/m4_01_filter.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "ad7c687b54ae496284d7462606c09b67a84d203fc8781ad60b17809bc25d7858"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/m60/m60_single.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "3583c9da809b47502ca4af7057f639a9bafae31a734df20b8ac6ef52c351b6d3"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/m60_60/m60_single.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "3583c9da809b47502ca4af7057f639a9bafae31a734df20b8ac6ef52c351b6d3"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/m60_60_stand/m60_single.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "3583c9da809b47502ca4af7057f639a9bafae31a734df20b8ac6ef52c351b6d3"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/m82a1/m82_00.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "fdd76a0951a820793a473d917bc05dbd50d7383c0a30ab908fba7b2503352ae1"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/plasmarifle/plazma_000.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "097d56eb6037c36f561b2998638f8e4875cc8181dfde7e8cf2354a7399735836"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/plastic/drop_item.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "144bdda03b835bccc679360572651dfe4be012ba37f0944fde2fa573434c4b68"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/proxy/grenade_throw.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "9eb4a91c9cc4e81af8d89b624280d930d722c507765a1a990124b7b8ed60c8d8"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/rsb80/plasma_08_rsb80_filter.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "c1850ed1a9334e14e2b28352a4f4d10ec0dbe5266fabf85439186ef31b08113e"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/termcannon/termcannon-v3.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "6ceb3c0f2e6258bfad3bee9ea2047c0442e4265233cc5ed5cfc2e5858596eb06"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/w25/plasma_02_nagyobb.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "84ef894c66b338d6a6f9189371b1fcede420bb13d5a86db3133e741d33e9f5a2"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/westinghouse/rsb80_toltessel.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "097d56eb6037c36f561b2998638f8e4875cc8181dfde7e8cf2354a7399735836"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/wm20/plasma_04_jo.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "7bd3bf2df05e70ae16f4139f4604896ff55177d969ce5dc4100be2beaa8bc1da"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/wm20/t3-wm20.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "6ceb3c0f2e6258bfad3bee9ea2047c0442e4265233cc5ed5cfc2e5858596eb06"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/wm27/wm27_fire.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "993843b0eec7fdfb813ff022b5fb2b2d04dd9f3102a19b801e0f35ad9c91f616"
+    },
+    {
+      "path": "Sound44/Sound/eq/weapons/xm29/xm29_uj.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "0f4f250f73c1028be197ed186979ba4b91b4e06042f7d56ae11582014bdb1215"
+    },
+    {
+      "path": "Sound44/Sound/Vehicles/HK/hk.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "0bbb2a2db559e891beb5a7b54e7413776ef43d5db0ea57b4823616904905eff2"
+    },
+    {
+      "path": "Sound44/Sound/Vehicles/HK/hk_idle.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "4e4d2d414bba019ab2fba156970dd0bd2d7ba3a7ff90ba825a77a153718605ea"
+    },
+    {
+      "path": "Sound44/Sound/Vehicles/HK/hk_idle_dist.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "4e4d2d414bba019ab2fba156970dd0bd2d7ba3a7ff90ba825a77a153718605ea"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/DesertEagle/desert_reload4.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "57e07a4dfff40cbe2244429bb2d522f9ab633db564327c258b295813ba2db4a1"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/DesertEagle/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "decb300c9ddf87efc9313aad8cdeb8233e6a40b1c76bbdde08d80ce10cb893fb"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/Fk0/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "433e0f15345b0ddb36ab9fb7d6394944bc9647bc9317e0fa41e21d6351274762"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/g3/g3_uj_01.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "896d649e3a1ad3ed40dc051f8561734bd25382660774ded71c6fe5b98fae55a0"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/g3/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "de7f4ee063fc4fedcb796f2d7f3484e0fddca2b17e74031006dd6da296321efc"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/Grenade/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "a415352c685e9fe16cba51724c5119ab56ac08771abe298b2cc4f1ec3df03bdd"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/Hk/HK_fire.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "6501411c9934ff6534263d567e4785a2230d40b0860c7d22779e58409af8f07d"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/Hk/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "6502894096866bfd79394935f6366a49a2d3a45a06cad77b0152664cd7abf2b5"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/HK_Tank/plasma_06_hk-tank.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "c3f056d2ba0758d7d9a8abd2ffed97a0f2edaa3dc4344d96d479d691809fb4cf"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/HK_Tank/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "3036a8f0c23e29b9a698bebf8069fb05b3bde0692a2d544fb3a97f7038ea2d0f"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/m134/minigun.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "31008434ad16efd9d3af0d3742a940376de4d95eac03db2192bf3e7032296309"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/m134/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "0539d387491e31b0dd834e2165a0fcf33aa5bdc417b1404c885a4ac04989de90"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/M2/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "9ff616617dfb8ff754c33bdfb11ab32e5bab0f13c025465b7f3a19528a4fa779"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/m249_saw/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "01a30cd15e2427701a00a9af9118d23b36a8b406b7a017408e34731fccde3675"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/m4/m4_01_filter.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "0d88f410dbe611de73b5f1fb7d683046c87595fa20f51c0f93798c54a815f564"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/m4/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "1b9b5de2a1d9f05dc4c61ff94f3f448748889570beca9731044395a99298b471"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/m60/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "d3d198becf91a27f81cb2345f4b4c91b74c5e2523ec14b4447636951aa5121f0"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/M60_60/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "aa9830faf00d94d932b10f1fc96a2eb9461fd5e85f1922d6d4d762394e0aeb99"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/M60_60_Stand/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "34febeb21fd39358192e926fb429d7d0069603ba0cb802c24e81f8698b91af54"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/m82a1/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "5411297839de6428963ec8877e68a5eb75d8b90dd29901b67bf5e119fb6e5b2e"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/plasmarifle/plazma_000.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "6501411c9934ff6534263d567e4785a2230d40b0860c7d22779e58409af8f07d"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/plasmarifle/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "3abdd8cdf6711418acfcbfd6b12ce20fe059917be9bf2041b5aabdc119c3c049"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/Plastic/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "6a69a1b2e7ecc6c6797dc15604a021971570cd02ca463b70a3862e6f08595080"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/Proxy/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "5e3c6fed067605f597c29d1da7df7e20484a515e6e77209a09c0cefa6e9bb2ee"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/rsb80/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "a94aa581126daca5e6b6574ef3d3d6a8184bcc4472f11b7177fe9fa79efb4995"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/Termcannon/termcannon-v3.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "7d647ff6714c06b5f2ee01eb8bde37d187430a5fd58a86907e40ce9108a1b30e"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/Termcannon/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "ee31a4e77d45f28e7db3cf8155cef9289776738941b29597f357ea9468cf842f"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/w25/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "c1e03a962c9cd70966ea00aee1a357fe9ba1929787c9c62f6dda8d80f8301014"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/weapons.dat",
+      "source_mod": "wm27",
+      "sha256": "13884aa1947965e8b2a2be8a9a03db9de4c7fe71ee042b034b124f905b4920f1"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/WestingHouse/rsb80_toltessel.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "6501411c9934ff6534263d567e4785a2230d40b0860c7d22779e58409af8f07d"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/WestingHouse/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "e0ef42ae6022e9b576134c9f77df7031bd6a896ac11ab7460343f0dd0b3f45ab"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/wm20/t3-wm20.wav",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "7d647ff6714c06b5f2ee01eb8bde37d187430a5fd58a86907e40ce9108a1b30e"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/wm20/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "eec250ebbcfc872d81e36462740eee82b563457d4bb12665907377c4cdb4ac62"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/WM20_DUAL/weapon.dat",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "3ee3228731bae47f9ec2b20ee350fc9b6225f4f710513fa279fb57cf18aff79d"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/WM20_DUAL_secondary/weapon.dat",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "3870af24943047e717b8be3a1e3715e2424eabf97148d2531caf7673e7a87671"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/WM27/weapon.dat",
+      "source_mod": "wm27",
+      "sha256": "315e00c374cbb5ba742d7b4213353171ccb263cd85483e54184362d5ad80fcbf"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/WM27/wm27_fire.wav",
+      "source_mod": "wm27",
+      "sha256": "669b7193ef667d834bde7ef3e4e7271bd508321e21f5299f67e25478b5243fa7"
+    },
+    {
+      "path": "Sound44/Sound/Weapons/xm29/weapon.dat",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "04fa399454a7ac9ad7995a6efc55aee5d670f1a3e20cc98fbef574ea1cc62ca1"
+    },
+    {
+      "path": "Textures/Particles/lazerblue.tga",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "0749392fc0b9c7208a10af586a09793f22642bfeb72d704365c7599b563dbd51"
+    },
+    {
+      "path": "Textures/Particles/lazerglowred01.tga",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "25cce610ec3363484f3c016ea218fdc980b6f6ce81d038667ceda47f6700129f"
+    },
+    {
+      "path": "Textures/Particles/lazernyalabred01.tga",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "25cce610ec3363484f3c016ea218fdc980b6f6ce81d038667ceda47f6700129f"
+    },
+    {
+      "path": "Textures/Particles/Muzzle-Front-Plasma-Blue.tga",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "3b717e3b3f0f72e827a1808c22d76936c3e351e57a6ca5f92e7523973c5049db"
+    },
+    {
+      "path": "Textures/Particles/Muzzle-Front-Plasma.tga",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "c7bdd130236ed11dd38fa8b9df24364f894efd1e9b58a9c4c48d15ea1a0e1ef3"
+    },
+    {
+      "path": "Textures/Particles/Muzzle-Front.tga",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "43d094b4572943b719e9a1b41b144de7506ead9ec5be9e29b03ab216ae820a95"
+    },
+    {
+      "path": "Textures/Particles/Muzzle-Side-Plasma-Blue.TGA",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "e3225df338a9b8d87cdb25932c573e472c0d568be5255d28825133251f9768a1"
+    },
+    {
+      "path": "Textures/Particles/Muzzle-Side-Plasma.TGA",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "521e1c910dae4d1c758c5eea3c39519f6617209ddf851e06407acbb42a8eedfd"
+    },
+    {
+      "path": "Textures/Particles/Muzzle-Side.tga",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "439be4cfc7cc8b779e287414cf5748a445435c3ffb700d1532688b0364418121"
+    },
+    {
+      "path": "Textures/Particles/red-lazer.tga",
+      "source_mod": "wm32_plasma",
+      "sha256": "62ff40586440f0e576c1011385ebfa7531dc51d219d5195c8f583ef3109860a6"
+    },
+    {
+      "path": "Textures/Particles/Red-Muzzle-Front-Plasma.tga",
+      "source_mod": "wm32_plasma",
+      "sha256": "3a97045692198124f4410f30ae505d3c8905e553cd527df11de3ab671ca01b71"
+    },
+    {
+      "path": "Textures/Particles/Red-Muzzle-Side-Plasma.TGA",
+      "source_mod": "wm32_plasma",
+      "sha256": "5da132a02f9d047d714bc6e5af92a3308e77116d58a6581c9cf9a1da4651c134"
+    },
+    {
+      "path": "Textures/Particles/tripart.tga",
+      "source_mod": "t3_enhanced_sfx",
+      "sha256": "b4933746bc288ca53beb245e2f3fb7b3f9d5a1cb8fb8dd071619f13e73f1f859"
+    },
+    {
+      "path": "vehicles/HK/hk_flyer.dds",
+      "source_mod": "t3_enhanced_units",
+      "sha256": "4a2905f8bfc8033ed55f349f1f0697ef33288c10264607e5c71ca6bbe0b12876"
+    },
+    {
+      "path": "weapons/FK0/weapon1.option",
+      "source_mod": "fixed_weapons",
+      "sha256": "50f4d9012927d208e0d590bdcbc0b51ecdbe45278a212eb4a9e120086294ef03"
+    },
+    {
+      "path": "weapons/FK0/weapon2.option",
+      "source_mod": "fixed_weapons",
+      "sha256": "e756c39145d8bb2f07f17dd201f4cf75d343e9a00bcbccd3214c88e2e8fa2df5"
+    },
+    {
+      "path": "weapons/FK1/weapon1.option",
+      "source_mod": "fixed_weapons",
+      "sha256": "a73fb56481700bc2878fbe3b7d1c5dd7f9e076c97726665b88563576e14f1ab6"
+    },
+    {
+      "path": "weapons/FK1/weapon2.option",
+      "source_mod": "fixed_weapons",
+      "sha256": "754f869dfc0f17e3a2a9d176a1428cfd636625fc767b242e97cf99f05149a0c5"
+    },
+    {
+      "path": "weapons/m134/weapon1.option",
+      "source_mod": "fixed_weapons",
+      "sha256": "ed5ac60ce026e22615b34fe75c9a6810748db28b41a2df45f3a70cc00ea3dbdf"
+    },
+    {
+      "path": "weapons/rsb80/weapon1.option",
+      "source_mod": "fixed_weapons",
+      "sha256": "1d79bf429f86ac32de137fc9390261d53ff3e8f0cd9c3d004ad6695d98db3e3f"
+    },
+    {
+      "path": "weapons/T1/weapon1.option",
+      "source_mod": "fixed_weapons",
+      "sha256": "72075c1206b7edde73867ad07a91dc5cec585406f07d04d4ab67ccde3ad87f17"
+    },
+    {
+      "path": "weapons/T1/weapon2.option",
+      "source_mod": "fixed_weapons",
+      "sha256": "72075c1206b7edde73867ad07a91dc5cec585406f07d04d4ab67ccde3ad87f17"
+    },
+    {
+      "path": "weapons/T_RSB80/weapon1.option",
+      "source_mod": "fixed_weapons",
+      "sha256": "1d79bf429f86ac32de137fc9390261d53ff3e8f0cd9c3d004ad6695d98db3e3f"
+    },
+    {
+      "path": "weapons/Termcannon/weapon1.option",
+      "source_mod": "fixed_weapons",
+      "sha256": "d9af03f32bd1977e0682f0b6472909179274eb026abf61e91112ba8579901db1"
+    },
+    {
+      "path": "weapons/WM20/weapon1.option",
+      "source_mod": "fixed_weapons",
+      "sha256": "a76069eb3599ba680550fb239fa961343e6709cb73bc843e8da2549116e2fbd5"
+    },
+    {
+      "path": "weapons/WM20/weapon2.option",
+      "source_mod": "fixed_weapons",
+      "sha256": "53bb8eea26ff67a93e15438f8d1987ab6db1f608dc8169745f293992ff7dfcd0"
+    },
+    {
+      "path": "weapons/WM20_DUAL/anim.lib",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "8c5257756d923ce33eeddccee13aca86b58cdde61e97c4287ab3ddd2ac221ca7"
+    },
+    {
+      "path": "weapons/WM20_DUAL/bullets.sca",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "9c00c3b839d89ed921ee61346ec6f5c2ce1f369274ced4d26912c2bbeecf72ae"
+    },
+    {
+      "path": "weapons/WM20_DUAL/Gameplay.dat",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "435a4101d3dde5110b800719fb1fe977b2bb0e5bc6264a6744bbbf25b956c432"
+    },
+    {
+      "path": "weapons/WM20_DUAL/model.lod",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "5ea9ac9c4b8a5a82b454c7df763f9925df496e05ad381cb2175a73e0a3cdb128"
+    },
+    {
+      "path": "weapons/WM20_DUAL/model.sca",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "750c7df7c595155c89282be8112ac8695e5e9b6e90af094fbc02dc65a64163b4"
+    },
+    {
+      "path": "weapons/WM20_DUAL/weapon1.option",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "11f3768fc625c24ef9c812c8bca0ab505080518971eb1cd58337527dddeb0054"
+    },
+    {
+      "path": "weapons/WM20_DUAL/weapon2.option",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "413f92c8325639dd641606abcca245e792c8a53b0591143a42f2df82a0743387"
+    },
+    {
+      "path": "weapons/WM20_DUAL/Wm20.dds",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "7da71d4b576764f3633ff390f6b1b132823ac575b9b4fd7ad5362133469c10ce"
+    },
+    {
+      "path": "weapons/WM20_DUAL/Wm20.mat",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "be58752f7c7851bf9a361dbb322c89f53e7c9180b1b66ccc85b45dab26cdc7df"
+    },
+    {
+      "path": "weapons/WM20_DUAL/WM20_idle.anm",
+      "source_mod": "t900_heavy_assault",
+      "sha256": "a8e40216cbc7f2f50465c31beb649c1e04bbff08be279f087adeed21e3101e1a"
+    },
+    {
+      "path": "weapons/WM27/anim.lib",
+      "source_mod": "wm27",
+      "sha256": "d30fbb74a116bb1b1b0ed4c7e703c27a04ed6612184b9d799a40c02d8cb52568"
+    },
+    {
+      "path": "weapons/WM27/bullets.sca",
+      "source_mod": "wm27",
+      "sha256": "ea03034a6e019b36c5009fd67a926801680e1547353926b8b958d936035e780e"
+    },
+    {
+      "path": "weapons/WM27/Gameplay.dat",
+      "source_mod": "wm27",
+      "sha256": "435a4101d3dde5110b800719fb1fe977b2bb0e5bc6264a6744bbbf25b956c432"
+    },
+    {
+      "path": "weapons/WM27/model.lod",
+      "source_mod": "wm27",
+      "sha256": "ee7aad905af647a12cc55b9cc99d8346d44709dd5ac1998340f3a3355fbd96af"
+    },
+    {
+      "path": "weapons/WM27/model.sca",
+      "source_mod": "wm27",
+      "sha256": "a90bb32c25663844e7727078d067ea86b0b705f0a913e803bf1752dacfe7ac5f"
+    },
+    {
+      "path": "weapons/WM27/weapon1.option",
+      "source_mod": "wm27",
+      "sha256": "ee04962afd7acf47629f1fdf26711ecbce6149ad70a43dd43d11873dfdd9375a"
+    },
+    {
+      "path": "weapons/WM27/WM20_idle.anm",
+      "source_mod": "wm27",
+      "sha256": "6b710e2052dd57dc26683c7286597a2afc0bfec65b5aa3f3100d93bb6f97899a"
+    },
+    {
+      "path": "weapons/WM27/wm27.dds",
+      "source_mod": "wm27",
+      "sha256": "a39418054484e6811cd9dc949b4fb784c8d4b1e5d15e297cc8f8eb7950eb062d"
+    },
+    {
+      "path": "weapons/WM27/wm27.mat",
+      "source_mod": "wm27",
+      "sha256": "be58752f7c7851bf9a361dbb322c89f53e7c9180b1b66ccc85b45dab26cdc7df"
+    },
+    {
+      "path": "weapons/WM27_DUAL/anim.lib",
+      "source_mod": "wm27_dual",
+      "sha256": "e8c52c534301cb4afc60785fcac2e5d14a9e7b5755bc66c406d3fa9bc016bc3a"
+    },
+    {
+      "path": "weapons/WM27_DUAL/bullets.sca",
+      "source_mod": "wm27_dual",
+      "sha256": "aa8458ec06f50b81e4874045e335c35d089b00aac3c25f298851fac31ae959d9"
+    },
+    {
+      "path": "weapons/WM27_DUAL/Gameplay.dat",
+      "source_mod": "wm27_dual",
+      "sha256": "435a4101d3dde5110b800719fb1fe977b2bb0e5bc6264a6744bbbf25b956c432"
+    },
+    {
+      "path": "weapons/WM27_DUAL/model.lod",
+      "source_mod": "wm27_dual",
+      "sha256": "e0d23b64bf54d9e9f34edfb319079eda61e8d838ad36ac95c0b05ed03044a7bf"
+    },
+    {
+      "path": "weapons/WM27_DUAL/model.sca",
+      "source_mod": "wm27_dual",
+      "sha256": "7c9d2404ed495a88a46a708ef0acc5a1f2d8bc7172df5a224ca506ee1b10ad0e"
+    },
+    {
+      "path": "weapons/WM27_DUAL/weapon1.option",
+      "source_mod": "wm27_dual",
+      "sha256": "2d21a69d256246d8c547ee0135953ceaf80e5bbfc989e0f8d6644fdb1a103f4c"
+    },
+    {
+      "path": "weapons/WM27_DUAL/weapon2.option",
+      "source_mod": "wm27_dual",
+      "sha256": "1debf4618f8f192867f2d7eedb9dbff092c99ba975e98dd802080e16be3b2766"
+    },
+    {
+      "path": "weapons/WM27_DUAL/WM20_idle.anm",
+      "source_mod": "wm27_dual",
+      "sha256": "a8e40216cbc7f2f50465c31beb649c1e04bbff08be279f087adeed21e3101e1a"
+    },
+    {
+      "path": "weapons/WM27_DUAL/wm27.dds",
+      "source_mod": "wm27_dual",
+      "sha256": "a39418054484e6811cd9dc949b4fb784c8d4b1e5d15e297cc8f8eb7950eb062d"
+    },
+    {
+      "path": "weapons/WM27_DUAL/wm27.mat",
+      "source_mod": "wm27_dual",
+      "sha256": "be58752f7c7851bf9a361dbb322c89f53e7c9180b1b66ccc85b45dab26cdc7df"
+    },
+    {
+      "path": "weapons/WM32/anim.lib",
+      "source_mod": "wm32_plasma",
+      "sha256": "6363119f2e2c459192c764734dae5e44905f237b115488c6dddd5082241d55f0"
+    },
+    {
+      "path": "weapons/WM32/bullets.sca",
+      "source_mod": "wm32_plasma",
+      "sha256": "9c00c3b839d89ed921ee61346ec6f5c2ce1f369274ced4d26912c2bbeecf72ae"
+    },
+    {
+      "path": "weapons/WM32/gameplay.dat",
+      "source_mod": "wm32_plasma",
+      "sha256": "f4e9375b6b6ecaefff858063642799bee488fb5a51c2c5f489e35d02d84d5b5c"
+    },
+    {
+      "path": "weapons/WM32/model.lod",
+      "source_mod": "wm32_plasma",
+      "sha256": "de1ecb1a36952a7e74a8cce737748800d820ab3c5010bb62f5966abb16d6f791"
+    },
+    {
+      "path": "weapons/WM32/model.sca",
+      "source_mod": "wm32_plasma",
+      "sha256": "1df49bce59f028545b2d37674ed7b9de52ce903602acdc23f4cd8f9fea80d875"
+    },
+    {
+      "path": "weapons/WM32/weapon1.option",
+      "source_mod": "wm32_plasma",
+      "sha256": "130dd7ee60841797bb6bd9405527cdc16c52518f068445d9797c4eba5633aa96"
+    },
+    {
+      "path": "weapons/WM32/weapon2.option",
+      "source_mod": "wm32_plasma",
+      "sha256": "7dcf3ba492f0902d75defbd5f0dcebb68df21ff0f8c1bee126a10e98715a0a4f"
+    },
+    {
+      "path": "weapons/WM32/WM-32 Plasma.blend",
+      "source_mod": "wm32_plasma",
+      "sha256": "59ea80e98a75585798582c9deb33e0872b0080d042d2e9651a980802b823bf32"
+    },
+    {
+      "path": "weapons/WM32/WM-32 Plasma.blend1",
+      "source_mod": "wm32_plasma",
+      "sha256": "da00b0fdc272fbaa3582099ad79af464662bd2a46be67f617e7429d25ba2a74c"
+    },
+    {
+      "path": "weapons/WM32/wm20_idle.anm",
+      "source_mod": "wm32_plasma",
+      "sha256": "4e7dd1da51eb2fba7c7797117429fef2d8fbec1dca7121bd26c1d6d3e34d9d72"
+    },
+    {
+      "path": "weapons/WM32/wm32.mat",
+      "source_mod": "wm32_plasma",
+      "sha256": "be58752f7c7851bf9a361dbb322c89f53e7c9180b1b66ccc85b45dab26cdc7df"
+    },
+    {
+      "path": "weapons/WM32/wm32.tga",
+      "source_mod": "wm32_plasma",
+      "sha256": "0f7e7b74ac166ee5e92da68218985020114da4599e0d22d427b7c14a48d32c46"
+    },
+    {
+      "path": "weapons/WM32/wm32_alpha.mat",
+      "source_mod": "wm32_plasma",
+      "sha256": "be58752f7c7851bf9a361dbb322c89f53e7c9180b1b66ccc85b45dab26cdc7df"
+    },
+    {
+      "path": "weapons/WM32/wm32_alpha.tga",
+      "source_mod": "wm32_plasma",
+      "sha256": "80b1128557e27d669ebcfce4ca4f29c1d95c5a1e65f3a949c5223f53f4eb264c"
+    },
+    {
+      "path": "weapons/WM32/wm32_normap.option",
+      "source_mod": "wm32_plasma",
+      "sha256": "eb8f8736618897fc4d7d80eaf77df109b9d0d8630ccb444ca733ca6ad4bc35b0"
+    },
+    {
+      "path": "weapons/WM32/wm32_normap.tga",
+      "source_mod": "wm32_plasma",
+      "sha256": "81536cd6e028d9cec23b70fd468993614f47d4bf58c3b4a23824c7edbe334bbf"
+    },
+    {
+      "path": "weapons/WM32_DUAL/anim.lib",
+      "source_mod": "wm32_dual",
+      "sha256": "0f97e47d1f354d14af016edba3b12c3729f65237a258036e5b3acc09f8be85d0"
+    },
+    {
+      "path": "weapons/WM32_DUAL/bullets.sca",
+      "source_mod": "wm32_dual",
+      "sha256": "9c00c3b839d89ed921ee61346ec6f5c2ce1f369274ced4d26912c2bbeecf72ae"
+    },
+    {
+      "path": "weapons/WM32_DUAL/gameplay.dat",
+      "source_mod": "wm32_dual",
+      "sha256": "f4e9375b6b6ecaefff858063642799bee488fb5a51c2c5f489e35d02d84d5b5c"
+    },
+    {
+      "path": "weapons/WM32_DUAL/model.lod",
+      "source_mod": "wm32_dual",
+      "sha256": "ee62392985b6cdf223d70639ae122bc5fa738169ba024b953381a7546e148780"
+    },
+    {
+      "path": "weapons/WM32_DUAL/model.sca",
+      "source_mod": "wm32_dual",
+      "sha256": "30e86c48ece57999cc1c4e517ef115c67f1c1ad86f498e96880aace889ddbf21"
+    },
+    {
+      "path": "weapons/WM32_DUAL/weapon1.option",
+      "source_mod": "wm32_dual",
+      "sha256": "1426b4d7c19ace938dd399ef6a6930e895b6fd0f484f3aa95e30567dd731e62d"
+    },
+    {
+      "path": "weapons/WM32_DUAL/weapon2.option",
+      "source_mod": "wm32_dual",
+      "sha256": "f095339fd2e642c1c4107d7e7ba17588673b38e1dfac8bafb61068ecb02ed36b"
+    },
+    {
+      "path": "weapons/WM32_DUAL/wm20_idle.anm",
+      "source_mod": "wm32_dual",
+      "sha256": "50aa6123472b31a83532d1b8515bb0dc16808320a17b78ecfbd861d5eb0801f5"
+    },
+    {
+      "path": "weapons/WM32_DUAL/wm32.mat",
+      "source_mod": "wm32_dual",
+      "sha256": "be58752f7c7851bf9a361dbb322c89f53e7c9180b1b66ccc85b45dab26cdc7df"
+    },
+    {
+      "path": "weapons/WM32_DUAL/wm32.tga",
+      "source_mod": "wm32_dual",
+      "sha256": "0f7e7b74ac166ee5e92da68218985020114da4599e0d22d427b7c14a48d32c46"
+    },
+    {
+      "path": "weapons/WM32_DUAL/wm32_alpha.mat",
+      "source_mod": "wm32_dual",
+      "sha256": "be58752f7c7851bf9a361dbb322c89f53e7c9180b1b66ccc85b45dab26cdc7df"
+    },
+    {
+      "path": "weapons/WM32_DUAL/wm32_alpha.tga",
+      "source_mod": "wm32_dual",
+      "sha256": "80b1128557e27d669ebcfce4ca4f29c1d95c5a1e65f3a949c5223f53f4eb264c"
+    }
+  ]
+}

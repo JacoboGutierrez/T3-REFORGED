@@ -1,0 +1,4475 @@
+
+//10 pixel = 0,36113 tgco mérték :)
+
+language 	menudatas/English.lng
+
+
+BEGIN InGameObjects
+
+  {
+    layer	Layer_InGame_HUD
+    shader 	shaders\menushaders\gabor_pr_NoZ_Point.shd
+    texture	graphics\menutextures\HUD_all.tga
+    visible     1
+  }
+
+
+END
+
+
+BEGIN PlayerNames
+
+  {
+    layer	Layer_HUD
+    shader 	shaders\menushaders\gabor_pr_NoZ_Point.shd
+    texture	graphics\menutextures\HUD_all.tga
+    visible     1
+  }
+
+
+  {
+    layer	Layer5
+    shader 	shaders\menushaders\gabor_pr_NoZ_Point.shd
+    texture	graphics\menutextures\small.tga
+    visible     1
+  }
+
+END
+
+
+
+BEGIN TDMOver
+
+	{
+		layer		LayerHUD
+		texture		Graphics\MenuTextures\HUD_all.tga
+		shader		shaders\menushaders\gabor_pr_NoZ_Point.shd
+		visible	1
+		releasepass	2
+	}
+
+  {
+    layer	Layer_Font12
+    shader 	shaders\menushaders\gabor_pr_NoZ_Point.shd
+    texture	graphics\menutextures\uj12.tga
+    visible     1
+  }
+
+	{
+		    labelbutton					txtToRespawn
+		    caption					a22
+		    fontattrib_file_name			graphics\menutextures\uj12.fa2		
+	    x_pos		 			0
+	    y_pos					-5
+	    z_pos					0.0
+		out_x_pos	0.000000
+		out_y_pos	0.000000
+		out_z_pos	0.000000
+		height	1.000000
+		spaceing	-0.020000
+		size	1.000000
+		tabstop	1
+		enabled	1
+		color	0xFFC0C0C0
+		hi_color	0xFFFFFFFF
+		opacity	255
+		visible	1
+		layer	Layer_Font12
+		grlayer	LayerHUD
+		upcase	0
+		valign	1
+		autoup	1
+		groupid	0
+		textxoffset 0
+		textyoffset -10
+
+		create
+
+		NoFocusUp
+			BEGIN
+				0x00FF0000
+				3 3
+				262,482,269,489	255	7	7
+				269,489,268,488	255	11	1
+				269,482,262,489	255	7	7
+				269,489,268,488	255	1	1
+				269,489,268,488	255	170	10
+				269,489,268,488	255	1	1
+				262,489,269,482	255	7	7
+				269,489,268,488	255	11	1
+				269,489,262,482	255	7	7
+
+			END	
+
+		FocusDown
+			BEGIN
+				0x00FFFFFF
+				3 3
+				262,482,269,489	255	7	7
+				269,489,268,488	255	11	1
+				269,482,262,489	255	7	7
+				269,489,268,488	255	1	1
+				269,489,268,488	255	168	8
+				269,489,268,488	255	1	1
+				262,489,269,482	255	7	7
+				269,489,268,488	255	11	1
+				269,489,262,482	255	7	7
+			
+			END
+
+		FocusUp
+		
+			BEGIN
+				0x00FF00FF
+				3 3
+				262,482,269,489	255	7	7
+				269,489,268,488	255	11	1
+				269,482,262,489	255	7	7
+				269,489,268,488	255	1	1
+				269,489,268,488	255	172	12
+				269,489,268,488	255	1	1
+				262,489,269,482	255	7	7
+				269,489,268,488	255	11	1
+				269,489,262,482	255	7	7
+			
+			END
+
+
+		NoFocusDown
+		
+			BEGIN
+				0x00FFFF00
+				3 3
+				262,482,269,489	255	7	7
+				269,489,268,488	255	11	1
+				269,482,262,489	255	7	7
+				269,489,268,488	255	1	1
+				269,489,268,488	255	168	8
+				269,489,268,488	255	1	1
+				262,489,269,482	255	7	7
+				269,489,268,488	255	11	1
+				269,489,262,482	255	7	7
+			
+			END
+
+	}
+
+
+	{
+    labelbutton					txtToProfileManager
+    caption					a23
+    fontattrib_file_name			graphics\menutextures\uj12.fa2
+    x_pos		 			0
+    y_pos					5
+    z_pos					0.0
+		out_x_pos	0.000000
+		out_y_pos	0.000000
+		out_z_pos	0.000000
+		height	1.000000
+		spaceing	-0.020000
+		size	1.000000
+		tabstop	1
+		enabled	1
+		color	0xFFC0C0C0
+		hi_color	0xFFFFFFFF
+		opacity	255
+		visible	1
+		layer	Layer_Font12
+		grlayer	LayerHUD
+		upcase	0
+		valign	1
+		autoup	1
+		groupid	0
+		textxoffset 0
+		textyoffset -10
+
+		create
+
+		NoFocusUp
+			BEGIN
+				0x00FF0000
+				3 3
+				262,482,269,489	255	7	7
+				269,489,268,488	255	11	1
+				269,482,262,489	255	7	7
+				269,489,268,488	255	1	1
+				269,489,268,488	255	170	10
+				269,489,268,488	255	1	1
+				262,489,269,482	255	7	7
+				269,489,268,488	255	11	1
+				269,489,262,482	255	7	7
+
+			END	
+
+		FocusDown
+			BEGIN
+				0x00FFFFFF
+				3 3
+				262,482,269,489	255	7	7
+				269,489,268,488	255	11	1
+				269,482,262,489	255	7	7
+				269,489,268,488	255	1	1
+				269,489,268,488	255	168	8
+				269,489,268,488	255	1	1
+				262,489,269,482	255	7	7
+				269,489,268,488	255	11	1
+				269,489,262,482	255	7	7
+			
+			END
+
+		FocusUp
+		
+			BEGIN
+				0x00FF00FF
+				3 3
+				262,482,269,489	255	7	7
+				269,489,268,488	255	11	1
+				269,482,262,489	255	7	7
+				269,489,268,488	255	1	1
+				269,489,268,488	255	172	12
+				269,489,268,488	255	1	1
+				262,489,269,482	255	7	7
+				269,489,268,488	255	11	1
+				269,489,262,482	255	7	7
+			
+			END
+
+
+		NoFocusDown
+		
+			BEGIN
+				0x00FFFF00
+				3 3
+				262,482,269,489	255	7	7
+				269,489,268,488	255	11	1
+				269,482,262,489	255	7	7
+				269,489,268,488	255	1	1
+				269,489,268,488	255	168	8
+				269,489,268,488	255	1	1
+				262,489,269,482	255	7	7
+				269,489,268,488	255	11	1
+				269,489,262,482	255	7	7
+			
+			END
+
+	}
+
+
+
+
+END
+
+
+BEGIN MissionInfo
+
+  {
+    layer	Layer_HUD
+    shader 	shaders\menushaders\gabor_pr_NoZ_Point.shd
+    texture	graphics\menutextures\HUD_all.tga
+    visible     1
+  }
+
+  {
+    layer	Layer_Font12
+    shader 	shaders\menushaders\gabor_pr_NoZ_Point.shd
+    texture	graphics\menutextures\uj12.tga
+    visible     1
+  }
+
+
+  {
+    layer	Layer_FontSmall
+    shader 	shaders\menushaders\gabor_pr_NoZ_Point.shd
+    texture	graphics\menutextures\small.tga
+    visible     1
+  }
+/*
+{
+    imagegrid					MissionInfoAlap
+    x_pos		 			0
+    y_pos					0
+    z_pos					0
+
+    columns					3
+    rows					3
+
+    layer					Layer_HUD
+    visible					1
+    h_align					1
+    v_align					1
+
+
+    cells 
+    {
+
+	162,441,192,452		255	-1	-1
+	168,441,169,452		255	-1	-1
+	192,441,162,452		255	-1	-1
+
+	162,450,192,454		255	-1	-1
+	178,446,169,447		255	500	100
+	192,450,162,454		255	-1	-1
+
+	162,452,192,441		255	-1	-1
+	168,452,169,441		255	-1	-1
+	192,452,162,441		255	-1	-1
+
+
+    }
+
+*/
+
+
+
+	{
+		imagegrid		MissionInfoAlap
+		x_pos	0.000000
+		y_pos	0
+		z_pos	0.000000
+		visible	1
+		rows	3
+		columns	3
+		layer	Layer_HUD
+		h_align	1
+		v_align	1
+		color	0x00FFFFFF
+		cells
+		{
+			262,482,269,489	255	7	7
+			269,489,268,488	255	11	1
+			269,482,262,489	255	7	7
+			269,489,268,488	255	1	1
+			269,489,268,488	255	300	100
+			269,489,268,488	255	1	1
+			262,489,269,482	255	7	7
+			269,489,268,488	255	11	1
+			269,489,262,482	255	7	7
+		}
+	}
+
+label_vertical_align	    1
+
+ {	
+    label					txtMissionInfo
+    caption					1006
+    fontattrib_file_name			graphics\menutextures\uj12.fa2
+    x_pos		 			0
+    y_pos					0
+    z_pos					0.0
+    height					1
+    spaceing					-0.05
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    layer					Layer_Font12
+  }
+
+label_vertical_align	    0
+/*
+ {	
+    label					txtMissionInfo2
+    caption					1006
+    fontattrib_file_name			graphics\menutextures\small.fa2
+    x_pos		 			0
+    y_pos					0
+    z_pos					0.0
+    height					1
+    spaceing					0
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    layer					Layer_FontSmall
+  }
+*/
+
+END
+
+
+BEGIN hud
+
+  {
+    layer	LayerZoom
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\scope_black02.tga
+    visible     1
+  }
+
+
+  {
+    layer	LayerZoomCelkereszt
+    shader 	shaders\menushaders\gabor_pr_NoZ_Point.shd
+    texture	graphics\menutextures\Zoom.tga
+    visible     1
+  }
+
+
+
+
+  {
+    layer	LayerH
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\HUD_all.tga
+    visible     1
+  }
+
+  {
+    layer	Layer1
+    shader 	shaders\menushaders\gabor_pr_NoZ_Point.shd
+    texture	graphics\menutextures\HUD_all.tga
+    visible     1
+  }
+
+
+  {
+    layer	LayerFK_Hud
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\HUD_all.tga
+    visible     1
+  }
+
+  {
+    layer	LayerRCE
+    shader 	shaders\menushaders\gabor_pr_NoZ_Point.shd
+    texture	graphics\menutextures\small.tga
+    visible     1
+  }
+
+
+
+  {
+    layer	LayerFK_YRotateMeter
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\HUD_all.tga
+    visible     1
+  }
+
+
+  {
+    layer	LayerFK_XRotateMeter
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\HUD_all.tga
+    visible     1
+  }
+
+
+  {
+    layer	LayerFK_Hud_SmallFont
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\small.tga
+    visible     1
+  }
+
+  {
+    layer	LayerFK_Hud_Font12
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\uj12.tga
+    visible     1
+  }
+
+
+  {
+    layer	Layer2
+//    shader 	shaders\menushaders\Minimap.shd
+    shader 	shaders\menushaders\Fonts.shd
+    texture	graphics\menutextures\small.tga
+    visible     1
+  }
+
+  {
+    layer	Layer5
+    shader 	shaders\menushaders\gabor_pr_NoZ_Point.shd
+//    texture	graphics\menutextures\small.tga
+    texture	graphics\menutextures\small.tga 
+    visible     1
+  }
+
+
+  {
+    layer	LayerH12
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\uj12.tga
+    visible     1
+  }
+
+
+  {
+    layer	LayerH16
+    shader 	shaders\menushaders\gabor_pr_NoZ_Point.shd
+    texture	graphics\menutextures\uj16.tga
+    visible     1
+  }
+
+  {
+    layer	LayerSmallFontBold
+    shader 	shaders\menushaders\gabor_pr_NoZ_Point.shd
+    texture	graphics\menutextures\small.tga
+    visible     1
+  }
+
+
+
+
+
+ {
+        imagegrid        TargetLock_Weapon
+        x_pos    0.000000
+        y_pos    0
+        z_pos    0.000000
+        visible    1
+        rows    3
+        columns    3
+        layer    LayerH
+        h_align    1
+        v_align    1
+        color    0xFFFF0000
+        cells
+        {
+            32,173,27,178    255    6    6
+            24,173,24,173    255    32    6
+            27,173,32,178    255    6    6
+
+            24,173,24,173    255    6    32
+            24,173,24,173    255    32    32
+            24,173,24,173    255    6    32
+
+            32,178,27,173    255    6    6
+            24,173,24,173    255    32    6
+            27,178,32,173    255    6    6
+        }
+    }
+
+
+
+
+/*
+ {	
+    frame					TargetLock_Weapon
+    x_pos		 			0
+    y_pos					0
+    z_pos					0.0
+    height					50
+    width					50
+    color					0x00FFFFFF
+    opacity					255
+    visible					1
+    layer					LayerH
+    texture_limits				150,491,151,492
+ }
+
+*/
+/*
+ {
+    image 			ZoomM82_Alap
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    height			606
+    width			808
+    opacity			255
+    color			00FFFFFF
+    visible  			0
+    layer			LayerZoom
+    texture_limits		0,0,255,255
+    igroup			ZoomM82
+ }
+*/
+
+  {
+	imagegrid ZoomM82_Alap
+	x_pos 0.000000
+	y_pos 0.000000
+	z_pos 0.000000
+	visible 1
+	rows 2
+	columns 4
+	layer scope_back
+	h_align 1
+	v_align 1
+	layer			LayerZoom
+	igroup			ZoomM82
+	cells
+	{
+		0,0,1,1 255 300 300
+		0,0,127,127 255 303 303
+		127,0,0,127 255 303 303
+		0,0,1,1 255 300 300
+	
+		0,0,1,1 255 300 300
+		0,127,127,0 255 303 303
+		127,127,0,0 255 303 303
+		0,0,1,1 255 300 300
+	}
+  }
+
+	{
+		imagegrid		ZoomM82
+		x_pos	0.000000
+		y_pos	0.000000
+		z_pos	0.000000
+		visible	1
+		rows	4
+		columns	11
+		layer	LayerH
+		h_align	1
+		v_align	0
+		color	0xFF000000
+		igroup			ZoomM82
+		cells
+		{
+	35,152,41,161	255	200	9
+	41,152,43,161	255	2	9
+	44,152,49,161	255	50	9
+	50,152,52,161	255	2	9
+	53,152,55,161	255	50	9
+	34,152,34,152	0	17	9
+	53,152,55,161	255	50	9
+	52,152,50,161	255	2	9
+	44,152,49,161	255	50	9
+	43,152,41,161	255	2	9
+	41,152,35,161	255	200	9
+
+	34,152,34,161	255	180	50
+	34,152,34,161	255	2	50
+	34,152,34,161	255	50	50
+	34,152,34,161	255	2	50
+	34,152,34,161	255	50	50
+	64,148,80,154	255	17	50
+	34,152,34,161	255	50	50
+	34,152,34,161	255	2	50
+	34,152,34,161	255	50	50
+	34,152,34,161	255	2	50
+	34,152,34,161	255	180	50
+
+	34,152,34,161	255	180	4
+	34,152,34,161	255	2	4
+	34,152,34,161	255	50	4
+	34,152,34,161	255	2	4
+	34,152,34,161	255	50	4
+	64,156,80,160	255	17	4
+	34,152,34,161	255	50	4
+	34,152,34,161	255	2	4
+	34,152,34,161	255	50	4
+	34,152,34,161	255	2	4
+	34,152,34,161	255	180	4
+
+	34,152,34,161	255	180	250
+	34,152,34,161	255	2	250
+	34,152,34,161	255	50	250
+	34,152,34,161	255	2	250
+	34,152,34,161	255	50	250
+	64,161,80,164	255	17	250
+	34,152,34,161	255	50	250
+	34,152,34,161	255	2	250
+	34,152,34,161	255	50	250
+	34,152,34,161	255	2	250
+	34,152,34,161	255	180	250
+		}
+	}
+
+
+
+
+/*
+ {
+    image 			ZoomG3_Base
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    height			606
+    width			808
+    opacity			255
+    color			00FFFFFF
+    visible  			0
+    layer			LayerZoom
+    texture_limits		255,0,512,255
+    igroup			ZoomG3
+ }
+*/
+
+  {
+	imagegrid ZoomG3_Base
+	x_pos 0.000000
+	y_pos 0.000000
+	z_pos 0.000000
+	visible 1
+	rows 2
+	columns 4
+	layer scope_back
+	h_align 1
+	v_align 1
+	layer			LayerZoom
+	igroup			ZoomG3
+	cells
+	{
+		0,0,1,1     255 300 300
+		0,0,127,127 255 303 303
+		127,0,0,127 255 303 303
+		0,0,1,1     255 300 300
+	
+		0,0,1,1     255 300 300
+		0,127,127,0 255 303 303
+		127,127,0,0 255 303 303
+		0,0,1,1     255 300 300
+	}
+  }
+
+
+
+
+
+	{
+		imagegrid		ZoomG3
+		x_pos	0.000000
+		y_pos	0.000000
+		z_pos	0.000000
+		visible	1
+		rows	4
+		columns	7
+		layer	LayerH
+		h_align	1
+		v_align	0
+		color	0xFF000000
+		igroup	ZoomG3
+		cells
+		{
+	44,152,49,161	255	250	9
+	50,152,52,161	255	2	9
+	53,152,55,161	255	50	9
+	34,152,34,152	0	17	9
+	53,152,55,161	255	50	9
+	52,152,50,161	255	2	9
+	49,152,44,161	255	250	9
+
+	34,152,34,161	255	230	50
+	34,152,34,161	255	2	50
+	34,152,34,161	255	50	50
+	64,148,80,154	255	17	50
+	34,152,34,161	255	50	50
+	34,152,34,161	255	2	50
+	34,152,34,161	255	230	50
+
+	34,152,34,161	255	230	4
+	34,152,34,161	255	2	4
+	34,152,34,161	255	50	4
+	64,156,80,160	255	17	4
+	34,152,34,161	255	50	4
+	34,152,34,161	255	2	4
+	34,152,34,161	255	230	4
+
+	34,152,34,161	255	230	250
+	34,152,34,161	255	2	250
+	34,152,34,161	255	50	250
+	64,161,80,164	255	17	250
+	34,152,34,161	255	50	250
+	34,152,34,161	255	2	250
+	34,152,34,161	255	230	250
+		}
+	}
+
+/*
+ {
+    image 			ZoomSMAW
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    height			606
+    width			808
+    opacity			255
+    color			00FFFFFF
+    visible  			0
+    layer			LayerZoom
+    texture_limits		0,0,255,255
+    igroup			ZoomSMAW
+ }
+*/
+
+
+
+  {
+	imagegrid ZoomSMAW_Base
+	x_pos 0.000000
+	y_pos 0.000000
+	z_pos 0.000000
+	visible 1
+	rows 2
+	columns 4
+	layer scope_back
+	h_align 1
+	v_align 1
+	layer			LayerZoom
+	igroup			ZoomSMAW
+	cells
+	{
+		0,0,1,1     255 300 300
+		0,0,127,127 255 303 303
+		127,0,0,127 255 303 303
+		0,0,1,1     255 300 300
+	
+		0,0,1,1     255 300 300
+		0,127,127,0 255 303 303
+		127,127,0,0 255 303 303
+		0,0,1,1     255 300 300
+	}
+  }
+
+
+
+  {
+	imagegrid ZoomSMAW
+	x_pos 0.000000
+	y_pos 0.0 // 0.018087
+	z_pos 0.000000
+	visible 1
+	rows 4
+	columns 11
+	layer LayerH
+	h_align 1
+	v_align 0 //0
+        color 0xFF000000
+	igroup	ZoomSMAW
+	cells
+	{
+		35,152,41,161 255 200 9
+		41,152,43,161 255 2 9
+		44,152,49,161 255 50 9
+		48,156,49,157 255 2 9
+		53,152,55,161 255 50 9
+		34,152,34,152 0	 17 9 //0 17 9 also csik
+		53,152,55,161 255 50 9
+		48,156,49,157 255 2 9
+		44,152,49,161 255 50 9
+		43,152,41,161 255 2 9
+		41,152,35,161 255 200 9
+		
+		34,152,34,161 255 180 50
+		34,152,34,161 255 2 50
+		34,152,34,161 255 50 50
+		48,156,49,157 255 2 50
+		34,152,34,161 255 50 50
+		64,148,80,154 255 17 50
+		34,152,34,161 255 50 50
+		48,156,49,157 255 2 50
+		34,152,34,161 255 50 50
+		34,152,34,161 255 2 50
+		34,152,34,161 255 180 50
+		
+		34,152,34,161 255 180 4	//also celkereszt koruli bastya blokkja
+		34,152,34,161 255 2 4
+		34,152,34,161 255 50 4
+		48,156,49,157 255 2 4
+		35,150,37,153 255 50 4
+		64,167,80,170 255 17 4
+		35,150,37,153 255 50 4
+		48,156,49,157 255 2 4
+		34,152,34,161 255 50 4
+		34,152,34,161 255 2 4
+		34,152,34,161 255 180 4
+
+		34,152,34,161 255 180 250   //250
+		34,152,34,161 255 2 250
+		34,152,34,161 255 50 250
+		34,152,34,161 255 2 250
+		34,152,34,161 255 50 250
+		64,161,80,164 255 17 250
+		34,152,34,161 255 50 250
+		34,152,34,161 255 2 250
+		34,152,34,161 255 50 250
+		34,152,34,161 255 2 250
+		34,152,34,161 255 180 250
+	}
+  }
+
+
+label_vertical_align	    2
+
+
+ {
+    image 	Hit_Bal
+    x_pos			-4
+    y_pos			0
+    z_pos			0
+    opacity			0
+    color			00FF0000
+    visible  			1
+    layer			LayerH
+    width			80
+    texture_limits		337,352,377,512
+    angle			180	
+ }
+
+
+
+ {
+    image 	Hit_Felso
+    x_pos			0
+    y_pos			4
+    z_pos			0
+    opacity			0
+    color			00FF0000
+    visible  			1
+    layer			LayerH
+    width			80
+    texture_limits		337,352,377,512
+    angle			90
+ }
+
+
+
+ {
+    image 	Hit_Jobb
+    x_pos			4
+    y_pos			0
+    z_pos			0
+    opacity			0
+    color			00FF0000
+    visible  			1
+    width			80
+    layer			LayerH
+    texture_limits		337,352,377,512
+ }
+
+ {
+    image 	Hit_Also
+    x_pos			0
+    y_pos			-4
+    z_pos			0
+    opacity			0
+    color			00FF0000
+    visible  			1
+    layer			LayerH
+    width			80
+    texture_limits		337,352,377,512
+    angle			-90
+ }
+
+ {
+    image	 		Celkereszt1
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    opacity			255
+    color			0000FF00
+    visible  			1
+    layer			LayerH
+    texture_limits		22,212,42,232
+ }
+
+ {
+    image	 		Celkereszt2
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    opacity			255
+    color			00FFFFFF
+    visible  			1
+    layer			LayerH
+    texture_limits		120,197,168,245
+ }
+
+ {
+    image 			Celkereszt3
+    x_pos			0
+    y_pos			-0.151579
+    z_pos			0
+    opacity			255
+    color			00FFFFFF
+    visible  			1
+    layer			LayerH
+    angle			0
+    texture_limits		176,198,240,245
+ }
+
+ {
+    image 			Celkereszt4
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    opacity			255
+    color			00FFFFFF
+    visible  			1
+    layer			LayerH
+    angle			0
+    texture_limits		249,198,296,245
+ }
+
+ {
+    imagegrid			Celkereszt5
+    x_pos			0.000000
+    y_pos			0.000000
+    z_pos			0.000000
+    visible			1
+    rows			2
+    columns			5
+    layer			LayerH
+    h_align			1
+    v_align			1
+    color			0x00ffffff
+    cells
+    {
+	454,456,496,512 255	-1	56	
+						//1
+	242,198,245,220 255	38	22
+
+	239,421,304,478 255	-1	23	//3
+
+	242,198,245,220 255	38	22
+						//5
+	496,456,454,512 255	-1	56	
+
+
+	454,512,496,456 255	-1	56	
+						//1
+	242,220,245,198 255	38	22
+
+	239,478,304,421 255	-1	23	//3
+
+	242,220,245,198 255	38	22
+						//5
+	496,512,454,456 255	-1	56	
+    }
+ }
+
+ {
+    image		 	Szoras_felso
+    x_pos			0
+    y_pos			0.5
+    z_pos			0
+    opacity			255
+    color			0000FF00
+    visible  			1
+    layer			LayerH
+    texture_limits		50,252,60,254
+    angle			-90
+ }
+
+
+ {
+    image 			Szoras_jobb
+    x_pos			0.5
+    y_pos			0
+    z_pos			0
+    opacity			255
+    color			0000FF00
+    visible  			1
+    layer			LayerH
+    texture_limits		50,252,60,254
+    angle			180
+ }
+
+ {
+    image		 	Szoras_also
+    x_pos			0
+    y_pos			-0.5
+    z_pos			0
+    opacity			255
+    color			0000FF00
+    visible  			1
+    layer			LayerH
+    texture_limits		50,252,60,254
+    angle			90
+ }
+
+ {
+    image 			Szoras_bal
+    x_pos			-0.5
+    y_pos			0
+    z_pos			0
+    opacity			255
+    color			0000FF00
+    visible  			1
+    layer			LayerH
+    texture_limits		50,252,60,254
+    angle			0
+ }
+
+ {
+    image 			HVonal_3
+    x_pos 			11.067
+    y_pos			0
+    z_pos			0.0
+    height			1
+    width			549
+    opacity			64
+    color			0x00FFFFFF
+    visible  			1
+    layer			LayerH
+    texture_limits		150,491,151,492
+ }
+
+
+ {
+    image 			HVonal_4
+    x_pos			-11.067
+    y_pos			0
+    z_pos			0.0
+    height			1
+    width			549
+    opacity			64
+    color			0x00FFFFFF
+    visible  			1
+    layer			LayerH
+    texture_limits		150,491,151,492
+ }
+
+ {
+    image 	StandStatus
+    x_pos			5.830001
+    y_pos			-9.750004
+    z_pos			0
+    opacity			255
+    height			49
+    width			51
+    color			00FFFFFF
+    visible  			1
+    layer			LayerH
+    texture_limits		141,2,187,47
+    angle			0
+    igroup			Ammo_Info
+ }
+
+ {	
+    frame					Minimap_Keret
+    x_pos		 			10.65
+    y_pos					7.19
+    z_pos					0.0
+    height					191
+    width					191
+    color					0x00FFFFFF
+    opacity					70
+    visible					1
+    layer					Layer1
+    texture_limits				150,491,151,492
+  }
+
+
+/*
+{
+    imagegrid				Jobb_HUD_Bck
+    x_pos		 			10.4
+    y_pos					-9.5
+    z_pos					0
+
+    columns					8
+    rows					1
+
+    layer					LayerH
+    visible					1
+    h_align					1
+    v_align					1
+    igroup					PersonalInfo
+
+    cells 
+    {
+
+	2,2,17,58		255	-1	-1
+	18,2,24,58		255	49	-1
+	25,2,39,58		255	-1	-1
+	39,2,54,58		255	-1	-1
+	54,2,61,58		255	40	-1
+	61,2,84,58		255	-1	-1
+	85,2,92,58		255	40	-1
+	93,2,104,58		255	-1	-1
+
+	
+    }
+*/
+
+{
+    imagegrid				Jobb_HUD_Bck
+    x_pos		 			10.4
+    y_pos					-9.5
+    z_pos					0
+
+    columns					10
+    rows					4
+
+    layer					LayerH
+    visible					1
+    h_align					1
+    v_align					1
+    igroup					PersonalInfo
+
+    cells
+    {
+	1,63,1,72	255	16	9
+	1,63,1,72	255	45	9
+	1,63,1,72	255	10	9
+	1,63,1,72	255	11	9
+	1,63,1,72	255	10	9
+	1,63,1,72	255	30	9
+	66,80,86,89	255	20	9
+	32,63,33,72	255	10	9
+	32,63,33,72	255	30	9
+	32,63,44,72	255	12	9
+
+	2,63,17,77	255	16	14
+	17,63,18,77	255	45	14
+	22,63,32,77	255	10	14
+	31,63,32,77	255	11	14
+	32,63,22,77	255	10	14
+	17,63,18,77	255	30	14
+	17,63,18,77	255	20	14
+	22,63,32,77	255	10	14
+	31,63,32,77	255	30	14
+	32,63,32,77	255	12	14
+
+	2,76,17,76	255	16	19
+	17,76,18,76	255	45	19
+	22,76,32,76	255	10	19
+	31,76,32,76	255	11	19
+	32,76,22,76	255	10	19
+	17,76,18,76	255	36	19
+	17,76,18,76	255	20	19
+	22,76,32,76	255	10	19
+	31,76,32,76	255	30	19
+	32,76,44,76	255	12	19
+
+	2,76,17,90	255	16	14
+	17,76,18,90	255	45	14
+	22,76,32,90	255	10	14
+	31,76,32,90	255	11	14
+	32,76,22,90	255	10	14
+	17,76,18,90	255	36	14
+	17,76,18,90	255	20	14
+	22,76,32,90	255	10	14
+	31,76,32,90	255	30	14
+	32,76,44,90	255	12	14
+    }
+}
+
+/*
+{
+    imagegrid				Jobb_HUD_Bck_A
+    x_pos		 			10.4
+    y_pos					-9.5
+    z_pos					0
+
+    columns					7
+    rows					4
+
+    layer					LayerH
+    visible					1
+    h_align					1
+    v_align					1
+    igroup					PersonalInfo
+
+    cells
+    {
+	1,63,1,72		255	16	9
+	1,63,1,72		255	60	9
+	1,63,1,72		255	16	9
+	1,63,1,72		255	36	9
+	66,63,86,72		255	20	9
+	58,63,59,72		255	36	9
+	61,63,46,72		255	16	9
+
+	46,63,61,77		255	16	14
+	58,63,59,77		255	60	14
+	91,63,107,77	255	16	14
+	58,63,59,77		255	36	14
+	105,63,125,77	255	20	14
+	1,63,1,77		255	36	14
+	61,76,46,76		255	16	14
+
+	46,76,61,76		255	16	19
+	58,76,59,76		255	60	19
+	91,76,107,76	255	16	19
+	1,76,1,76		255	36	19
+	1,76,1,76		255	20	19
+	1,76,1,76		255	36	19
+	61,76,46,76		255	16	19
+
+	46,77,61,63		255	16	14
+	58,77,59,63		255	60	14
+	91,77,107,63	255	16	14
+	58,77,59,63		255	36	14
+	58,77,59,63		255	20	14
+	58,77,59,63		255	36	14
+	61,77,46,63		255	16	14
+    }
+}
+
+*/
+
+
+/*
+{
+    imagegrid				2ndAmmo_Info_Frame
+    x_pos		 			1.39
+    y_pos					1.69
+    z_pos					0
+
+    columns					5
+    rows					1
+
+    layer					LayerH
+    visible					1
+    h_align					1
+    v_align					1
+    parent					Jobb_HUD_Bck
+	igroup					2ndAmmo_Info
+
+    cells 
+    {
+
+	111,3,126,58		255	-1	-1
+	127,3,132,58		255	40	-1
+	133,3,156,58		255	-1	-1
+	156,3,165,58		255	40	-1
+	165,3,176,58		255	-1	-1
+
+	
+    }
+*/
+
+
+
+{
+    imagegrid				2ndAmmo_Info_Frame
+    x_pos		 			1.39
+    y_pos					1.69
+    z_pos					0
+
+    columns					6
+    rows					4
+
+    layer					LayerH
+    visible					1
+    h_align					1
+    v_align					1
+    parent					Jobb_HUD_Bck
+    igroup					2ndAmmo_Info
+
+    cells
+    {
+	2,63,17,79	255	16	14
+	17,63,18,79	255	24	14
+	17,63,18,79	255	20	14
+	22,63,31,79	255	10	14
+	32,63,33,79	255	30	14
+	32,63,44,79	255	12	14
+
+	2,76,17,76	255	16	18
+	17,76,18,76	255	24	18
+	17,76,18,76	255	20	18
+	22,76,31,76	255	10	18	
+	32,76,33,76	255	30	18
+	32,76,44,76	255	12	18
+
+	34,76,20,89	255	16	14
+	17,76,18,89	255	10	14
+	17,76,18,89	255	20	14
+	19,79,33,63	255	10	14
+	32,79,33,63	255	30	14
+	32,79,44,63	255	12	14
+
+	43,76,29,63	255	16	9
+	31,72,31,63	255	24	9
+	85,89,65,80	255	20	9
+	1,72,1,63	255	10	9
+	1,72,1,63	255	30	9
+	1,72,1,63	255	12	9
+	}
+}
+
+
+
+/*
+{
+    imagegrid				2ndAmmo_Info_Frame_A
+    x_pos		 			1.39
+    y_pos					1.69
+    z_pos					0
+
+    columns					3
+    rows					4
+
+    layer					LayerH
+    visible					1
+    h_align					1
+    v_align					1
+    parent					Jobb_HUD_Bck
+    igroup					2ndAmmo_Info
+
+    cells
+    {
+	46,63,61,76	255	16	14
+	58,63,58,76	255	84	14
+	57,63,46,76	255	12	14
+
+	46,76,61,76	255	16	18
+	58,76,58,76	255	84	18
+	57,76,46,76	255	12	18
+
+	46,76,61,76	255	16	14
+	58,76,58,76	255	84	14
+	57,79,46,63	255	12	14
+
+	46,72,61,63	255	16	9
+	58,76,58,76	255	84	9
+	58,76,58,76	255	12	9
+	}
+}
+
+*/
+
+
+
+
+
+
+label_vertical_align	    2
+
+
+ {	
+    label					Red_Team_Value  //ez mi a fasZ???
+    caption					Nulla
+    fontattrib_file_name	graphics\menutextures\uj16.fa2
+    x_pos		 			-4.63
+    y_pos					9.16 
+    z_pos					0.0
+    height					1
+    spaceing				0.05
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    layer					LayerH16
+   
+  }
+
+label_vertical_align	    0
+
+
+ {	
+    label					Green_Team_Value
+    caption					Nulla
+    fontattrib_file_name	graphics\menutextures\uj16.fa2
+    x_pos		 			4.48
+    y_pos					9.16
+    z_pos					0.0
+    height					1
+    spaceing					0.05
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    layer					LayerH16
+  }
+
+
+label_vertical_align	    1
+
+ {	
+    textmanager				tl1
+    fontattrib_file_name	graphics\menutextures\small.fa2
+
+
+    x_pos		 			-13.79
+    y_pos					9.58
+
+    z_pos					0.0
+    height					1
+    spaceing				0.0
+    size					1
+    vertical_align			1
+    color					0xFFFFFFFF
+	rows					12 //6
+	rowsyoffset				0.4
+    layer					Layer5
+    width				8
+  }
+
+
+
+ {
+    image 			MessageAlap
+    x_pos		 	-9.64
+    y_pos			7.6	//8.87
+    z_pos			0
+    height			150 //80
+    width			245
+    opacity			255
+    color			00FFFFFF
+    visible  			1
+    layer			LayerH
+    texture_limits		33,72,34,73,
+ }
+
+
+
+/*
+{
+    imagegrid				MessageAlap
+    x_pos		 			-9.64
+    y_pos					8.87
+    z_pos					0
+
+    columns					3
+    rows					3
+
+    layer					LayerH
+    visible					1
+    h_align					1
+    v_align					1
+
+    cells 
+    {
+
+	162,441,192,452		255	-1	-1
+	168,441,169,452		255	-1	-1
+	192,441,162,452		255	-1	-1
+
+	162,450,192,454		255	-1	-1
+	178,446,169,447		255	195	65
+	192,450,162,454		255	-1	-1
+
+	162,452,192,441		255	-1	-1
+	168,452,169,441		255	-1	-1
+	192,452,162,441		255	-1	-1
+    }
+}
+*/
+
+
+
+
+
+
+
+
+label_vertical_align	    2
+
+ {	
+    label					txtMessage
+    caption					409
+    fontattrib_file_name			graphics\menutextures\small.fa2
+    x_pos		 			-7.2
+    y_pos					-6.5//-10.5
+    z_pos					0.0
+    height					1
+    spaceing					0
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    layer					Layer2
+    upcase					1 	
+    visible					0
+    shadow					1	
+  }
+
+
+
+label_vertical_align	    0
+
+ {	
+    inputbox					MsgBox
+    caption					011
+    fontattrib_file_name			graphics\menutextures\small.fa2
+    x_pos		 			-7
+    y_pos					-6.5 //10.5
+    z_pos					0.0
+    height					1
+    spaceing					0
+    size					1
+    tabstop					1
+    color					0xFF505050
+    hi_color					0xFFFFFFFF
+    layer					Layer2
+    lengthlimit                                 60
+    visible					0
+    emptystringaccepted                         1
+    shadow					1 	
+  }
+
+label_vertical_align	    2
+/*
+ {	
+    label					txtInBase
+    caption					1000
+    fontattrib_file_name			graphics\menutextures\small.fa2
+    x_pos		 			13.98
+    y_pos					3.66
+    z_pos					0.0
+    height					1
+    spaceing				0
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    layer					Layer5
+  }
+*/
+
+
+ {
+    image 			InBase
+    x_pos			13.33
+    y_pos			2.76
+    z_pos			0
+    opacity			255
+    color			00FFFFFF
+    visible  			0
+    layer			LayerH
+    texture_limits		345,169,383,207
+ }
+
+
+ {
+    image 			DataLoadMeter
+    x_pos		 			14.02
+    y_pos					-2.86
+    z_pos					0.0
+    height					11
+    width					101
+    opacity			128
+    color			0xAA576570
+//   color			00576570  
+  visible  			1
+    layer			LayerH
+    igroup			PersonalInfo
+    texture_limits		150,491,151,492
+ }
+
+
+
+ {	
+    frame					DataLoadFrame
+    x_pos		 			12.21
+    y_pos					-2.86
+    z_pos					0.0
+    height					13
+    width					103
+    color					0x00FFFFFF
+    opacity					255
+    visible					1
+    layer					LayerH
+    igroup					PersonalInfo
+    texture_limits				150,491,151,492
+  }
+
+
+ {
+    image 			CallHK
+    x_pos			13.13
+    y_pos			-0.570000
+    z_pos			0
+    height			34
+    width			32
+    opacity			255
+    color			00FFFFFF
+    visible  			1
+    layer			LayerH
+    igroup			PersonalInfo
+    texture_limits		295,30,359,98
+ }
+
+
+
+
+ {
+    image 			Pack
+    x_pos			13.13
+    y_pos			-2.22
+    z_pos			0
+    opacity			255
+    color			00FFFFFF
+    visible  			1
+    layer			LayerH
+    igroup			PersonalInfo
+    texture_limits		349,210,380,251
+ }
+
+
+ {
+    image 			InHealthStation
+    x_pos			13.13
+    y_pos			-4.04
+    z_pos			0
+    opacity			255
+    color			00FFFFFF
+    visible  			1
+    layer			LayerH
+    igroup			PersonalInfo
+    texture_limits		452,160,507,193
+ }
+
+
+ {
+    image 			InAmmoStation
+    x_pos			13.13
+    y_pos			-5.58
+    z_pos			0
+    opacity			255
+    color			00FFFFFF
+    visible  			1
+    layer			LayerH
+    igroup			PersonalInfo
+    texture_limits		455,128,506,160
+ }
+
+
+ {
+    image 			NetDisconnect
+    x_pos			-13.22
+    y_pos			6.61
+    z_pos			0
+    opacity			255
+    color			00FFFFFF
+    visible  			1
+    layer			LayerH
+    igroup			PersonalInfo
+    texture_limits		401,162,447,184
+ }
+
+
+
+
+
+label_vertical_align	    1
+
+
+ {	
+    label					Health_Prcent
+    caption					HealthAlap
+    fontattrib_file_name			graphics\menutextures\uj16.fa2
+    x_pos		 			7.9
+    y_pos					-9.8
+    z_pos					0.0
+    height					1
+    spaceing					-0.08
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    layer					LayerH16
+    igroup					PersonalInfo
+  }
+
+label_vertical_align	    0
+
+
+ {	
+    label					txtTechComm //felcserelt a skynettel
+    caption					1003
+    fontattrib_file_name	graphics\menutextures\small.fa2
+    x_pos		 			-4.37 //-3.6   //314286
+    y_pos					10.034700
+    z_pos					0.0
+    height					1
+    spaceing					0.02
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    layer					LayerSmallFontBold
+  }
+
+
+ {	
+    label					txtSkynet
+    caption					1002
+    fontattrib_file_name	graphics\menutextures\small.fa2 
+    x_pos		 			2.56 //1.56
+    y_pos					10.034700
+    z_pos					0.0
+    height					1
+    spaceing					0.02
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    layer					LayerSmallFontBold
+  }
+
+
+
+{
+    imagegrid					VS_Bal
+    x_pos		 			-3.03
+    y_pos					9.53
+    z_pos					0
+
+    columns					3
+    rows					1
+
+    layer					LayerH
+    visible					1
+    h_align					1
+    v_align					1
+
+    cells 
+    {
+
+	2,63,12,90		255	-1	-1
+	14,63,21,90		255	80	-1
+	25,63,44,90		255	-1	-1
+
+    }
+}
+
+
+/*
+ {
+    image 			VS_Jobb
+    x_pos			2.92
+    y_pos			9.53
+    z_pos			0
+    opacity			255
+    color			00FFFFFF
+    visible  		1
+    layer			LayerH
+    texture_limits	92,63,2,90
+ }
+*/
+
+
+{
+    imagegrid					VS_Jobb
+    x_pos		 			2.92
+    y_pos					9.53
+    z_pos					0
+
+    columns					3
+    rows					1
+
+    layer					LayerH
+    visible					1
+    h_align					1
+    v_align					1
+
+    cells 
+    {
+
+	44,63,25,90		255	-1	-1
+	14,63,21,90		255	80	-1
+	12,63,2,90		255	-1	-1
+	
+
+    }
+}
+
+
+
+label_vertical_align	    1
+
+ {	
+    label					txt2ndWeponNum
+    caption					Temp
+    fontattrib_file_name	graphics\menutextures\uj16.fa2
+    x_pos		 			10.98
+    y_pos					-7.77
+    z_pos					0.0
+    height					1
+    spaceing				-0.08
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    layer					LayerH16
+    igroup					2ndAmmo_Info
+  }
+
+
+
+ {	
+    label					txtYouCantUseVehicle
+    caption					1013
+//    fontattrib_file_name			graphics\menutextures\small.fa2
+    fontattrib_file_name			graphics\menutextures\uj12.fa2
+    x_pos		 			0
+    y_pos					3
+    z_pos					0.0
+    height					1
+    spaceing					0
+    size					1
+    tabstop					0
+    opacity					255
+    color					0x00FFFFFF
+    layer					LayerH12
+//    layer					Layer5
+    upcase					1	
+    valign					1
+  }
+
+
+  {	
+    label					txtAMMO2
+    caption					1005
+    fontattrib_file_name	graphics\menutextures\uj12.fa2
+    x_pos		 			11.1    //10.984
+    y_pos					-8.476
+    z_pos					0.0
+    height					1
+    spaceing					-0.025 //0.08
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    layer					LayerH12
+   igroup					2ndAmmo_Info
+  }
+
+
+
+label_vertical_align	    1
+
+ {	
+    label					txtClips
+    caption					Temp
+    fontattrib_file_name	graphics\menutextures\small.fa2
+    x_pos		 			2.69
+    y_pos					0.4
+    z_pos					0.0
+    height					1
+    spaceing				0
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    layer					LayerSmallFontBold
+    parent					Jobb_HUD_Bck
+    igroup					Ammo_Info
+  }
+
+label_vertical_align	    1
+
+
+
+ {	
+    label					txtAmmoNum
+    caption					Temp2
+    fontattrib_file_name	graphics\menutextures\uj16.fa2
+    x_pos		 			0.51
+    y_pos					-0.28
+    z_pos					0.0
+    height					1
+    spaceing					-0.08
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    layer					LayerH16
+    parent					Jobb_HUD_Bck
+    igroup					Ammo_Info
+
+ }
+
+
+ {	
+    label					txtAMMO
+    caption					1005
+    fontattrib_file_name			graphics\menutextures\uj12.fa2
+    x_pos		 			11.1 //10.984
+    y_pos					-10.416
+    z_pos					0.0
+    height					1
+    spaceing					-0.025 //8
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    layer					LayerH12
+    igroup					Ammo_Info
+  }
+
+
+ {	
+    label					txtHP
+    caption					1004
+    fontattrib_file_name			graphics\menutextures\uj12.fa2
+    x_pos		 			8.57
+    y_pos					-10.416
+    z_pos					0.0
+    height					1
+    spaceing					-0.025 //8
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    layer					LayerH12
+    igroup					PersonalInfo
+  }
+
+
+
+
+ {
+    image 			Ammo_Clip_Icon
+    x_pos			2.73
+    y_pos			-0.22
+    z_pos			0
+    opacity			255
+    color			00FFFFFF
+    visible  			1
+    layer			Layer1
+    texture_limits		489,225,505,255
+    parent			Jobb_HUD_Bck
+    igroup			Ammo_Info
+ }
+
+
+
+ {
+    image 			2ndAmmo_Icon
+    x_pos			11.81
+    y_pos			-9.33
+    z_pos			0
+    opacity			255
+    color			00FFFFFF
+    visible  			1
+    layer			Layer1
+    texture_limits		452,226,477,254
+    parent			2ndAmmo_Info_Frame
+    igroup			2ndAmmo_Info
+ }
+
+
+
+/*
+ {
+    image 			Bal_HUD_Bck
+    x_pos			-11.86
+    y_pos			-9.63
+    z_pos			0
+    opacity			255
+    color			00FFFFFF
+    visible  			1
+    layer			LayerH
+    texture_limits		145,2,2,66
+    igroup			Car_Hud
+ }
+
+*/
+
+
+
+ {
+    imagegrid				Bal_HUD_Bck
+    x_pos		 			-10.4
+    y_pos					-9.5
+    z_pos					0
+
+    columns					10
+    rows					4
+
+    layer					LayerH
+    visible					1
+    h_align					1
+    v_align					1
+    igroup					Car_Hud
+
+    cells
+    {
+
+
+	44,63,32,72	255	12	9
+	33,63,32,72	255	30	9
+	33,63,32,72	255	10	9
+	86,80,66,89	255	20	9
+	1,63,1,72	255	30	9
+	1,63,1,72	255	10	9
+	1,63,1,72	255	11	9
+	1,63,1,72	255	10	9
+	1,63,1,72	255	45	9
+	1,63,1,72	255	16	9
+
+
+
+	32,63,32,77	255	12	14
+	32,63,31,77	255	30	14
+	32,63,22,77	255	10	14
+	18,63,17,77	255	20	14
+	18,63,17,77	255	30	14
+	22,63,32,77	255	10	14
+	32,63,31,77	255	11	14
+	32,63,22,77	255	10	14
+	18,63,17,77	255	45	14
+	17,63,2,77	255	16	14
+
+
+	44,76,32,76	255	12	19
+	32,76,31,76	255	30	19
+	32,76,22,76	255	10	19
+	18,76,17,76	255	20	19
+	18,76,17,76	255	36	19
+	22,76,32,76	255	10	19
+	32,76,31,76	255	11	19
+	32,76,22,76	255	10	19
+	18,76,17,76	255	45	19
+	17,76,2,76	255	16	19
+
+
+
+	44,76,32,90	255	12	14
+	32,76,31,90	255	30	14
+	32,76,22,90	255	10	14
+	18,76,17,90	255	20	14
+	18,76,17,90	255	36	14
+	22,76,32,90	255	10	14
+	32,76,31,90	255	11	14
+	32,76,22,90	255	10	14
+	18,76,17,90	255	45	14
+	17,76,2,90	255	16	14
+
+
+    }
+}
+
+
+ {
+    image 			Car_Ammo_Clip_Icon
+    x_pos			-2.73
+    y_pos			-0.22
+    z_pos			0
+    opacity			255
+    color			00FFFFFF
+    visible  			1
+    layer			Layer1
+    texture_limits		489,225,505,255
+	parent			Bal_HUD_Bck
+
+    igroup			Car_Weapon_Hud
+ }
+
+
+/*
+ {
+    image 			Car_2ndAmmo_Icon
+    x_pos			1.72
+    y_pos			0
+    z_pos			0
+    opacity			255
+    color			00FFFFFF
+    visible  			1
+    layer			Layer1
+    texture_limits		452,226,477,254
+    igroup			Car_Weapon_Hud
+ }
+
+*/
+label_vertical_align	    1
+
+
+  {	
+    label					txtAMMO3
+    caption					1012
+    fontattrib_file_name	graphics\menutextures\uj12.fa2
+    x_pos		 			-8.1
+	y_pos					-10.416    
+    z_pos					0.0
+    height					1
+    spaceing					-0.025 //8
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    layer					LayerH12
+    igroup					Car_Weapon_Hud
+  }
+
+
+ {	
+    label					txtHP2
+    caption					1004
+    fontattrib_file_name			graphics\menutextures\uj12.fa2
+    x_pos		 			-10.49 //39
+    y_pos					-10.416
+    z_pos					0
+    height					1
+    spaceing					-0.025 //8
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    layer					LayerH12
+	igroup					Car_Hud
+  }
+
+
+
+label_vertical_align	    2
+
+
+ {	
+    label			Car_Damage_Prcent
+    caption			HealthAlap
+    fontattrib_file_name			graphics\menutextures\uj16.fa2
+    x_pos			-9.90
+    y_pos			-9.8
+    z_pos			0.0
+    height			1
+    spaceing			-0.08
+    size			1
+    tabstop			0
+    color			0xFFFFFFFF
+    layer			LayerH16
+    igroup			Car_Hud
+  }
+
+
+	{
+		image		Weapon_Heath
+		x_pos	-9.087
+		y_pos	-9.365722
+		z_pos	0.000000
+		out_x_pos	0.000000
+		out_y_pos	0.000000
+		out_z_pos	0.000000
+		opacity	255
+		visible	1
+		color	0x00FFFFFF
+		angle	0.000000
+		igroup			Car_Weapon_Hud
+		layer	LayerH
+		texture_limits	13,22,70,37
+	}
+
+/*
+ {	
+    label			txtCar_WeaponNum
+    caption			HealthAlap
+    fontattrib_file_name	graphics\menutextures\uj16.fa2
+    x_pos			3.3
+    y_pos			-0.28
+    z_pos			0.0
+    height			1
+    spaceing		-0.08
+    size			1
+    tabstop			0
+    color			0xFFFFFFFF
+    layer			LayerH16
+    igroup			Car_Weapon_Hud
+	parent			Bal_HUD_Bck
+ }
+*/
+
+
+
+label_vertical_align	    1
+
+ {
+    image 			UsedCar
+    x_pos			-8.61
+    y_pos			-7.73
+    z_pos			0
+    opacity			255
+    color			00FFFFFF
+    visible  			1
+    layer			LayerH
+    angle			180
+    texture_limits		0,0,0,0
+    igroup			Car_Hud
+ }
+
+ {
+    image 			UsedCarPlace0
+    x_pos			-0.5
+    y_pos			-0.5
+    z_pos			0
+    opacity			255
+    color			000000FF
+    visible  			0
+    layer			LayerH
+    texture_limits		72,175,84,187
+    igroup			Car_Hud
+    parent			UsedCar
+ }
+
+
+ {
+    image 			UsedCarPlace1
+    x_pos			-0.5
+    y_pos			0.5
+    z_pos			0
+    opacity			255
+    color			000000FF
+    visible  			0
+    layer			LayerH
+    texture_limits		72,175,84,187
+    igroup			Car_Hud
+    parent			UsedCar
+ }
+
+ {
+    image 			UsedCarPlace2
+    x_pos			0
+    y_pos			-0.5
+    z_pos			0
+    opacity			255
+    color			000000FF
+    visible  			0
+    layer			LayerH
+    texture_limits		72,175,84,187
+    igroup			Car_Hud
+    parent			UsedCar
+ }
+
+ {
+    image 			UsedCarPlace3
+    x_pos			0
+    y_pos			0.5
+    z_pos			0
+    opacity			255
+    color			000000FF
+    visible  			0
+    layer			LayerH
+    texture_limits		72,175,84,187
+    igroup			Car_Hud
+    parent			UsedCar
+ }
+
+ {
+    image 			UsedCarPlace4
+    x_pos			0
+    y_pos			0.5
+    z_pos			-0.5
+    opacity			255
+    color			000000FF
+    visible  			0
+    layer			LayerH
+    texture_limits		72,175,84,187
+    igroup			Car_Hud
+    parent			UsedCar
+ }
+
+ {
+    image 			UsedCarPlace5
+    x_pos			0.5
+    y_pos			0.5
+    z_pos			0
+    opacity			255
+    color			000000FF
+    visible  			0
+    layer			LayerH
+    texture_limits		72,175,84,187
+    igroup			Car_Hud
+    parent			UsedCar
+ }
+
+
+ {
+    image 			UsedCarPlace6
+    x_pos			0.5
+    y_pos			0.5
+    z_pos			0
+    opacity			255
+    color			000000FF
+    visible  			0
+    layer			LayerH
+    texture_limits		72,175,84,187
+    igroup			Car_Hud
+    parent			UsedCar
+ }
+
+
+ {
+    image 			UsedCarPlace7
+    x_pos			0.5
+    y_pos			0.5
+    z_pos			0
+    opacity			255
+    color			000000FF
+    visible  			0
+    layer			LayerH
+    texture_limits		72,175,84,187
+    igroup			Car_Hud
+    parent			UsedCar
+ }
+
+
+//FK Kezdet
+
+label_vertical_align	    0
+
+{
+    imagegrid					YRotateMeter
+    x_pos		 			2.4
+    y_pos					-9.82
+
+    z_pos					0
+    columns					7
+    rows					1
+    layer					LayerFK_YRotateMeter
+    visible					1
+    igroup					TermHud
+
+    cells 
+    {
+
+//	UW			Alpha	XSize	YSize
+	3,147,18,163		255	-1	-1
+	3,147,18,163		255	-1	-1
+	3,147,18,163		255	-1	-1
+	3,147,18,163		255	-1	-1
+	3,147,18,163		255	-1	-1
+	3,147,18,163		255	-1	-1
+	3,147,18,163		255	-1	-1
+
+	
+    }
+    
+  }
+
+
+
+ {
+    imagegrid					YRotateMeterFrame
+    x_pos		 			2.13
+    y_pos					-9.77
+    z_pos					0
+    columns					5
+    rows					2
+    layer					LayerFK_Hud
+	color					0x00202020
+    igroup					TermHud
+
+    cells 
+    {
+
+//	UW			Alpha	XSize	YSize
+	460,382,466,388		255	-1	-1
+	466,382,471,388		255	48	-1
+	471,382,482,388		255	-1	-1
+	466,382,471,388		255	48	-1
+	466,382,460,388		255	-1	-1
+
+
+	460,408,466,422		255	-1	-1
+	466,408,471,422		255	48	-1
+	471,408,482,422		255	-1	-1
+	466,408,471,422		255	48	-1
+	466,408,460,422		255	-1	-1
+
+	
+    }
+    
+  }
+
+ {
+    image 					XRotateMeter1
+    x_pos		 			-12.738441
+    y_pos					6.245030
+    z_pos					0.0
+    opacity					0 //255
+    color					0x00FFFFFF
+    visible  					1
+    layer					LayerFK_XRotateMeter
+    texture_limits				88,147,104,196
+    igroup					TermHud
+ }
+
+/*
+ {
+    image 					XRotateMeter2
+    x_pos		 			0
+    y_pos					-1.769560
+    z_pos					0.0
+    opacity					255
+    color					0x00FFFFFF
+    visible  					1
+    layer					LayerFK_XRotateMeter
+    texture_limits				88,147,104,196
+    parent					XRotateMeter1
+    igroup					TermHud
+ }
+	// */
+
+ {
+    image 					XRotateMeter3
+    x_pos		 			0
+    y_pos					-2.63912
+//    y_pos					-3.53912
+    z_pos					0.0
+    opacity					255
+    color					0x00FFFFFF
+    visible  					1
+    layer					LayerFK_XRotateMeter
+    texture_limits				88,147,104,196
+    parent					XRotateMeter1
+    igroup					TermHud
+ }
+*/
+
+ {
+    image 					XRotateMeter4
+    x_pos		 			0
+    y_pos					-4.40868
+//  y_pos					-5.30868
+    z_pos					0.0
+    opacity					255
+    color					0x00FFFFFF
+    visible  					1
+    layer					LayerFK_XRotateMeter
+    texture_limits				88,147,104,196
+    parent					XRotateMeter1
+    igroup					TermHud
+ }
+
+ {
+    image 					XRotateMeter5
+    x_pos		 			0
+    y_pos					-6.17824
+//  y_pos					-7.07824
+    z_pos					0.0
+    opacity					255
+    color					0x00FFFFFF
+    visible  					1
+    layer					LayerFK_XRotateMeter
+    texture_limits				88,147,104,196
+    parent					XRotateMeter1
+    igroup					TermHud
+ }
+
+ {
+    image 					XRotateMeter6
+    x_pos		 			0
+    y_pos					-7.9478
+//    y_pos					-8.8478
+    z_pos					0.0
+    opacity					255
+    color					0x00FFFFFF
+    visible  					1
+    layer					LayerFK_XRotateMeter
+    texture_limits				88,147,104,196
+    parent					XRotateMeter1
+    igroup					TermHud
+ }
+
+ {
+    image 					XRotateMeter7
+    x_pos		 			0
+    y_pos					-9.71736
+//    y_pos					//-10.14623 // -10.25623 //-10.61736
+    z_pos					0.0
+    opacity					255
+    color					0x00FFFFFF
+    visible  					1
+    layer					LayerFK_XRotateMeter
+    texture_limits				88,147,104,196 //186 -al bukas
+    parent					XRotateMeter1
+    igroup					TermHud
+ }
+
+
+ {
+    image 					XRotateMeter8
+    x_pos		 			0
+    y_pos					-12.38692
+    z_pos					0.0
+    opacity					0 //255
+    color					0x00FFFFFF
+    visible  					1
+    layer					LayerFK_XRotateMeter
+    texture_limits				88,147,104,196 
+    parent					XRotateMeter1
+    igroup					TermHud
+ }
+
+
+
+ {	
+    running_code_effect				RCE1
+    fontattrib_file_name			graphics\menutextures\small.fa2 
+
+    x_pos		 			9 //-12.4
+    y_pos					3.0 //3.584950
+
+    z_pos					0.0
+    height					1
+    spaceing					0.0
+    size					1
+    vertical_align				1
+    color					0x20FFFFFF
+    layer					LayerRCE
+    file					menudatas\RCE.txt
+    speed					70
+    rows					10
+    rowsyoffset					0.4
+    igroup					TermHud
+    width					5.0
+  }
+
+ {
+    textmanager                 RCE2
+    fontattrib_file_name         graphics\menutextures\small.fa2
+    x_pos                       -14.0
+    y_pos                       3.584950
+    z_pos                       0.0
+    height                      1
+    spaceing                    0.0
+    size                        1
+    vertical_align              1
+    color                       0x20FFFFFF
+    layer                       LayerRCE
+    rows                        20
+    rowsyoffset                 0.4
+    width                       5.0
+    visible                     1
+    igroup                      TermHud
+ }
+
+
+ {
+    textmanager                 RCE2Continuation
+    fontattrib_file_name         graphics\menutextures\small.fa2
+    x_pos                       -14.0
+    y_pos                       3.584950
+    z_pos                       0.0
+    height                      1
+    spaceing                    0.0
+    size                        1
+    vertical_align              1
+    color                       0x20FFFFFF
+    layer                       LayerRCE
+    rows                        17
+    rowsyoffset                 0.4
+    width                       5.0
+    visible                     1
+    igroup                      TermHud
+ }
+
+
+
+ {
+    image 					TargetLock
+    x_pos		 			0
+    y_pos					0
+    z_pos					0.0
+    height					100
+    width					150
+    opacity					60
+    color					0x0000FF00
+    visible  					1
+    layer					LayerFK_Hud
+    texture_limits				150,491,151,492
+ }
+
+ {	
+    frame					TargetLock_S0
+    x_pos		 			0
+    y_pos					0
+    z_pos					0.0
+    height					1000
+    width					1000
+    color					0x00FFFFFF
+    opacity					128
+    visible					1
+    layer					LayerFK_Hud
+    texture_limits				150,491,151,492
+
+  }
+
+
+ {	
+    frame					TargetLock_S1
+    x_pos		 			0
+    y_pos					0
+    z_pos					0.0
+    height					1000
+    width					1000
+    color					0x00FFFFFF
+    opacity					0
+    visible					1
+    layer					LayerFK_Hud
+    texture_limits				150,491,151,492
+
+  }
+
+
+ {	
+    frame					TargetLock_S2
+    x_pos		 			0
+    y_pos					0
+    z_pos					0.0
+    height					1000
+    width					1000
+    color					0x00FFFFFF
+    opacity					0
+    visible					1
+    layer					LayerFK_Hud
+    texture_limits				150,491,151,492
+
+  }
+
+
+ {	
+    frame					TargetLock_S3
+    x_pos		 			0
+    y_pos					0
+    z_pos					0.0
+    height					1000
+    width					1000
+    color					0x00FFFFFF
+    opacity					0
+    visible					1
+    layer					LayerFK_Hud
+    texture_limits				150,491,151,492
+
+  }
+
+label_vertical_align	    0
+
+ {	
+    label			FK_Target_Dist
+    caption			1000
+    fontattrib_file_name	graphics\menutextures\small.fa2
+    x_pos			0
+    y_pos			0
+    z_pos			0.0
+    height			1
+    spaceing			0
+    size			1
+    tabstop			0
+    color			0xFFFFFFFF
+    visible			1
+    layer			LayerRCE
+  }
+
+ {
+    image 					FK_TargetHP
+    x_pos		 			0
+    y_pos					0
+    z_pos					0.0
+    height					8
+    width					100
+    opacity					180
+    color					0x0000FF00
+    visible  					1
+    layer					LayerFK_Hud
+    texture_limits				150,491,151,492
+    angle					90
+ }
+
+ {	
+    frame					FK_TargetHP_Keret
+    x_pos		 			0
+    y_pos					0
+    z_pos					0
+    height					100
+    width					8
+    color					0x00FFFFFF
+    opacity					128
+    visible					1
+    layer					LayerFK_Hud
+    texture_limits				150,491,151,492
+  }
+
+
+label_vertical_align	    1
+ {	
+    label			txtScan
+    caption			1000
+    fontattrib_file_name	graphics\menutextures\uj12.fa2
+    x_pos			0
+    y_pos			-9
+    z_pos			0
+    height			1
+    spaceing			0
+    size			1
+    tabstop			0
+    opacity			128
+    color			0x00FFFFFF
+    visible			1
+    layer			LayerFK_Hud_Font12
+    igroup			TermHud
+  }
+
+ {
+    image                   SFX_ScanFrameAnchor
+    x_pos                   0
+    y_pos                   -9
+    z_pos                   0
+    height                  0
+    width                   0
+    opacity                 0
+    visible                 0
+    layer                   LayerFK_Hud
+    texture_limits          150,491,151,492
+ }
+
+ {
+    frame                   SFX_ScanTextFrame
+    parent                  SFX_ScanFrameAnchor
+    x_pos                   0
+    y_pos                   0
+    z_pos                   0
+    height                  20
+    width                   280
+    color                   0x00FFFFFF
+    opacity                 0
+    visible                 0
+    layer                   LayerFK_Hud
+    texture_limits          150,491,151,492
+    igroup                  TermHud
+ }
+
+
+ {
+    image 			FK_MarkerOut1
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    opacity			255
+    color			00FFFFFF
+    visible  			1
+    layer			LayerFK_Hud
+    angle			0
+    texture_limits		384,443,388,447
+ }
+
+ {
+    image 			FK_MarkerOut2
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    opacity			255
+    color			00FFFFFF
+    visible  			1
+    layer			LayerFK_Hud
+    angle			-90
+    texture_limits		384,443,388,447
+ }
+
+ {
+    image 			FK_MarkerOut3
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    opacity			255
+    color			00FFFFFF
+    visible  			1
+    layer			LayerFK_Hud
+    angle			180
+    texture_limits		384,443,388,447
+ }
+
+ {
+    image 			FK_MarkerOut4
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    opacity			255
+    color			00FFFFFF
+    visible  			1
+    layer			LayerFK_Hud
+    angle			90
+    texture_limits		384,443,388,447
+ }
+
+
+
+	{
+		imagegrid		WeaponMarker
+		x_pos	0.000000
+		y_pos	0
+		z_pos	0.000000
+		visible	1
+		rows	1
+		columns	3
+		layer	LayerH
+		h_align	0
+		v_align	1
+		visible	0
+		cells
+		{
+		  64,200,67,232		255	-1	-1
+		  69,200,70,232		255	54	-1	
+		  67,200,64,232		255	-1	-1
+				
+		}
+	}
+
+
+	{
+		imagegrid		WeaponSelect
+		x_pos	-0.8
+		y_pos	-10.000000
+		z_pos	0.000000
+		visible	1
+		rows	1
+		columns	1
+		layer	LayerH
+		h_align	1
+		v_align	1
+		xoffset 10
+		visible	0
+		cells
+		{
+		}
+	}
+
+  {
+    popupmenu	popup1
+
+//    fontattrib_file_name			graphics\menutextures\uj12.fa2
+    fontattrib_file_name			graphics\menutextures\small.fa2
+    x_pos		 			-14
+    y_pos					-8
+    z_pos					0.0
+    height					1
+    spaceing					0
+    size					1
+    tabstop					1
+    color					0xFF505050
+    hi_color					0xFFc0c0c0
+  //  text_layer					LayerH12
+    text_layer					Layer2
+    frame_layer					LayerH
+    text_y_offset				0.6
+    file					MenuDatas\PopUp_English_green.mnu 
+  }
+
+END
+
+
+BEGIN minimap
+
+  {
+    layer	bck
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\HUD_all.tga
+    visible     1
+  }
+
+
+
+
+  {
+    layer	LayerLines
+    shader 	shaders\menushaders\gabor_pr_NoZ.shd
+    texture	graphics\menutextures\lines_small.tga 
+    visible     1
+  }
+
+
+{
+    image Lines
+    x_pos					0
+    y_pos					0
+    z_pos					0
+    opacity					0
+    height					600
+    width					800
+    visible  					1
+    layer					LayerLines
+    texture_limits				0,0,800,600
+    igroup					Menu
+ }
+
+
+
+
+
+#include menudatas/fejlec.inc
+
+
+
+  {
+    layer	Menu
+    shader 	shaders\menushaders\gabor_pr_NoZ_Point.shd
+    texture	graphics\menutextures\HUD_all.tga
+    visible     1
+  }
+
+  {
+    layer	MenuFelirat
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\small.tga 
+    visible     1
+  }
+
+
+  {
+    layer	FragLayer
+    shader 	shaders\menushaders\gabor_pr_NoZ_Point.shd
+    texture	graphics\menutextures\small.tga 
+    visible     1
+  }
+
+
+
+  {
+    layer	#MiniMapLayer1#
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\minimap_tesztpalya512.tga
+    function    1
+    visible     0
+  }
+
+  {
+    layer	#MiniMapLayer2#
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\minimap_tesztpalya512.tga
+    function    1
+    visible     0
+  }
+
+  {
+    layer	#MiniMapLayer3#
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\minimap_tesztpalya512.tga
+    function    1
+    visible     0
+  }
+
+  {
+    layer	#MiniMapLayer4#
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\minimap_tesztpalya512.tga
+    function    1
+    visible     0
+  }
+
+  {
+    layer	MinimapObjectsLayer
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\HUD_all.tga
+//    texture	graphics\menutextures\feher.tga
+    visible     1
+  }
+
+  {
+    layer	MinimapBaseLayer
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\HUD_all.tga
+//    texture	graphics\menutextures\feher.tga
+    visible     1
+  }
+
+
+  {
+    layer	TextLayer
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\small.tga
+    visible     1
+  }
+
+
+
+  {
+    layer	MenuFelirat2
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\uj12.tga
+    visible     1
+  }
+
+
+
+  {
+    layer	font10
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\uj10.tga
+    visible     1
+  }
+
+	{
+		layer		font24
+		texture		Graphics\MenuTextures\uj24.tga
+		shader		shaders\menushaders\Minimap.shd
+		visible	1
+		releasepass	0
+	}
+
+
+
+
+
+
+
+//---------------------------------------------------------------------------------------------
+
+label_vertical_align	    0
+
+ {	
+    label					ClassSel
+    caption					047
+    fontattrib_file_name			graphics\menutextures\uj12.fa2 
+    x_pos					-13.63
+    y_pos					-1.95   //-1.9 feljebb
+    z_pos					0.0
+    height					1
+    spaceing					-0.02
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    hi_color					0xFFFFFFFF
+    layer					MenuFelirat2
+    igroup					Menu
+    upcase					1
+    visible					1
+  }
+
+ {	
+    label					PrimarySel
+    caption					047
+    fontattrib_file_name			graphics\menutextures\uj12.fa2 
+    x_pos					-13.63
+    y_pos					-5.56 //5 VOLT ES AKKOR FELJEBB
+    z_pos					0.0
+    height					1
+    spaceing					-0.02
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    hi_color					0xFFFFFFFF
+    layer					MenuFelirat2
+    igroup					Menu
+    upcase					1
+    visible					1
+  }
+
+
+ {	
+    label					SecondarySel
+    caption					047
+    fontattrib_file_name			graphics\menutextures\uj12.fa2 
+    x_pos					-13.63
+    y_pos					-9.17 //9.095 volt es ugy feljebb van
+    z_pos					0.0
+    height					1
+    spaceing					-0.02
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    hi_color					0xFFFFFFFF
+    layer					MenuFelirat2
+    igroup					Menu
+    upcase					1
+    visible					1
+  }
+
+ {	
+    label					txtARNOLD
+    caption					z200
+    fontattrib_file_name			graphics\menutextures\uj10.fa2 
+    x_pos		 			-8
+    y_pos					-10.5
+    z_pos					0.0
+    height					1
+    spaceing					0.02
+    size					1
+    tabstop					0
+    valign					0
+    color					0x00C0C0C0
+    hi_color					0x00FFFFFF
+    layer					font10
+    shadow					1
+    visible					0
+  }
+
+
+	{
+		image		imgSkynetBck
+		x_pos	-11.556808
+		y_pos	7.121381
+		z_pos	0.000000
+		out_x_pos	0.000000
+		out_y_pos	0.000000
+		out_z_pos	0.000000
+		width	128.000000
+		height	18.000000
+		opacity	0
+		visible	1
+		color	0x008B8B8B
+		angle	0.000000
+		layer	Menu
+		igroup	Menu
+		texture_limits	150,491,152,492
+	}
+
+
+	{
+		image		imgTechComBck
+		x_pos	-6.925647
+		y_pos	7.121381
+		z_pos	0.000000
+		out_x_pos	0.000000
+		out_y_pos	0.000000
+		out_z_pos	0.000000
+		width	128.000000
+		height	18.000000
+		opacity	200
+		visible	1
+		color	0x008B8B8B
+		angle	0.000000
+		layer	Menu
+		igroup	Menu
+		texture_limits	150,491,152,492
+	}
+
+
+	{
+		frame		FrameHeader
+		x_pos	-9.222381
+		y_pos	7.099817
+		z_pos	0.000000
+		width	255.000000
+		height	18.000000
+		visible	1
+		layer	Menu
+		igroup	Menu
+		texture_limits	150,491,152,492
+	}
+
+
+
+
+	{
+	imagegrid frame_char
+	x_pos -13.848364
+	y_pos 6.747207
+	z_pos 0.000000
+	visible 1
+	rows 3
+	columns 3
+	layer Menu
+	h_align 0
+	v_align 0
+	color 0x00FFFFFF
+	igroup					Menu
+	cells
+		{
+		414,390,414,390 255 16 220
+		390,390,390,390 255 224 220
+		414,390,414,390 255 16 220
+
+		492,357,477,366 255 16 10
+		470,357,475,366 255 224 10
+		477,357,492,366 255 16 10
+
+		492,366,477,357 255 16 10
+		470,366,475,357 255 224 10
+		477,366,492,357 255 16 10
+		}
+	}
+
+
+	{
+	imagegrid frame_prim
+
+	x_pos -13.838364
+	y_pos -1.938250
+	z_pos 0.000000
+	visible 1
+	rows 3
+	columns 3
+	layer Menu
+	h_align 0
+	v_align 0
+	color 0x00FFFFFF
+	igroup					Menu
+	cells
+		{
+		414,390,414,390 255 16 80
+		390,390,390,390 255 224 80
+		414,390,414,390 255 16 80
+
+		492,357,477,366 255 16 10
+		470,357,475,366 255 224 10
+		477,357,492,366 255 16 10
+
+		492,366,477,357 255 16 10
+		470,366,475,357 255 224 10
+		477,366,492,357 255 16 10
+		}
+	}
+
+
+	{
+	imagegrid frame_sec
+	x_pos -13.838364
+	y_pos -5.550703
+	z_pos 0.000000
+	visible 1
+	rows 3
+	columns 3
+	layer Menu
+	h_align 0
+	v_align 0
+	color 0x00FFFFFF
+	igroup					Menu
+	cells
+	{
+		414,390,414,390 255 16 80
+		390,390,390,390 255 224 80
+		414,390,414,390 255 16 80
+
+		492,357,477,366 255 16 10
+		470,357,475,366 255 224 10
+		477,357,492,366 255 16 10
+
+		492,366,477,357 255 16 10
+		470,366,475,357 255 224 10
+		477,366,492,357 255 16 10
+		}
+	}
+
+
+
+	{
+		button		btnClassLeft
+		x_pos	-13.549068
+		y_pos	2.553272
+		z_pos	0.000000
+		width	128
+		height	16.000000
+		opacity	255
+		visible	1
+		angle	-90.000000
+		state_num	1
+		groupid	0
+		layer	Menu
+		igroup	Menu
+		texture_limits	162,403,231,417
+		tx_up_mouse_over 162,403,231,417
+		tx_up_mouse_out  162,403,231,417
+		tx_down_mouse_over 162,403,231,417
+		tx_down_mouse_out  162,403,231,417
+
+	}
+
+
+       {
+		button		btnClassRight
+		x_pos	-4.901903
+		y_pos	2.553272
+		z_pos	0.000000
+		width	128
+		height	16.000000
+		visible	1
+		enabled	1
+		state_num	1
+		groupid	0
+		auto_up	1
+		layer	Menu
+		igroup 	Menu
+		angle   90
+		texture_limits	162,403,231,417
+		tx_up_mouse_over 162,403,231,417
+		tx_up_mouse_out  162,403,231,417
+		tx_down_mouse_over 162,403,231,417
+		tx_down_mouse_out  162,403,231,417
+
+	}
+
+	{
+		button		btnPrimaryLeft
+		x_pos	-13.549068
+		y_pos	-3.355490
+		z_pos	0.000000
+		width	66
+		height	16.000000
+		opacity	255
+		visible	1
+		color	0x00FFFFFF
+		angle	-90.000000
+		state_num	1
+		groupid	0
+		layer	Menu
+		igroup	Menu
+		texture_limits	162,403,231,417
+		tx_up_mouse_over 162,403,231,417
+		tx_up_mouse_out  162,403,231,417
+		tx_down_mouse_over 162,403,231,417
+		tx_down_mouse_out  162,403,231,417
+
+	}
+
+	{
+		button		btnPrimaryRight
+		x_pos	-4.901903
+		y_pos	-3.355490
+		z_pos	0.000000
+		width	66
+		height	16.000000
+		opacity	255
+		visible	1
+		color	0x00FFFFFF
+		angle	90.000000
+		state_num	1
+		groupid	0
+		layer	Menu
+		igroup	Menu
+		texture_limits	162,403,231,417
+		tx_up_mouse_over 162,403,231,417
+		tx_up_mouse_out  162,403,231,417
+		tx_down_mouse_over 162,403,231,417
+		tx_down_mouse_out  162,403,231,417
+
+	}
+
+
+	{
+		button		btnSecondaryLeft
+		x_pos	-13.549068
+		y_pos	-6.979866
+		z_pos	0.000000
+		width	66
+		height	16.000000
+		opacity	255
+		visible	1
+		color	0x00FFFFFF
+		angle	-90.000000
+		state_num	1
+		groupid	0
+		layer	Menu
+		igroup	Menu
+		texture_limits	162,403,231,417
+		tx_up_mouse_over 162,403,231,417
+		tx_up_mouse_out  162,403,231,417
+		tx_down_mouse_over 162,403,231,417
+		tx_down_mouse_out  162,403,231,417
+
+	}
+
+
+	{
+		button		btnSecondaryRight
+		x_pos	-4.901903
+		y_pos	-6.979866
+		z_pos	0.000000
+		width	66
+		height	16.000000
+		opacity	255
+		visible	1
+		color	0x00FFFFFF
+		angle	90.000000
+		state_num	1
+		groupid	0
+		layer	Menu
+		igroup	Menu
+		texture_limits	162,403,231,417
+		tx_up_mouse_over 162,403,231,417
+		tx_up_mouse_out  162,403,231,417
+		tx_down_mouse_over 162,403,231,417
+		tx_down_mouse_out  162,403,231,417
+
+	}
+
+
+
+
+ {	
+    label					txtSkyNet
+    caption					044
+    fontattrib_file_name			graphics\menutextures\uj12.fa2 
+    x_pos		 			-11.68
+    y_pos					6.8
+    z_pos					0.0
+    height					0.8
+    spaceing					-0.02
+    size					1
+    tabstop					1
+    color					0xFFC0C0C0
+    hi_color					0xFFFFFFFF
+    layer					MenuFelirat2
+    igroup					Menu
+    valign					1
+    visible					0
+  }
+
+
+
+ {	
+    label					txtTechCom
+    caption					045
+    fontattrib_file_name			graphics\menutextures\uj12.fa2 
+    x_pos		 			-6.96
+    y_pos					6.8
+    z_pos					0.0
+    height					0.8
+    spaceing					-0.02
+    size					1
+    tabstop					1
+    color					0xFFC0C0C0
+    hi_color					0xFFFFFFFF
+    layer					MenuFelirat2
+    igroup					Menu
+    valign					1
+    visible					0
+  }
+
+
+
+
+
+  {
+    3d_object	3D_Class
+    x_pos	-1.77
+    y_pos	-0.16
+    z_pos	0
+    scale	5 0 0
+    shader	shaders\menushaders\3DObject.shd
+    igroup      Menu
+  }
+
+
+  {
+    3d_object	3D_Primary
+    x_pos	-1.77
+    y_pos	-0.68
+    z_pos	0
+    scale	5 0 0
+    shader	shaders\menushaders\3DObject.shd
+    igroup      Menu
+  }
+
+  {
+    3d_object	3D_Secondary
+    x_pos	-1.77
+    y_pos	-1.39
+    z_pos	0
+    scale	5 0 0
+    shader	shaders\menushaders\3DObject.shd
+    igroup      Menu
+  }
+
+
+
+//---------------------------------------------------------------------------------------------
+
+
+
+
+
+{
+    image 					FrameApplyHi
+    x_pos		 			11.2
+    y_pos					-9.92 //83
+    z_pos					0.0
+    height					16
+    width					120
+    opacity					128
+    color					0x0095b0cd
+    visible  					1
+    layer					Menu
+    texture_limits				150,491,151,492
+    igroup					Menu
+ }
+
+
+
+
+ {	
+    frame					FrameApply
+    x_pos		 			11.2 
+    y_pos					-9.92  //83
+    z_pos					0.0
+    height					16
+    width					120 //160 volt
+    color					0xFFFFFFFF
+    visible					1
+    layer					Menu
+    texture_limits				150,491,151,492
+    igroup					Menu
+  }
+
+
+label_vertical_align	    0
+
+
+{	
+    label					txtSpawn
+    caption					311
+    fontattrib_file_name			Graphics\MenuTextures\uj24.fa2
+    x_pos		 			-13.790006
+    y_pos					9.549998
+    z_pos					0.0
+    height					1
+    spaceing					0
+    size					0.700000
+    tabstop					0
+    color					0x0xFF60889F
+    layer					font24
+    igroup					Menu
+  }
+
+
+
+label_vertical_align	    2
+
+
+
+
+ {	
+    label					txtTimeLeft
+    caption					101
+    fontattrib_file_name			graphics\menutextures\uj10.fa2
+    x_pos		 			10.56
+    y_pos					-0.94
+    z_pos					0.0
+    height					1
+    spaceing					0
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    layer					font10
+    igroup					Menu
+    parent					Upper1
+  }
+
+
+ {	
+    label					TimeLeft
+    caption					100
+    fontattrib_file_name			graphics\menutextures\uj10.fa2
+    x_pos		 			11.9
+    y_pos					-0.94
+    z_pos					0.0
+    height					1
+    spaceing					0
+    size					1
+    tabstop					0
+    opacity					255
+    color					0x00FFFFFF
+    layer					font10
+    valign					0
+    parent					Upper1
+    igroup					Menu
+  }
+
+
+
+{
+    image 					Valaszto
+    x_pos		 			9.84
+    y_pos					9.61
+    z_pos					0.0
+    opacity					255
+    color					0x00FFFFFF
+    visible  					1
+    layer					Menu
+    texture_limits				2,474,213,509
+    igroup					Menu
+ }
+
+
+
+
+ {	
+    label					txtTimeJoin
+//    caption					TIME^TO^JOIN
+    caption					100
+    fontattrib_file_name			graphics\menutextures\uj10.fa2
+    x_pos		 			10.56
+    y_pos					-0.24
+    z_pos					0.0
+    height					1
+    spaceing					0
+    size					1
+    tabstop					0
+    opacity					255
+    color					0x00FFFFFF
+    layer					font10
+    parent					Upper1
+    igroup					Menu
+  }
+
+
+
+
+ {	
+    label					TimeJoin
+    caption					00:17
+    fontattrib_file_name			graphics\menutextures\uj10.fa2
+    x_pos		 			11.9
+    y_pos					-0.24
+    z_pos					0.0
+    height					1
+    spaceing					0
+    size					1
+    tabstop					0
+    opacity					255
+    color					0x00FFFFFF
+    layer					font10
+    valign					0
+    parent					Upper1
+    igroup					Menu
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+label_vertical_align	    1
+
+ {	
+    label					txtFrag
+    caption					0
+    fontattrib_file_name			graphics\menutextures\small.fa2
+    x_pos		 			0
+    y_pos					9.5
+    z_pos					0.0
+    height					1
+    spaceing					0.05
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    valign					1
+    layer					FragLayer
+  }
+
+ {
+    image 	Minimap01
+
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    height			487
+    width			487
+
+    opacity			255
+    color			00ffffff
+    visible  			0
+    layer			#MiniMapLayer1#
+    texture_limits		0,0,512,512
+    igroup			MinimapGroup
+ }
+
+ {
+    image 	Minimap02
+
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    height			487
+    width			487
+
+    opacity			255
+    color			00ffffff
+    visible  			0
+    layer			#MiniMapLayer2#
+    texture_limits		0,0,512,512
+    igroup			MinimapGroup
+ }
+
+ {
+    image 	Minimap03
+
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    height			487
+    width			487
+
+    opacity			255
+    color			00ffffff
+    visible  			0
+    layer			#MiniMapLayer3#
+    texture_limits		0,0,512,512
+    igroup			MinimapGroup
+ }
+
+ {
+    image 	Minimap04
+
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    height			487
+    width			487
+
+    opacity			255
+    color			00ffffff
+    visible  			0
+    layer			#MiniMapLayer4#
+    texture_limits		0,0,512,512
+    igroup			MinimapGroup
+ }
+
+ {
+    grid 			Grid1
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    height			189
+    width			189
+    opacity			40
+    color			00ffffff
+    visible  			1
+    layer			MinimapObjectsLayer
+    texture_limits		477,2,478,66
+    angle			-90
+    igroup			MinimapGroup
+ }
+
+
+label_vertical_align	    1
+
+
+/*
+ {	
+    frame					mapkeret
+    x_pos		 			4.81
+    y_pos					-1.34
+    z_pos					0.0
+    height					487
+    width					487
+    color					0xFFFFFFFF
+    visible					1
+    layer					Menu
+    texture_limits				150,491,151,492
+  }
+
+*/
+
+
+{
+    image 					mapkeret_BCK
+    x_pos		 			4.81
+    y_pos					-1.06
+    z_pos					0.0
+    height					471
+    width					487
+    opacity					128
+    color					0x00000000
+    visible  					1
+    layer					Menu
+    texture_limits				150,491,151,492
+    igroup					Menu
+ }
+
+
+
+
+ {	
+    frame					mapkeret
+    x_pos		 			4.81
+    y_pos					-1.06
+    z_pos					0.0
+   // height					471
+    height					475
+    width					487
+    color					0xFFFFFFFF
+    visible					1
+    layer					Menu
+    texture_limits				150,491,151,492
+  }
+
+
+ {	
+    label					txtApply
+    caption					050
+    fontattrib_file_name			graphics\menutextures\uj12.fa2 
+    x_pos		 			11.15 //11.24 volt s akkor bal szel
+    y_pos					-10.21 //11 //10.02 fent //10 kurvara lent
+    z_pos					0.0
+    height					0.8
+    spaceing					0.02
+    size					1
+    tabstop					1
+    opacity					255
+    color					0x00C0C0C0
+    hi_color					0x00FFFFFF
+    layer					MenuFelirat2
+    igroup					Menu
+  }
+
+/*
+ {	
+    label					txtEquipProfiles
+    caption					027
+    fontattrib_file_name			graphics\menutextures\uj10.fa2
+    x_pos		 			-12.1
+    y_pos					8.3
+    z_pos					0.0
+    height					1
+    spaceing					0
+    size					1
+    tabstop					1
+    color					0xFFC0C0C0
+    hi_color					0xFFFFFFFF
+    layer					font10
+    igroup					Menu
+  }
+*/
+
+
+
+
+ {	
+    label					txtEquipOptions
+    caption					004
+    fontattrib_file_name			graphics\menutextures\uj10.fa2
+    x_pos		 			-11.619999
+    y_pos					8.3
+    z_pos					0.0
+    height					1
+    spaceing					0
+    size					1
+    tabstop					1
+    color					0xFFC0C0C0
+    hi_color					0xFFFFFFFF
+    layer					font10
+    igroup					Menu
+    VAlign					1
+  }
+
+
+
+ {	
+    label					txtEquipDisconnect
+    caption					053
+    fontattrib_file_name			graphics\menutextures\uj10.fa2
+    x_pos		 			-5.100001
+    y_pos					8.3
+    z_pos					0.0
+    height					1
+    spaceing					0
+    size					1
+    tabstop					1
+    enabled					1
+    color					0xFFC0C0C0
+    hi_color					0xFFFFFFFF
+    layer					font10
+    igroup					Menu
+    VAlign					1
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+label_vertical_align	    0
+
+
+
+
+
+
+label_vertical_align	    1
+
+
+ {	
+    label					txtPress1
+    caption					051
+    fontattrib_file_name			graphics\menutextures\uj12.fa2 
+    x_pos		 			0
+    y_pos					0
+    z_pos					0.0
+    height					0.8
+    spaceing					0.0
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    layer					MenuFelirat2
+    igroup					MenuSpace
+  }
+/*
+ {	
+    label					txtPress2
+    caption					052
+    fontattrib_file_name			graphics\menutextures\uj12.fa2 
+    x_pos		 			-9.65
+    y_pos					-0.55
+    z_pos					0.0
+    height					0.8
+    spaceing					0.0
+    size					1
+    tabstop					0
+    color					0xFFFFFFFF
+    layer					MenuFelirat2
+    igroup					MenuSpace
+  }
+*/
+
+
+ {	
+    label					txtTimeToJoin2
+    caption					101
+    fontattrib_file_name			graphics\menutextures\small.fa2 
+    x_pos		 			0
+    y_pos					8.5
+    z_pos					0.0
+    height					1
+    spaceing					0.02
+    size					1
+    tabstop					0
+    opacity					255
+    color					0x00FFFFFF
+    layer					FragLayer
+    igroup					TimeTojoin2
+  }
+
+ {	
+    label					TimeLeft2
+    caption					101
+    fontattrib_file_name			graphics\menutextures\small.fa2 
+    x_pos		 			0
+    y_pos					9
+    z_pos					0.0
+    height					1
+    spaceing					0.02
+    size					1
+    tabstop					0
+    opacity					255
+    color					0x00FFFFFF
+    layer					FragLayer
+    igroup					TimeTojoin2
+  }
+
+
+END
+
+BEGIN Background
+
+  {
+    layer	Sotet
+    shader 	shaders\menushaders\gabor_pr_NoZ_Point.shd
+    texture	graphics\menutextures\HUD_all.tga
+    visible     1
+  }
+
+  {
+    image Sotetites
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    height			808
+    width			606
+    opacity			0
+    color			00000000
+    visible  			1
+    layer			Sotet
+    texture_limits	150,491,151,492
+    angle			90
+ }
+ 
+
+
+END
+
+
+BEGIN Foreground
+
+
+  {
+    layer	Piroska
+    shader 	shaders\menushaders\gabor_pr_NoZ_Point.shd
+    texture	graphics\menutextures\HUD_all.tga
+    visible     1
+  }
+
+
+  {
+    layer	#TVEffectLayer#
+    shader 	shaders\menushaders\TVEffect.shd
+    texture	graphics\menutextures\Noise.tga
+    visible     1
+  }
+
+  {
+    layer	BarLayer
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\Bar.tga
+    visible     0
+  }
+
+
+  {
+    layer	LayerTerminatorVision
+    shader 	shaders\menushaders\gabor_pr_NoZ_Point_add.shd 
+    texture	graphics\menutextures\HUD_all.tga
+    visible     1
+  }
+
+/*
+ {
+    image 			Vision
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    height			600
+    width			800
+    opacity			130
+    color			00FF0000
+    visible  			1
+    layer			LayerTerminatorVision
+    texture_limits		150,491,151,492
+ }
+
+*/
+
+ {
+    image Fekete
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    height			606
+    width			808
+    opacity			0
+    color			00000000
+    visible  			1
+    layer			Piroska
+    texture_limits		150,491,151,492
+ }
+
+
+
+ {
+    image Feher
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    height			606
+    width			808
+    opacity			0
+    color			0000FF00
+    visible  			1
+    layer			Piroska
+    texture_limits		150,491,151,492
+ }
+
+ {
+    image FeherKor
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    height			20
+    width			20
+    opacity			0
+    color			00FFFFFF
+    visible  			1
+    layer			Piroska
+    texture_limits		309,174,339,204
+ }
+
+ {
+    image Piros
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    height			808
+    width			606
+    opacity			0
+    color			00FF0000
+    visible  			1
+    layer			Piroska
+    texture_limits		150,491,151,492
+    angle			90
+ }
+ {
+    image Noise
+    x_pos					0
+    y_pos					0
+    z_pos					0
+    width					800
+    height					600
+    opacity					30
+    visible  				1
+    layer					#TVEffectLayer#
+//    color					0x009090FF
+
+    texture_limits				0,0,512,512
+ }
+
+
+ {
+    image Noise2
+    x_pos					0
+    y_pos					0
+    z_pos					0
+    width					800
+    height					600
+    opacity					0
+    visible  				1
+    layer					#TVEffectLayer#
+//    color					0x009090FF
+
+    texture_limits				0,0,512,512
+ }
+
+
+ {
+    image 			Bar
+    x_pos			0
+    y_pos			0
+    z_pos			0
+    opacity			120
+    color			00FFFFFF
+    visible  			0
+    width			800
+    height			7
+    layer			BarLayer
+    texture_limits		0,0,16,32
+ }
+
+
+
+
+END
+
+
+
+BEGIN Cursor
+  {
+    layer	CursorLayerHud
+    shader 	shaders\menushaders\gabor_pr_NoZ_Point.shd
+    texture	graphics\menutextures\HUD_all.tga
+    visible     1
+  }
+
+ {
+    image 					Cursor
+    x_pos					0
+    y_pos					0
+    z_pos					0
+    opacity					255
+    visible  					1
+    layer					CursorLayerHud
+    texture_limits				4,175,20,191
+
+ }
+
+
+END
+
+BEGIN MissionEnd
+	{
+		layer		LayerTempHUD
+		texture		graphics\menutextures\HUD_all.tga
+		shader		shaders\menushaders\gabor_pr_NoZ_Point.shd
+		visible	1
+		releasepass	0
+	}
+
+
+	{
+		layer		font24
+		texture		graphics\menutextures\uj24.tga
+		shader		shaders\menushaders\minimap.shd
+		visible	1
+		releasepass	0
+	}
+
+
+	{
+		layer		Layer_FontSmall
+		texture		graphics\menutextures\small.tga
+		shader		shaders\menushaders\gabor_pr_NoZ_Point.shd
+		visible	1
+		releasepass	0
+	}
+
+
+	{
+		image		Sotet
+		x_pos	0.000000
+		y_pos	0.000000
+		z_pos	0.000000
+		out_x_pos	0.000000
+		out_y_pos	0.000000
+		out_z_pos	0.000000
+		width	808.000000
+		height	606.000000
+		opacity	160
+		visible	1
+		color	0x00000000
+		angle	0.000000
+		layer	LayerTempHUD
+		texture_limits	150,491,151,492
+	}
+
+
+	{
+		imagegrid		MissionEndSuccessAlap
+		x_pos	0.000000
+		y_pos	0.000000
+		z_pos	0.000000
+		visible	1
+		rows	3
+		columns	6
+		layer	LayerTempHUD
+		h_align	1
+		v_align	1
+		color	0xFF00FF9E
+		cells
+		{
+			184,401,205,371	255	21	30
+			210,401,211,371	255	1	30
+			210,401,211,371	255	1	30
+			210,401,211,371	255	1	30
+			210,401,211,371	255	1	30
+			215,401,184,371	255	31	30
+			184,377,205,379	255	21	16
+			213,377,205,379	255	8	2
+			213,377,205,379	255	8	2
+			213,377,205,379	255	8	2
+			213,377,205,379	255	8	2
+			215,377,184,378	255	31	1
+			184,371,205,401	255	21	30
+			210,371,211,401	255	223	30
+			215,371,228,401	255	13	30
+			232,371,233,401	255	180	30
+			228,371,215,401	255	13	30
+			215,371,184,401	255	31	30
+		}
+	}
+
+
+	{
+		label		txtMissionSuccessful
+		caption	1007
+		fontattrib_file_name	graphics\menutextures\uj24.fa2
+		x_pos	0.000000
+		y_pos	0.000000
+		z_pos	0.000000
+		out_x_pos	0.000000
+		out_y_pos	0.000000
+		out_z_pos	0.000000
+		height	1.000000
+		spaceing	0.000000
+		size	0.7
+		tabstop	0
+		enabled	1
+		color	0xFFFFFFFF
+		hi_color	0x00FFFFFF
+		opacity	255
+		visible	0
+		layer	font24
+		igroup	M_Success
+		upcase	0
+		valign	1
+		lengthlimit	128
+	}
+
+
+	{
+		label		txtMissionFailed
+		caption	1008
+		fontattrib_file_name	graphics\menutextures\uj24.fa2
+		x_pos	0.000000
+		y_pos	0.000000
+		z_pos	0.000000
+		out_x_pos	0.000000
+		out_y_pos	0.000000
+		out_z_pos	0.000000
+		height	1.000000
+		spaceing	0.000000
+		size	0.7
+		tabstop	0
+		enabled	1
+		color	0xFFFFFFFF
+		hi_color	0x00FFFFFF
+		opacity	255
+		visible	0
+		layer	font24 
+		igroup	M_Failed
+		upcase	0
+		valign	1
+		lengthlimit	128
+	}
+
+
+	{
+		label		txtClickToContinue
+		caption	1009
+		fontattrib_file_name	graphics\menutextures\small.fa2
+		x_pos	3.775000
+		y_pos	-1.080000
+		z_pos	0.000000
+		out_x_pos	0.000000
+		out_y_pos	0.000000
+		out_z_pos	0.000000
+		height	1.000000
+		spaceing	0.000000
+		size	1.000000
+		tabstop	1
+		enabled	1
+		color	0xFFFFFFFF
+		hi_color	0xFFFFFFFF
+		opacity	255
+		visible	1
+		layer	Layer_FontSmall
+		upcase	0
+		valign	1
+		lengthlimit	128
+	}
+
+
+
+END
+
+BEGIN 	SingleMenu
+
+#include menudatas/fejlec.inc
+
+ {
+    layer	MenuFelirat2
+    shader 	shaders\menushaders\Minimap.shd
+    texture	graphics\menutextures\uj12.tga
+    visible     1
+  }
+
+
+ {	
+    label					txtEquipProfiles
+    caption					027
+    fontattrib_file_name			graphics\menutextures\uj12.fa2
+    x_pos		 			-4.88
+    y_pos					8.21
+    z_pos					0.0
+    height					1
+    spaceing					0.02
+    size					0.8
+    tabstop					1
+    color					0xFFC0C0C0
+    hi_color					0xFFFFFFFF
+    layer					MenuFelirat2
+    igroup					Menu
+    VAlign					1
+  }
+
+
+ {	
+    label					txtEquipOptions
+    caption					004
+    fontattrib_file_name			graphics\menutextures\uj12.fa2
+    x_pos		 			-1.38
+    y_pos					8.21
+    z_pos					0.0
+    height					1
+    spaceing					0.02
+    size					0.8
+    tabstop					1
+    color					0xFFC0C0C0
+    hi_color					0xFFFFFFFF
+    layer					MenuFelirat2
+    igroup					Menu
+    VAlign					1
+  }
+
+
+
+ {	
+    label					txtEquipDisconnect
+    caption					053
+    fontattrib_file_name			graphics\menutextures\uj12.fa2
+    x_pos		 			2.78
+    y_pos					8.21
+    z_pos					0.0
+    height					1
+    spaceing					0.02
+    size					0.8
+    tabstop					1
+    enabled					1
+    color					0xFFC0C0C0
+    hi_color					0xFFFFFFFF
+    layer					MenuFelirat2
+    igroup					Menu
+    VAlign					1
+  }
+
+
+
+
+
+END
+
+
+BEGIN ScoreBoard
+//#include menudatas/menuScreens/ScoreBoard.inc
+#include menudatas/newmenu/ScoreBoard.dat
+END

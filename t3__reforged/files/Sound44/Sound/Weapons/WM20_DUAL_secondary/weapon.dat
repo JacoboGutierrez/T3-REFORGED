@@ -1,0 +1,233 @@
+#define	EXPLODE_TERRAINHARD	0x0f0003
+#define	EXPLODE_TERRAINSOFT	0x0f0001
+#define	EXPLODE_CONCRATE	0x0f0002
+#define	EXPLODE_STEEL		0x0f0004
+#define	EXPLODE_GLASS		0x0f0005
+#define	EXPLODE_WOOD		0x0f0006
+
+#define	EXPLODE_SPARKSTEEL	0x0f0009
+
+#define	EXPLODE_VEHICLE	0x100000
+#define EXPLODE_HUMAN	0x1000000
+
+{
+	type		FIRE
+	filename	Sound/Weapons/wm20_secondary/m4_granat_1.wav
+	volume		180
+
+	distance	2.0	60.0
+	attachtohuman	ON
+}
+
+
+
+
+
+{
+	type		EXPLODE2
+	colltype	EXPLODE_TERRAIN
+	filename	Sound/Weapons/impact_granat_ember_01.wav
+	volume		255
+
+	distance	0.9	15.0
+}
+
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_SPARKSTEEL
+	filename	Sound/Weapons/wm20_secondary/grenade_Explode_1.wav
+	volume		255
+
+	distance	12.0	500.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	T900HeavyAssault
+	
+
+	filename	Sound/Weapons/wm20_secondary/grenade_Explode_1.wav
+	volume		255
+
+	distance	12.0	500.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_CONCRATE
+	filename	Sound/Weapons/wm20_secondary/grenade_Explode_1.wav
+	volume		255
+
+	distance	12.0	500.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_TERRAINHARD
+	filename	Sound/Weapons/wm20_secondary/grenade_Explode_1.wav
+	volume		255
+
+	distance	12.0	500.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_TERRAINSOFT
+	filename	Sound/Weapons/wm20_secondary/grenade_Explode_1.wav
+	volume		255
+
+	distance	12.0	500.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_WOOD
+	filename	Sound/Weapons/wm20_secondary/grenade_Explode_1.wav
+	volume		255
+
+	distance	12.0	500.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_GLASS
+	filename	Sound/Weapons/wm20_secondary/grenade_Explode_1.wav
+	volume		255
+
+	distance	12.0	500.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_STEEL
+	filename	Sound/Weapons/wm20_secondary/grenade_Explode_1.wav
+	volume		255
+
+	distance	12.0	500.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_VEHICLE
+	randomfiles	2
+	randomfilename	Sound/Weapons/wm20_secondary/robbanas_m4sec_auto.wav
+	randomfilename	Sound/Weapons/wm20_secondary/robbanas_smaw_auto_02.wav
+	volume		255
+
+	distance	12.0	500.0
+}
+
+
+
+
+
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	HeavyHunter				//ember
+	
+
+	filename	Sound/Weapons/wm20_secondary/grenade_Explode_1.wav
+	volume		255
+
+	distance	12.0	500.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	Hunter				//ember
+	
+
+	filename	Sound/Weapons/wm20_secondary/grenade_Explode_1.wav
+	volume		255
+
+	distance	12.0	500.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	Supply				//ember
+	
+
+	filename	Sound/Weapons/wm20_secondary/grenade_Explode_1.wav
+	volume		255
+
+	distance	12.0	500.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	T900				//terminator
+	
+
+	filename	Sound/Weapons/wm20_secondary/grenade_Explode_1.wav
+	volume		255
+
+	distance	12.0	500.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	T900S				//terminator
+	
+
+	filename	Sound/Weapons/wm20_secondary/grenade_Explode_1.wav
+	volume		255
+
+	distance	12.0	500.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	T900Heavy
+	
+
+	filename	Sound/Weapons/wm20_secondary/grenade_Explode_1.wav
+	volume		255
+
+	distance	12.0	500.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	T1
+	
+
+	filename	Sound/Weapons/wm20_secondary/grenade_Explode_1.wav
+	volume		255
+
+	distance	12.0	500.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	Infiltrator
+	
+
+	filename	Sound/Weapons/wm20_secondary/grenade_Explode_1.wav
+	volume		255
+
+	distance	12.0	500.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	Fk
+	
+
+	filename	Sound/Weapons/wm20_secondary/grenade_Explode_1.wav
+	volume		255
+
+	distance	12.0	500.0
+}

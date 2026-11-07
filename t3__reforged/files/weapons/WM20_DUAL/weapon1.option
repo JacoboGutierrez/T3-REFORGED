@@ -1,0 +1,16 @@
+// Weapon Option File V1.1	Old stuff removed, slots + granade types added
+// Weapon Option File V1.0	Base version
+option weapon 0	//8
+{
+	weight		20	// felszereles sulya (kg)
+	magazineSize	0	// tar merete
+	bullets		300	// a taron kivuli max loszermennyiseg
+	shootsPerMin	6	// lovesek maximalis sebessege
+	type		bullet	// lehet: bullet, granade, missile, homingMissile
+	gameRadius -0.0 // dual marker; zero radius, shared primary-only detection
+	subType		1	// a fegyverkategorian beluli sorszam
+	range		3 10	// mekkora a robbanas min/max hatosogara
+	damage		0.1 0.1	// robbanas min/max ereje
+	speed		400	// lovedek indulo sebessege
+	throw		0.5	// szoras, fokban
+}

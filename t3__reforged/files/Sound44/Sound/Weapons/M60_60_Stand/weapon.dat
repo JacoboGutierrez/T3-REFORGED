@@ -1,0 +1,126 @@
+
+#define	EXPLODE_TERRAIN	0x0
+#define	EXPLODE_VEHICLE	0x100000
+#define EXPLODE_HUMAN	0x1000000
+
+{
+	type		FIRE
+	filename	Sound/Weapons/m60_60_stand/m60_single.wav
+	volume		255
+
+	distance	40.0	100.0
+	attachtohuman	ON
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_TERRAIN
+	randomfiles	7
+	randomfilename	Sound/Weapons/impact_golyo_fold_01.wav
+	randomfilename	Sound/Weapons/impact_golyo_fold_02.wav
+	randomfilename	Sound/Weapons/impact_golyo_fold_03.wav
+	randomfilename	Sound/Weapons/impact_golyo_fold_04.wav
+	randomfilename	Sound/Weapons/impact_golyo_fold_05.wav
+	randomfilename	Sound/Weapons/impact_golyo_fold_06.wav
+	randomfilename	Sound/Weapons/impact_golyo_fold_07.wav
+	volume		255
+
+	distance	0.7	14.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_VEHICLE
+	randomfiles	3
+	randomfilename	Sound/Weapons/impact_plazma_fem_01.wav
+	randomfilename	Sound/Weapons/impact_plazma_fem_03.wav
+	randomfilename	Sound/Weapons/impact_plazma_fem_geller_01.wav
+	volume		255
+
+	distance	0.7	25.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	Hunter				//ember
+	randomfiles	4
+	randomfilename	Sound/Weapons/impact_golyo_ember_hunter_01.wav
+	randomfilename	Sound/Weapons/impact_golyo_ember_hunter_02.wav
+	randomfilename	Sound/Weapons/impact_golyo_ember_hunter_03.wav
+	randomfilename	Sound/Weapons/impact_golyo_ember_hunter_04.wav
+	volume		255
+
+	distance	0.7	12.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	Scout				//ember
+	randomfiles	4
+	randomfilename	Sound/Weapons/impact_golyo_ember_scout_01.wav
+	randomfilename	Sound/Weapons/impact_golyo_ember_scout_02.wav
+	randomfilename	Sound/Weapons/impact_golyo_ember_scout_03.wav
+	randomfilename	Sound/Weapons/impact_golyo_ember_scout_04.wav
+	volume		255
+
+	distance	0.7	12.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	Supply				//ember
+	randomfiles	3
+	randomfilename	Sound/Weapons/impact_golyo_ember_supply_01.wav
+	randomfilename	Sound/Weapons/impact_golyo_ember_supply_02.wav
+	randomfilename	Sound/Weapons/impact_golyo_ember_supply_03.wav
+	volume		255
+
+	distance	0.7	12.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	T900A				//ember
+	randomfiles	4
+	randomfilename	Sound/Weapons/impact_golyo_ember_hunter_01.wav
+	randomfilename	Sound/Weapons/impact_golyo_ember_hunter_02.wav
+	randomfilename	Sound/Weapons/impact_golyo_ember_hunter_03.wav
+	randomfilename	Sound/Weapons/impact_golyo_ember_hunter_04.wav
+	volume		255
+
+	distance	0.7	12.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	T900				//terminator
+	randomfiles	1
+	randomfilename	Sound/Weapons/impact_golyo_t800_01.wav
+	volume		255
+
+	distance	0.7	15.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	Fk				//terminator
+	randomfiles	1
+	randomfilename	Sound/Weapons/impact_golyo_t800_01.wav
+	volume		255
+
+	distance	0.7	15.0
+}
+
+{
+	type		RELOAD
+	filename	Sound/krack.wav
+	volume		255
+
+	distance	1.0	20.0
+}

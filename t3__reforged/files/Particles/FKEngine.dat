@@ -1,0 +1,72 @@
+FKEngine_Side
+{
+	ParticleSizeX		0.05
+	ParticleSizeY		0.15
+	ParticleSizeVariationX	0.10
+	ParticleSizeVariationY	0.15
+	Opacity			0.18
+	OpacityVariation	0.048
+	Red			0.85
+	RedVariation		0.100
+	Green			0.90
+	GreenVariation		0.100
+	Blue			1.00
+	BlueVariation		0.100
+	DistanceScaleX		0.03
+	DistanceScaleY		0.01
+}
+
+FKEngine_Rear
+{
+	ParticleSizeX		0.03
+	ParticleSizeY		0.15
+	ParticleSizeVariationX	0.10
+	ParticleSizeVariationY	0.15
+	Opacity			0.18
+	OpacityVariation	0.048
+	Red			0.85
+	RedVariation		0.100
+	Green			0.90
+	GreenVariation		0.100
+	Blue			1.00
+	BlueVariation		0.100
+	DistanceScaleX		0.03
+	DistanceScaleY		0.01
+}
+
+HKEngine_Side
+{
+	ParticleSizeX		1.22
+	ParticleSizeY		1.91
+	ParticleSizeVariationX	0.00
+	ParticleSizeVariationY	0.05
+	Opacity			0.20
+	OpacityVariation	0.051
+	Red               1.00
+	RedVariation      0.000
+	Green             0.95
+	GreenVariation    0.050
+	Blue              0.60
+	BlueVariation     0.100
+	DistanceScaleX		0.00
+	DistanceScaleY		0.00
+}
+
+HKEngine_Rear
+{
+	ParticleSizeX		1.12
+	ParticleSizeY		1.60
+	ParticleSizeVariationX	0.00
+	ParticleSizeVariationY	0.10
+	Opacity			0.20
+	OpacityVariation	0.051
+	Red               1.00
+	RedVariation      0.000
+	Green             0.95
+	GreenVariation    0.050
+	Blue              0.60
+	BlueVariation     0.100
+	DistanceScaleX		0.00
+	DistanceScaleY		0.00
+}
+

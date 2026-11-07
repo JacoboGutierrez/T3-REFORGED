@@ -1,0 +1,33 @@
+//Clevers Animation file
+//Copyright Clever's Games ltd
+//Creation time 2003-8-4 13:36
+
+Animation
+{
+    Name	"idle"
+    Fps	25
+    MaxTimeValue	1
+    Time 0
+    {
+	Joint
+	{
+	    Name	"|root|b1"
+	    TransformationMatrix
+	    {
+		 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 -0.087782 -0.028837 0.018000 1.000000
+	    } // TransformationMatrix
+	} // Joint
+	Joint
+	{
+	    Name	"|root|b1|b2"
+	    TransformationMatrix
+	    {
+		 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 -0.034679 0.000000 0.000000 1.000000
+	    } // TransformationMatrix
+	} // Joint
+    } // Time
+} // Animation
+AnimationNotify
+{
+    NotifyNum	0
+} // AnimationNotify

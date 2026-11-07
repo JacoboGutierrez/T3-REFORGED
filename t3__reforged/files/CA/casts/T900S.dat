@@ -1,0 +1,49 @@
+/*********************************************************************
+	GamePlay description file
+	(c) 2003, Clever's Games Ltd
+*********************************************************************/
+cCast
+{
+	Name	"T900S"			// cast name
+
+	MaxDamage	0.900		// max damage before death
+	Armor		0.000		// -damage
+
+	FpsView	"Casts/T900S/Fps"		// fps view
+	TpsView	"Casts/T900S/Tps"		// tps view
+
+
+	WeaponNumber	3
+
+	cWeapon
+{
+Slot 0
+Name "WM20"
+}
+cWeapon
+{
+Slot 1
+Name "WM27"
+}
+cWeapon
+{
+Slot 2
+Name "WM32"
+}
+
+
+	ZonesNumber	7
+	cZones
+	{
+		HEAD		2.0
+		BODY		1.0
+		UPPERARM	0.2
+		LOWERARM	0.1
+		THIGH		0.65
+		LEG		0.15
+		FOOT		0.1
+	}
+
+
+
+}

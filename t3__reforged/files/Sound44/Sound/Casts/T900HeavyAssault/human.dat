@@ -1,0 +1,199 @@
+#define	COLL_TERRAINHARD	0x0f0003
+#define	COLL_TERRAINSOFT	0x0f0001
+#define	COLL_CONCRATE		0x0f0002
+#define	COLL_STEEL		0x0f0004
+#define	COLL_GLASS		0x0f0005
+#define	COLL_WOOD		0x0f0006
+
+#define	COLL_SPARKSTEEL		0x0f0009
+
+
+{
+	type		HUMANDEATH
+	randomfiles	1
+	randomfilename	Sound/Casts/t900_death.wav
+
+	volume		200
+
+	distance	1.0	100.0
+	hw3d		DISABLE
+}
+
+{
+	type		RESPAWN
+	filename	Sound/casts/T900s/respawn.wav
+	volume		200
+
+	distance	1.0	100.0
+	hw3d		DISABLE
+}
+
+
+
+
+{
+	type		FOOTSTEP
+	colltype	COLL_SPARKSTEEL
+	randomfiles	4
+	randomfilename	Sound/Casts/T900s/lep_t800_bal_01.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_bal_02.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_jobb_01.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_jobb_02.wav
+
+	volume		170
+
+	distance	1.5	19.0
+	hw3d		ENABLE
+}
+
+{
+	type		FOOTSTEP
+	colltype	COLL_TERRAINHARD
+	randomfiles	5
+	randomfilename	Sound/Casts/T900s/lep_t800_001.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_002.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_003.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_004.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_005.wav
+	volume		255
+
+	distance	1.5	19.0
+	hw3d		ENABLE
+}
+
+{
+	type		FOOTSTEP
+	colltype	COLL_TERRAINSOFT
+	randomfiles	5
+	randomfilename	Sound/Casts/T900s/lep_t800_001.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_002.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_003.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_004.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_005.wav
+	volume		255
+
+	distance	1.5	19.0
+	hw3d		ENABLE
+}
+
+{
+	type		FOOTSTEP
+	colltype	COLL_CONCRATE
+	randomfiles	5
+	randomfilename	Sound/Casts/T900s/lep_t800_001.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_002.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_003.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_004.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_005.wav
+	volume		255
+
+	distance	1.5	19.0
+	hw3d		ENABLE
+}
+
+{
+	type		FOOTSTEP
+	colltype	COLL_STEEL
+	randomfiles	4
+	randomfilename	Sound/Casts/T900s/lep_t800_bal_01.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_bal_02.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_jobb_01.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_jobb_02.wav
+
+	volume		170
+
+	distance	1.5	19.0
+	hw3d		ENABLE
+}
+
+
+{
+	type		FOOTSTEP
+	colltype	COLL_WOOD
+	randomfiles	5
+	randomfilename	Sound/Casts/T900s/lep_t800_001.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_002.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_003.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_004.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_005.wav
+	volume		255
+
+	distance	1.5	19.0
+	hw3d		ENABLE
+}
+
+{
+	type		FOOTSTEP
+	colltype	COLL_GLASS
+	randomfiles	5
+	randomfilename	Sound/Casts/T900s/lep_t800_001.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_002.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_003.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_004.wav
+	randomfilename	Sound/Casts/T900s/lep_t800_005.wav
+	volume		255
+
+	distance	1.5	19.0
+	hw3d		ENABLE
+}
+
+{
+	type		JUMP_OK
+	filename	Sound/Casts/t900s/lep_ember_fold_jobb_02.wav
+	volume		0
+
+	distance	1.0	100.0
+	hw3d		ENABLE
+}
+
+{
+	type		JUMP_ERROR
+	filename	Sound/Casts/t900s/lep_ember_fold_bal_02.wav
+	volume		0
+
+	distance	1.0	100.0
+	hw3d		ENABLE
+}
+
+{
+	type		DAMAGE
+	randomfiles	1
+
+	randomfilename	Sound/Casts/t900_damage.wav
+
+	volume		210
+
+	distance	1.0	10.0
+	hw3d		DISABLE
+}
+
+{
+	type		OPERATIONMODE
+	filename	Sound/casts/t900s/operationmode.wav
+	volume		200
+
+	distance	1.0	100.0
+	hw3d		DISABLE
+}
+
+{
+	type		ZOOMIN
+	filename	Sound/servo_loop_jo.wav
+	volume		170
+	loop		ON
+	attachtohuman	ON
+
+	distance	1.0	10.0
+	hw3d		DISABLE
+}
+
+{
+	type		ZOOMOUT
+	filename	Sound/servo_loop_jo.wav
+	volume		170
+	loop		ON
+	attachtohuman	ON
+
+	distance	1.0	10.0
+	hw3d		DISABLE
+}

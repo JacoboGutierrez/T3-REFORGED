@@ -1,0 +1,281 @@
+[HUMAN_WEPONS]
+  M4		64,256,128,288		0	M4_Rifle/Grenade   "MenuDatas\3DModells\m4_menu.sca"  5
+  M82A1		128,256,192,288		1	M82_Scoped_Rifle   "MenuDatas\3DModells\barret_menu.sca"  5
+  G3		384,256,448,288		2	G3_Scoped_Rifle    "MenuDatas\3DModells\G3_menu.sca"  5
+  M249_SAW	128,288,192,320		3	M249_Machine_Gun   "MenuDatas\3DModells\m249_menu.sca"  5
+  XM29		256,256,320,288		4	XM29_Spec_Rifle    "MenuDatas\3DModells\xm29_menu.sca"  5
+  SMAW		448,256,512,288		5	SMAW_Rocket        "MenuDatas\3DModells\smaw_menu.sca"  5
+  RSB80		321,289,385,321		6	RSB-80_M_Plasma    "MenuDatas\3DModells\rsb80_menu.sca"  5
+  T_RSB80 	321,289,385,321 	7 	T_RSB-80_M_Plasma  "MenuDatas\3DModells\rsb80_menu.sca"  5
+  M134		320,256,384,288		8	M134_Minigun       "MenuDatas\3DModells\minigun_menu.sca"  5
+  WM25		192,256,256,288		9	WM25_L_Plasma	   "MenuDatas\3DModells\wm25_menu.sca"  5
+  FK0		176,164,240,196		10	Fk0 		   "MenuDatas\3DModells\FK.sca"  4
+  FK1		240,164,304,196		11	Fk1		   "MenuDatas\3DModells\FK.sca"  4
+  WM20		384,288,448,320		12	WM20_L_Plasma	   "MenuDatas\3DModells\westinghouse_menu.sca"  5
+  WM32	384,288,448,320	25	WM32	"MenuDatas\3DModells\wm32_menu.sca"  5
+  WM27	384,288,448,320	24	WM27	   "MenuDatas\3DModells\wm27_menu.sca"  5
+  WM20_DUAL	384,288,448,320	23	WM20_DUAL	   "MenuDatas\3DModells\wm20_dual_menu.sca"  5
+  WM27_DUAL	384,288,448,320	26	WM27_DUAL	"MenuDatas\3DModells\wm27_dual_menu.sca"  5
+  WM32_DUAL	384,288,448,320	27	WM32_DUAL	"MenuDatas\3DModells\wm32_dual_menu.sca"  5
+  DESERTEAGLE	0,256,64,288		13	Desert_Eagle	   "MenuDatas\3DModells\desert_menu.sca"  5
+  GRENADE	0,320,64,352		14	GRENADE            "MenuDatas\3DModells\grenade_menu.sca"  11
+  PROXY		192,320,256,352		15	PROXY		   "MenuDatas\3DModells\proxy_menu.sca"  4
+  PLASTIC	128,320,192,352		16	PLASTIC		   "MenuDatas\3DModells\plastic_menu.sca"  3
+  MEDKIT	448,160,512,192		17	MEDKIT 		   "MenuDatas\3DModells\plastic_menu.sca"  4
+  AMMOPACK	448,128,512,160		18	AMMOPACK	   "MenuDatas\3DModells\plastic_menu.sca"  4
+  T_AMMO	448,128,512,160		19	AMMOPACK	   "MenuDatas\3DModells\plastic_menu.sca"  4
+  EMP		63,320,127,352		20	EMP-GRENADE	   "MenuDatas\3DModells\EMP_menu.sca"  4
+  TermCannon	448,288,512,320		21	TermCannon	   "MenuDatas\3DModells\termcannon_menu.sca"  4
+  T1		320,256,384,288		22	T1		   "MenuDatas\3DModells\t1_posed.sca"  2.7
+[END]
+
+/*
+"TermCannon"		"TERMCANNON"		"TERMCANNON"
+"EMP-GRENADE"		"EMP"			"EMP"		
+
+*/
+
+
+
+[TERMINATOR_WEPONS]
+[END]
+
+
+
+[INSTALLED_WEAPONS]
+  321,259,382,283	//MiniGun
+  2,294,63,314		//M2
+  64,295,127,314	//M60
+  194,297,255,313	//W25
+  262,289,314,319	//M47
+
+[END]
+
+
+
+/*
+[CAR_DATAS]
+
+PickUp		3	0,0.2	 -0.25,	 0 0,-0.2					185,95,248,121
+Hmmwv 		5	0.4,0.25 0,0 	 0.4,-0.25	-0.25,0.25	-0.25,-0.25	294,133,365,164
+PoliceCar	3	0.1,0.2	 -0.25,0 0.1,-0.2		295,102,358,128
+Gunbase		1	0,0 	 							306,27,359,51
+Apc		5	0.6,0.25 0.1,0 0.6,-0.25 -0.4,0.25 -0.4,-0.25	189,135,265,163
+Car		2	0,0.2	0,-0.2	295,102,358,128						
+Dpv		3	0,0.2	-0.25,0	0,-0.2		197,63,248,92						
+Offroad		3	0.1,0.2	0,0 0.1,-0.2		313,2,359,23						
+Truck		8	-0.5,0.5 -0.5,0 -0.5,-0.5 0.5,-0.5 0.5,0.5 -0.25,0.5 -0.25,0  -0.25,-0.5 212,1,288,27
+T		5	0.5,0 0,0.25 0,-0.25 -0.25,0.25 -0.25,-0.25	214,32,288,58
+HK		2	0.1,0	-0.1,0	255,64,288,128
+
+[END]
+
+*/
+
+
+
+[CAR_DATAS]
+
+	
+PickUp_Plasma	5        0.1,0.2,1	-0.25,0,1	0.1,-0.2,1	-0.5,0.2,1	-0.5,-0.2,1							185,95,248,121
+Hmlav		5        0.4,0.25,1	0,0,0		0.4,-0.25,1	-0.25,0.25,1	-0.25,-0.25,1							294,133,365,164
+Hmlav_crs	5        0.4,0.25,1	0,0,0		0.4,-0.25,1	-0.25,0.25,1	-0.25,-0.25,1							294,133,365,164
+Hmlav_M2	3        0.4,0.25,1	0,0,1		0.4,-0.25,1											294,133,365,164
+Hmlav_Tow	3        0.4,0.25,1	0,0,1		0.4,-0.25,1											294,133,365,164
+PoliceCar_M60	3        0.1,0.2,1	-0.25,0,1	0.1,-0.2,1											295,102,358,128
+Gunbase_M2	1        0,0,1																306,27,359,51
+Gunbase_M60	1        0,0,1																306,27,359,51
+Apc		5        0.6,0.25,1	0.1,0,1		0.6,-0.25,1	-0.4,0.25,1	-0.4,-0.25,1							189,135,265,163
+Car		3        0,0.2,1	0,0,0		0,-0.2,1											295,102,358,128
+Dpv		3        0,0.2,1	-0.25,0,1	0,-0.2,1											197,63,248,92
+Truck_M2	8        0.5,0.2,1	0,0,1		0.5,-0.2,1	-0.35,0.2,1	-0.35,-0.2,1	-0.7,0.2,1	-0.7,-0.2,1	-1.05,0.2,1	212,1,288,27
+T_Transporter	6        0.5,0,1	0,0,0		0,0.25,1	0,-0.25,1	-0.25,0.25,1	-0.25,-0.25,1					214,32,288,58
+HK_Tank		2        0.1,0,1	-0.1,0,1													255,64,288,128
+
+[END]
+
+[WEAPONS]
+
+//Name (max 16 k.)	ShortName		Directory
+//"WWWWWWWWWWWWWW"
+"Desert_Eagle"		".50 Pistol"		"DESERTEAGLE"
+"M4_Rifle/Grenade"	"Assault Rifle"			"M4"
+"M82_Scoped_Rifle"	"Sniper Rifle"			"M82A1"
+"WM25_L_Plasma"		"Plasma Rifle"		"WM25"
+"XM29_Spec_Rifle"	"ACW Machine Gun"			"XM29"
+"M134_Minigun"		"FLK Cannon"		"M134"
+"G3_Scoped_Rifle"	"Scoped Rifle"			"G3"
+"SMAW_Rocket"		"Rocket Launcher"			"SMAW"
+//"M2_Machine_Gun"	"M2"			"1"
+//"M60_Machine_Gun"	"M60"			"1"
+"M249_Machine_Gun"	"LSA Machine Gun"			"M249_SAW"
+//"M47_Rocket"		"M47"			"1"
+"RSB-80_M_Plasma"	"RSB-80 Plasma"			"RSB80"
+"T_RSB-80_M_Plasma" 	"RSB-80 Plasma" 		"T_RSB80"
+
+"WM20_L_Plasma"		"WM-20 Plasma"			"WM20"
+"WM32"	"WM-32 Plasma"	"WM32"
+"WM27"		"WM-27 Plasma"		"WM27"
+"WM20_DUAL"		"DUAL WM-20 PLASMA"	"WM20_DUAL"
+"WM27_DUAL"	"Dual WM-27 Plasma"	"WM27_DUAL"
+"WM32_DUAL"	"Dual WM-32 Plasma"	"WM32_DUAL"
+
+"TermCannon"		"Term Cannon"		"TERMCANNON"
+
+
+"PROXY_MINE"		"Proxy Mine"			"PROXY"
+"PLASTIC"		"Plastic"		"PLASTIC"	
+"EMP-GRENADE"		"EMP Grenade"			"EMP"		
+"GRENADE"		"Grenade"		"GRENADE"
+
+[END]
+
+
+
+
+[CASTS_AND_WEAPONS]
+
+
+//Name	  Alias		Cast	Time	Mesh				      Scale
+
+
+
+  "T900S" "T-900 supply"	0	0	"MenuDatas\3DModells\t900_supply.sca"  3.7
+    "WM32"
+    "WM20_L_Plasma"
+    "WM27"
+    #DefaultWeapons "WM20_L_Plasma" ""
+   end
+
+  "T900HeavyAssault"	"T-900 Heavy Assault"	0	0	"MenuDatas\3DModells\t900_heavy_assault.sca"	3.7
+    "WM32_DUAL"
+    "WM20_DUAL"
+    "WM27_DUAL"
+
+    #DefaultWeapons "WM20_DUAL" ""
+   end
+
+  "T900Heavy"	"T-900 Heavy"	0	0	"MenuDatas\3DModells\t900_posed.sca"	3.7
+
+    "T_RSB-80_M_Plasma"
+    "TermCannon"
+
+    #DefaultWeapons "RSB-80_M_Plasma" ""
+   end
+
+  "Infiltrator"	"Infiltrator"	0	0	"MenuDatas\3DModells\infiltrator_posed.sca"	4
+    "M249_Machine_Gun"
+    "M134_Minigun"
+    "RSB-80_M_Plasma"
+
+    #DefaultWeapons "M249_Machine_Gun" ""
+   end
+
+  "Fk" "Fk"	0	0	"MenuDatas\3DModells\FK.sca"	3.2
+    #DefaultWeapons "" ""
+   end
+
+  "Fk" "Fk"	0	1	"MenuDatas\3DModells\FK.sca"	3.2
+    #DefaultWeapons "" ""
+
+   end
+
+
+  "T1" "T-1"	0	1	"MenuDatas\3DModells\t1_posed.sca"	2.7
+    #DefaultWeapons "" ""
+   end
+
+
+
+
+  "Hunter"	"Hunter"	1	0	"MenuDatas\3DModells\hunter_posed.sca"	4
+    "M4_Rifle/Grenade"
+    "XM29_Spec_Rifle"
+
+    #SecondaryWeapons
+
+    "EMP-GRENADE"
+    "GRENADE"
+
+    #DefaultWeapons "M4_Rifle/Grenade" "PLASTIC"
+  end
+
+
+  "Hunter_Present"	"Hunter"	1	1	"MenuDatas\3DModells\hunter_posed_Jelen.sca"	4
+    "M4_Rifle/Grenade"
+    "G3_Scoped_Rifle"
+
+    #SecondaryWeapons
+
+    "GRENADE"
+
+    #DefaultWeapons "M4_Rifle/Grenade" "PLASTIC"
+  end
+
+
+  "HeavyHunter"	"Heavy Hunter"	1	0	"MenuDatas\3DModells\heavy_posed.sca"	4
+    "SMAW_Rocket"
+    "M134_Minigun"
+    "RSB-80_M_Plasma"
+
+    #SecondaryWeapons
+
+    "GRENADE"
+
+    #DefaultWeapons "SMAW_Rocket" ""
+  end
+
+  "HeavyHunter_Present"	"Heavy Hunter"	1	1	"MenuDatas\3DModells\heavy_posed_present.sca"	4
+    "SMAW_Rocket"
+    "M134_Minigun"
+
+    #SecondaryWeapons
+
+    "GRENADE"
+
+    #DefaultWeapons "SMAW_Rocket" ""
+  end
+
+
+  "Scout"	"Scout"	1	0	"MenuDatas\3DModells\scout_posed.sca"	4
+    "M82_Scoped_Rifle"
+    "G3_Scoped_Rifle"
+
+    #SecondaryWeapons
+
+    "GRENADE"	
+    "EMP-GRENADE"
+
+    #DefaultWeapons "M82_Scoped_Rifle" ""
+  end
+
+
+  "Supply"	"Supply"	1	0	"MenuDatas\3DModells\supply_posed.sca"	4
+    "M249_Machine_Gun"
+    "WM25_L_Plasma"
+
+    #SecondaryWeapons
+
+    "PLASTIC"	
+    "GRENADE"
+
+    #DefaultWeapons "M249_Machine_Gun" ""
+  end
+
+
+  "Arnold"	"Terminator"	1	3	"MenuDatas\3DModells\arnold.sca"	4
+    "M249_Machine_Gun"
+    "M134_Minigun"
+    "RSB-80_M_Plasma"
+
+    #DefaultWeapons "M249_Machine_Gun" ""
+   end
+
+
+
+  default_selection             "T900S" "Hunter"
+  default_cast			0 //0 - Human, 1 - Term.
+  cast_change_time		10000
+
+[END]
+

@@ -1,0 +1,328 @@
+
+#define	EXPLODE_TERRAIN	0x0
+#define	EXPLODE_VEHICLE	0x100000
+#define EXPLODE_HUMAN	0x1000000
+
+{
+	type		FIRE
+	filename	Sound/Weapons/westinghouse/rsb80_toltessel.wav
+	volume		225
+
+	distance	40.0		80.0
+	attachtohuman	ON
+}
+
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_CONCRATE
+	randomfiles	5
+	randomfilename	Sound/Weapons/impact_laser_stone_1.wav
+	randomfilename	Sound/Weapons/impact_laser_stone_1_v1.wav
+	randomfilename	Sound/Weapons/impact_laser_stone_2.wav
+	randomfilename	Sound/Weapons/impact_laser_stone_2_v1.wav
+	randomfilename	Sound/Weapons/impact_laser_stone_2_v2.wav
+	volume		255
+
+	distance	0.7	14.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_TERRAINHARD
+	randomfiles	5
+	randomfilename	Sound/Weapons/impact_laser_stone_1.wav
+	randomfilename	Sound/Weapons/impact_laser_stone_1_v1.wav
+	randomfilename	Sound/Weapons/impact_laser_stone_2.wav
+	randomfilename	Sound/Weapons/impact_laser_stone_2_v1.wav
+	randomfilename	Sound/Weapons/impact_laser_stone_2_v2.wav
+
+	volume		255
+
+	distance	0.7	14.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_TERRAINSOFT
+	randomfiles	7
+	randomfilename	Sound/Weapons/impact_laser_dirt_1.wav
+	randomfilename	Sound/Weapons/impact_laser_dirt_1_v1.wav
+	randomfilename	Sound/Weapons/impact_laser_dirt_1_v2.wav
+	randomfilename	Sound/Weapons/impact_laser_dirt_1_v3.wav
+	randomfilename	Sound/Weapons/impact_laser_dirt_2_v1.wav
+	randomfilename	Sound/Weapons/impact_laser_dirt_2_v2.wav
+	randomfilename	Sound/Weapons/impact_laser_dirt_2_v3.wav
+	volume		255
+
+	distance	0.7	14.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_WOOD
+	randomfiles	5
+
+	randomfilename	Sound/Weapons/impact_laser_wood_1_v1.wav
+	randomfilename	Sound/Weapons/impact_laser_wood_1_v2.wav
+	randomfilename	Sound/Weapons/impact_laser_wood_2_v2.wav
+	randomfilename	Sound/Weapons/impact_laser_wood_2_v3.wav
+	randomfilename	Sound/Weapons/impact_laser_wood_2_v4.wav
+
+
+	volume		255
+
+	distance	0.7	14.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_GLASS
+	randomfiles	1
+	randomfilename	Sound/Weapons/impact_plazma_glass_01.wav
+
+	volume		255
+
+	distance	0.7	14.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_STEEL
+
+	randomfiles	12
+	randomfilename	Sound/Weapons/impact_laser_metal_1_v1.wav
+	randomfilename	Sound/Weapons/impact_laser_metal_1_v2.wav
+	randomfilename	Sound/Weapons/impact_laser_metal_1_v3.wav
+	randomfilename	Sound/Weapons/impact_laser_metal_1_v5.wav
+	randomfilename	Sound/Weapons/impact_laser_metal_2.wav
+	randomfilename	Sound/Weapons/impact_laser_metal_2_v1.wav
+	randomfilename	Sound/Weapons/impact_laser_metal_2_v2.wav
+	randomfilename	Sound/Weapons/impact_laser_metal_2_v4.wav
+	randomfilename	Sound/Weapons/impact_laser_metal_2_v5.wav
+	randomfilename	Sound/Weapons/impact_laser_metal_2_v6.wav
+	randomfilename	Sound/Weapons/impact_laser_metal_2_v7.wav
+	randomfilename	Sound/Weapons/impact_laser_metal_2_v8.wav
+
+	volume		255
+
+	distance	0.7	14.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_VEHICLE
+	randomfiles	6
+	randomfilename	Sound/Weapons/t900_impact_laser_2_v1.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_2_v2.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_2_v3.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_2_v4.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_2_v5.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_2_v6.wav
+
+	volume		255
+
+	distance	0.7	25.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	Hunter				//ember
+	randomfiles	10
+	randomfilename	Sound/Weapons/ricochet_wood_1_v4.wav
+	randomfilename	Sound/Weapons/ricochet_wood_1_v5.wav
+	randomfilename	Sound/Weapons/ricochet_wood_2_v4.wav
+	randomfilename	Sound/Weapons/ricochet_wood_2_v5.wav
+	randomfilename	Sound/Weapons/impact_plazma_flesh_01.wav
+	randomfilename	Sound/Weapons/impact_plazma_flesh_02.wav
+	randomfilename	Sound/Weapons/impact_plazma_flesh_03.wav
+	randomfilename	Sound/Weapons/impact_plazma_ember_01.wav
+	randomfilename	Sound/Weapons/impact_plazma_ember_02.wav
+	randomfilename	Sound/Weapons/impact_plazma_ember_03.wav
+
+	volume		255
+
+	distance	0.7	12.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	Scout				//ember
+	randomfiles	10
+	randomfilename	Sound/Weapons/ricochet_wood_1_v4.wav
+	randomfilename	Sound/Weapons/ricochet_wood_1_v5.wav
+	randomfilename	Sound/Weapons/ricochet_wood_2_v4.wav
+	randomfilename	Sound/Weapons/ricochet_wood_2_v5.wav
+	randomfilename	Sound/Weapons/impact_plazma_flesh_01.wav
+	randomfilename	Sound/Weapons/impact_plazma_flesh_02.wav
+	randomfilename	Sound/Weapons/impact_plazma_flesh_03.wav
+	randomfilename	Sound/Weapons/impact_plazma_ember_01.wav
+	randomfilename	Sound/Weapons/impact_plazma_ember_02.wav
+	randomfilename	Sound/Weapons/impact_plazma_ember_03.wav
+
+	volume		255
+
+	distance	0.7	12.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	Supply				//ember
+	randomfiles	10
+	randomfilename	Sound/Weapons/ricochet_wood_1_v4.wav
+	randomfilename	Sound/Weapons/ricochet_wood_1_v5.wav
+	randomfilename	Sound/Weapons/ricochet_wood_2_v4.wav
+	randomfilename	Sound/Weapons/ricochet_wood_2_v5.wav
+	randomfilename	Sound/Weapons/impact_plazma_flesh_01.wav
+	randomfilename	Sound/Weapons/impact_plazma_flesh_02.wav
+	randomfilename	Sound/Weapons/impact_plazma_flesh_03.wav
+	randomfilename	Sound/Weapons/impact_plazma_ember_01.wav
+	randomfilename	Sound/Weapons/impact_plazma_ember_02.wav
+	randomfilename	Sound/Weapons/impact_plazma_ember_03.wav
+
+	volume		255
+
+	distance	0.7	12.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	HeavyHunter				//ember
+	randomfiles	10
+	randomfilename	Sound/Weapons/ricochet_wood_1_v4.wav
+	randomfilename	Sound/Weapons/ricochet_wood_1_v5.wav
+	randomfilename	Sound/Weapons/ricochet_wood_2_v4.wav
+	randomfilename	Sound/Weapons/ricochet_wood_2_v5.wav
+	randomfilename	Sound/Weapons/impact_plazma_flesh_01.wav
+	randomfilename	Sound/Weapons/impact_plazma_flesh_02.wav
+	randomfilename	Sound/Weapons/impact_plazma_flesh_03.wav
+	randomfilename	Sound/Weapons/impact_plazma_ember_01.wav
+	randomfilename	Sound/Weapons/impact_plazma_ember_02.wav
+	randomfilename	Sound/Weapons/impact_plazma_ember_03.wav
+
+	volume		255
+
+	distance	0.7	12.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	Infiltrator				//ember
+	randomfiles	10
+	randomfilename	Sound/Weapons/ricochet_wood_1_v4.wav
+	randomfilename	Sound/Weapons/ricochet_wood_1_v5.wav
+	randomfilename	Sound/Weapons/ricochet_wood_2_v4.wav
+	randomfilename	Sound/Weapons/ricochet_wood_2_v5.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_2_v1.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_2_v2.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_2_v3.wav
+	randomfilename	Sound/Weapons/impact_plazma_ember_01.wav
+	randomfilename	Sound/Weapons/impact_plazma_ember_02.wav
+	randomfilename	Sound/Weapons/impact_plazma_ember_03.wav
+	volume		255
+
+	distance	0.7	12.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	T900				//terminator
+	randomfiles	6
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v1.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v2.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v3.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v4.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v5.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v6.wav
+	volume		255
+
+	distance	0.7	15.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	T900S				//terminator
+	randomfiles	6
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v1.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v2.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v3.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v4.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v5.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v6.wav
+	volume		255
+
+	distance	0.7	15.0
+}
+
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	T900Heavy				//terminator
+	randomfiles	6
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v1.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v2.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v3.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v4.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v5.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v6.wav
+	volume		255
+
+	distance	0.7	15.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	T1					//terminator
+	randomfiles	6
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v1.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v2.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v3.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v4.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v5.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_1_v6.wav
+	volume		255
+
+	distance	0.7	15.0
+}
+
+{
+	type		EXPLODE
+	colltype	EXPLODE_HUMAN
+	collsubtype	Fk				//terminator
+	randomfiles	6
+	randomfilename	Sound/Weapons/t900_impact_laser_2_v1.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_2_v2.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_2_v3.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_2_v4.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_2_v5.wav
+	randomfilename	Sound/Weapons/t900_impact_laser_2_v6.wav
+	volume		255
+
+	distance	0.7	15.0
+}
+
+{
+	type		RELOAD
+	filename	Sound/krack.wav
+	volume		255
+
+	distance	1.0	20.0
+}
+
+{
+	type		EMPTYWEAPON
+	filename	Sound/Weapons/WestingHouse/plazma_empty_01.wav
+	volume		100
+
+	distance	1.0	15.0
+	attachtohuman	ON
+}

@@ -1,0 +1,17 @@
+// Ember-leíró File V1.0	New format
+humandata {
+	mass		300	// tomeg (kg)
+	height		1.8	// magassag (m)
+	walkSpeed	6	// lepes sebessege (km/h)
+	runSpeed	12	// futas sebessege (km/h)
+	jumpHeight	0	// ugras magassaga (m)
+	maxElevation	60	// maximalis megmaszhato emelkedo dolesszoge (fok)
+// test kiterjedese kulonbozo testhelyzetekben
+// kuszas guggolas lepes/futas
+// billeges merteke lepesben, futaskor es oldalazva
+// serulesek/pancelzat merteke egyes testreszeken
+
+	minDamageSpeed  8
+	damageScale     0.125
+
+}

@@ -1,0 +1,7 @@
+//the cow is under attack!
+
+
+cWeapon
+{
+	Type	Automate
+}

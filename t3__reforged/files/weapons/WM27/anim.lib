@@ -1,0 +1,17 @@
+AnimationLib
+{
+	AnimNum		2
+
+	Anim
+	{
+		Name	"WEAPON_IDLE"
+		File	"Weapons/WM27/WM20_idle.anm"
+	}
+
+	Anim
+	{
+		Name	"WEAPON_FIRE"
+		File	"Weapons/WM27/WM20_idle.anm"
+	}
+}
+

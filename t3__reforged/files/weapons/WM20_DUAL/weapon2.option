@@ -1,0 +1,16 @@
+// Weapon Option File V1.1	Old stuff removed, slots + granade types added
+// Weapon Option File V1.0	Base version
+option weapon 0
+{
+	weight		20	// felszereles sulya (kg)
+	magazineSize	0	// tar merete
+	bullets		6
+	shootsPerMin	0.5	// lovesek maximalis sebessege
+	type		missile	// lehet: bullet, granade, missile, homingMissile
+	gameRadius -0.0
+	timeToExplode	0	// 0 = azonnal; > 0 ido mulva; < 0 tapad + visszaszamlal
+	subType		101	// a fegyverkategorian beluli sorszam
+	range		2 10	// mekkora a robbanas min/max hatosogara
+	damage		0 0.5	// robbanas min/max sebzese
+	speed		100	// lovedek indulo sebessege
+}

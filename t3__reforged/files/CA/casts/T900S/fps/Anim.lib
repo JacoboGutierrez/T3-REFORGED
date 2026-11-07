@@ -1,0 +1,282 @@
+AnimationLib
+{
+	AnimNum		49
+
+	Anim
+	{
+		Name	"UPDOWN"
+		File	"CA/FPS_SKYNET/t900fps_updown.anm"
+	}
+	
+	Anim
+	{
+		Name	"IDLE"
+		File	"CA/FPS_SKYNET/t900fps_updown.anm"
+	}
+
+	Anim
+	{
+		Name	"WALK"
+		File	"CA/FPS_SKYNET/t900fps_updown.anm"
+	}
+
+	Anim
+	{
+		Name	"WALK_45_LEFT"
+		File	"CA/FPS_SKYNET/t900fps_updown.anm"
+	}
+	Anim
+	{
+		Name	"WALK_45_RIGHT"
+		File	"CA/FPS_SKYNET/t900fps_updown.anm"
+	}
+
+	Anim
+	{
+		Name	"BACK_WALK"
+		File	"CA/FPS_SKYNET/t900fps_updown.anm"
+	}
+	Anim
+	{
+		Name	"BACK_WALK_45_LEFT"
+		File	"CA/FPS_SKYNET/t900fps_updown.anm"
+	}
+	Anim
+	{
+		Name	"BACK_WALK_45_RIGHT"
+		File	"CA/FPS_SKYNET/t900fps_updown.anm"
+	}
+
+	Anim
+	{
+		Name	"STRAFE_LEFT_WALK"
+		File	"CA/FPS_SKYNET/t900fps_updown.anm"
+	}
+	Anim
+	{
+		Name	"STRAFE_RIGHT_WALK"
+		File	"CA/FPS_SKYNET/t900fps_updown.anm"
+	}	
+
+
+	Anim
+	{
+		Name	"RUNNING"
+		File	"CA/FPS_SKYNET/t900fps_updown.anm"
+	}
+	Anim
+	{
+		Name	"RUNNING_45_LEFT"
+		File	"CA/FPS_SKYNET/t900fps_updown.anm"
+	}
+	Anim
+	{
+		Name	"RUNNING_45_RIGHT"
+		File	"CA/FPS_SKYNET/t900fps_updown.anm"
+	}
+
+	Anim
+	{
+		Name	"BACK_RUNNING"
+		File	"CA/FPS_SKYNET/t900fps_updown.anm"
+	}
+	Anim
+	{
+		Name	"BACK_RUNNING_45_LEFT"
+		File	"CA/FPS_SKYNET/t900fps_updown.anm"
+	}
+	Anim
+	{
+		Name	"BACK_RUNNING_45_RIGHT"
+		File	"CA/FPS_SKYNET/t900fps_updown.anm"
+	}
+
+	Anim
+	{
+		Name	"STRAFE_LEFT_RUNNING"
+		File	"CA/FPS_SKYNET/t900fps_updown.anm"
+	}
+	Anim
+	{
+		Name	"STRAFE_RIGHT_RUNNING"
+		File	"CA/FPS_SKYNET/t900fps_updown.anm"
+	}	
+
+	Anim
+	{
+		Name	"HAND_WM20_IDLE"
+		File	"CA/FPS_SKYNET/t900fps_idle_wm20.anm"
+	}
+
+	Anim
+	{
+		Name	"HAND_WM20_WALK"
+		File	"CA/FPS_SKYNET/t900fps_walk_wm20.anm"
+	}
+
+	Anim
+	{
+		Name	"HAND_WM20_RUNNING"
+		File	"CA/FPS_SKYNET/t900fps_run_wm20.anm"
+	}
+
+	Anim
+	{
+		Name	"HAND_WM20_SECOUNDARY_FIRE"
+		File	"CA/FPS_SKYNET/t900fps_secondary_wm20.anm"
+	}
+
+	Anim
+	{
+		Name	"HAND_WM20_FIRE"
+		File	"CA/FPS_SKYNET/t900fps_fire_wm20.anm"
+	}
+
+
+	Anim
+	{
+		Name	"HAND_WM20_CHANGE_BACK"
+		File	"CA/FPS_SKYNET/t900fps_change_back_wm20.anm"
+	}
+	Anim
+	{
+		Name	"HAND_WM20_CHANGE_GO"
+		File	"CA/FPS_SKYNET/t900fps_change_go_wm20.anm"
+	}
+
+
+	Anim
+	{
+		Name	"HAND_T_AMMO_IDLE"
+		File	"CA/FPS_SKYNET/t900fps_idle_t_ammo.anm"
+	}
+
+	Anim
+	{
+		Name	"HAND_T_AMMO_WALK"
+		File	"CA/FPS_SKYNET/t900fps_walk_t_ammo.anm"
+	}
+
+	Anim
+	{
+		Name	"HAND_T_AMMO_RUNNING"
+		File	"CA/FPS_SKYNET/t900fps_run_t_ammo.anm"
+	}
+
+	Anim
+	{
+		Name	"HAND_T_AMMO_FIRE"
+		File	"CA/FPS_SKYNET/t900fps_fire_t_ammo.anm"
+	}
+
+	Anim
+	{
+		Name	"HAND_T_AMMO_RELOAD"
+		File	"CA/FPS_SKYNET/t900fps_reload_t_ammo.anm"
+	}
+	Anim
+	{
+		Name	"HAND_T_AMMO_CHANGE_BACK"
+		File	"CA/FPS_SKYNET/t900fps_change_back_t_ammo.anm"
+	}
+	Anim
+	{
+		Name	"HAND_T_AMMO_CHANGE_GO"
+		File	"CA/FPS_SKYNET/t900fps_change_go_t_ammo.anm"
+	}
+
+
+	Anim
+	{
+		Name	"SIT"
+		File	"CA/FPS_SKYNET/t900fps_sit.anm"
+	}	
+
+	Anim
+	{
+		Name	"DRIVER"
+		File	"CA/FPS_SKYNET/t900fps_driver.anm"
+	}
+
+	Anim
+	{
+		Name	"PASSENGER"
+		File	"CA/FPS_SKYNET/t900fps_passenger.anm"
+	}
+
+
+
+Anim
+	{
+		Name	"HAND_WM27_IDLE"
+		File	"CA/FPS_SKYNET/t900fps_idle_wm20.anm"
+	}
+Anim
+	{
+		Name	"HAND_WM27_WALK"
+		File	"CA/FPS_SKYNET/t900fps_walk_wm20.anm"
+	}
+Anim
+	{
+		Name	"HAND_WM27_RUNNING"
+		File	"CA/FPS_SKYNET/t900fps_run_wm20.anm"
+	}
+Anim
+	{
+		Name	"HAND_WM27_SECOUNDARY_FIRE"
+		File	"CA/FPS_SKYNET/t900fps_secondary_wm20.anm"
+	}
+Anim
+	{
+		Name	"HAND_WM27_FIRE"
+		File	"CA/FPS_SKYNET/t900fps_fire_wm20.anm"
+	}
+Anim
+	{
+		Name	"HAND_WM27_CHANGE_BACK"
+		File	"CA/FPS_SKYNET/t900fps_change_back_wm20.anm"
+	}
+Anim
+	{
+		Name	"HAND_WM27_CHANGE_GO"
+		File	"CA/FPS_SKYNET/t900fps_change_go_wm20.anm"
+	}
+
+Anim
+	{
+		Name	"HAND_WM32_IDLE"
+		File	"CA/FPS_SKYNET/t900fps_idle_wm20.anm"
+	}
+Anim
+	{
+		Name	"HAND_WM32_WALK"
+		File	"CA/FPS_SKYNET/t900fps_walk_wm20.anm"
+	}
+Anim
+	{
+		Name	"HAND_WM32_RUNNING"
+		File	"CA/FPS_SKYNET/t900fps_run_wm20.anm"
+	}
+Anim
+	{
+		Name	"HAND_WM32_SECOUNDARY_FIRE"
+		File	"CA/FPS_SKYNET/t900fps_secondary_wm20.anm"
+	}
+Anim
+	{
+		Name	"HAND_WM32_FIRE"
+		File	"CA/FPS_SKYNET/t900fps_fire_wm20.anm"
+	}
+Anim
+	{
+		Name	"HAND_WM32_CHANGE_BACK"
+		File	"CA/FPS_SKYNET/t900fps_change_back_wm20.anm"
+	}
+Anim
+	{
+		Name	"HAND_WM32_CHANGE_GO"
+		File	"CA/FPS_SKYNET/t900fps_change_go_wm20.anm"
+	}
+}
+
+

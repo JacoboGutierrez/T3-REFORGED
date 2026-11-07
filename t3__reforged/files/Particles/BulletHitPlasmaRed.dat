@@ -1,0 +1,252 @@
+BulletHit_Aluminium
+{
+	Texture			Textures\Particles\Red-Muzzle-Front-Plasma.tga
+	ParticleSize		0.04
+	ParticleSizeVariation	0.10
+	TimeDelay		0.020
+	Dispersion		10.00
+	EmitterLifespan		0.05
+	ParticleLifespan	0.25
+	Velocity		5.30
+	ParticleNumber		100
+	Rotation		10.00
+	Opacity			1.00
+	OpacityTime		0.19
+	OpacityType		1
+	Red			0.95
+	Green			0.90
+	Blue			1.00
+	DistanceScale		0.1
+}
+
+BulletHit_AluminiumOther
+{
+	Texture			Textures\Particles\Red-Muzzle-Front-Plasma.tga
+	ParticleSize		0.04
+	ParticleSizeVariation	0.10
+	TimeDelay		0.020
+	Dispersion		10.00
+	EmitterLifespan		0.05
+	ParticleLifespan	0.25
+	Velocity		5.30
+	ParticleNumber		100
+	Rotation		10.00
+	Opacity			1.00
+	OpacityTime		0.19
+	OpacityType		1
+	Red			0.95
+	Green			0.90
+	Blue			1.00
+	DistanceScale		0.1
+}
+
+BulletHit_Steel
+{
+	Texture			Textures\Particles\Red-Muzzle-Front-Plasma.tga
+	ParticleSize		0.06
+	ParticleSizeVariation	0.10
+	TimeDelay		0.020
+	Dispersion		10.00
+	EmitterLifespan		0.05
+	ParticleLifespan	0.25
+	Velocity		5.30
+	ParticleNumber		100
+	Rotation		10.00
+	Opacity			1.00
+	OpacityTime		0.19
+	OpacityType		1
+	Red			0.95
+	Green			0.90
+	Blue			1.00
+	DistanceScale		0.1
+}
+
+BulletHit_SoftSoil
+{
+	Texture			Textures\Particles\Red-Muzzle-Front-Plasma.tga
+	ParticleSize		0.20
+	ParticleSizeVariation	0.05
+	TimeDelay		0.100
+	Dispersion		0.53
+	EmitterLifespan		0.15
+	ParticleLifespan	0.02
+	Velocity		100.00
+	ParticleNumber		10
+	Rotation		5.00
+	Opacity			1.00
+	OpacityTime		0.10
+	OpacityType		1
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	DistanceScale		0.1
+}
+
+BulletHit_HardSoil
+{
+	Texture			Textures\Particles\Red-Muzzle-Front-Plasma.tga
+	ParticleSize		0.20
+	ParticleSizeVariation	0.05
+	TimeDelay		0.100
+	Dispersion		0.53
+	EmitterLifespan		0.15
+	ParticleLifespan	0.02
+	Velocity		100.00
+	ParticleNumber		10
+	Rotation		5.00
+	Opacity			1.00
+	OpacityTime		0.10
+	OpacityType		1
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	DistanceScale		0.1
+}
+
+BulletHit_HardSoilParts
+{
+	Texture			Textures\Particles\Red-Muzzle-Front-Plasma.tga
+	ParticleSize		0.06
+	ParticleSizeVariation	0.60
+	TimeDelay		0.000
+	Dispersion		6.70
+	EmitterLifespan		0.24
+	ParticleLifespan	1.00
+	Velocity		2.10
+	ParticleNumber		6
+	Rotation		2.00
+	Opacity			1.00
+	OpacityTime		0.99
+	OpacityType		0
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	DistanceScale		0.05
+}
+
+BulletHit_Concrete
+{
+	Texture			Textures\Particles\Red-Muzzle-Front-Plasma.tga
+	ParticleSize		0.20
+	ParticleSizeVariation	0.05
+	TimeDelay		0.100
+	Dispersion		0.53
+	EmitterLifespan		0.20
+	ParticleLifespan	0.02
+	Velocity		100.00
+	ParticleNumber		10
+	Rotation		5.00
+	Opacity			1.00
+	OpacityTime		0.10
+	OpacityType		1
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	DistanceScale		0.1
+}
+
+BulletHit_ConcreteParts
+{
+	Texture			Textures\Particles\Red-Muzzle-Front-Plasma.tga
+	ParticleSize		0.06
+	ParticleSizeVariation	0.60
+	TimeDelay		0.000
+	Dispersion		6.70
+	EmitterLifespan		0.24
+	ParticleLifespan	1.00
+	Velocity		2.10
+	ParticleNumber		6
+	Rotation		2.00
+	Opacity			1.00
+	OpacityTime		0.99
+	OpacityType		0
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	DistanceScale		0.05
+}
+
+BulletHit_Glass
+{
+	Texture			Textures\Particles\Red-Muzzle-Front-Plasma.tga
+	ParticleSize		0.06
+	ParticleSizeVariation	0.60
+	TimeDelay		0.000
+	Dispersion		6.70
+	EmitterLifespan		0.24
+	ParticleLifespan	1.00
+	Velocity		2.10
+	ParticleNumber		20
+	Rotation		2.00
+	Opacity			1.00
+	OpacityTime		0.99
+	OpacityType		0
+	Red			0.95
+	Green			0.80
+	Blue			1.00
+	DistanceScale		0.05
+}
+
+BulletHit_Wood
+{
+	Texture			Textures\Particles\Red-Muzzle-Front-Plasma.tga
+	ParticleSize		0.20
+	ParticleSizeVariation	0.05
+	TimeDelay		0.100
+	Dispersion		0.53
+	EmitterLifespan		0.20
+	ParticleLifespan	0.03
+	Velocity		100.00
+	ParticleNumber		10
+	Rotation		5.00
+	Opacity			1.00
+	OpacityTime		0.10
+	OpacityType		1
+	Red			1.00
+	Green			0.90
+	Blue			1.00
+	DistanceScale		0.1
+}
+
+BulletHit_Blood
+{
+	Texture			Textures\Particles\Red-Muzzle-Front-Plasma.tga
+	ParticleSize		0.20
+	ParticleSizeVariation	0.05
+	TimeDelay		0.100
+	Dispersion		0.53
+	EmitterLifespan		0.20
+	ParticleLifespan	0.02
+	Velocity		100.00
+	ParticleNumber		10
+	Rotation		5.00
+	Opacity			1.00
+	OpacityTime		0.10
+	OpacityType		1
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	DistanceScale		0.05
+}
+
+BulletHit_BloodOther
+{
+	Texture			Textures\Particles\talajrog.tga
+	ParticleSize		0.03
+	ParticleSizeVariation	0.40
+	TimeDelay		0.070
+	Dispersion		0.00
+	EmitterLifespan		0.30
+	ParticleLifespan	0.20
+	Velocity		4.30
+	ParticleNumber		4
+	Rotation		3.46
+	Opacity			1.00
+	OpacityTime		0.37
+	OpacityType		0
+	Red			1.00
+	Green			1.00
+	Blue			1.00
+	DistanceScale		0.02
+}
+

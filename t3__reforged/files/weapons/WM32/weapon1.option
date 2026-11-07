@@ -1,0 +1,15 @@
+// Weapon Option File V1.1	Old stuff removed, slots + granade types added
+// Weapon Option File V1.0	Base version
+option weapon 0	//8
+{
+	weight		20	// equipment weight (kg)
+	magazineSize	0	// magazine size
+	bullets		300	// max ammo capacity outside the magazine
+	shootsPerMin	6	// maximum fire rate
+	type		bullet	// can be: bullet, granade, missile, homingMissile
+	subType		28	// index within the weapon category
+	range		3 10	// min/max explosion blast radius
+	damage		0.15 0.15	// min/max explosion strength
+	speed		400	// initial projectile speed
+	throw		0.5	// spread angle (in degrees)
+}

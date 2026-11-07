@@ -1,0 +1,45 @@
+/*********************************************************************
+	GamePlay description file
+	(c) 2003, Clever's Games Ltd
+*********************************************************************/
+cCast
+{
+	Name	"T900HeavyAssault"		// cast name
+
+	MaxDamage	0.900		// max damage before death
+	Armor		0.000		// -damage
+
+	FpsView	"Casts/T900HeavyAssault/Fps"	// fps view
+	TpsView	"Casts/T900HeavyAssault/Tps"	// tps view
+
+	WeaponNumber	3
+
+	cWeapon
+	{
+		Slot	0
+		Name	"WM20_DUAL"
+	}
+	cWeapon
+	{
+		Slot 1
+		Name "WM27_DUAL"
+	}
+	cWeapon
+	{
+		Slot 2
+		Name "WM32_DUAL"
+	}
+
+
+	ZonesNumber	7
+	cZones
+	{
+		HEAD		2.0
+		BODY		1.0
+		UPPERARM	0.2
+		LOWERARM	0.1
+		THIGH		0.65
+		LEG		0.15
+		FOOT		0.1
+	}
+}

@@ -1,0 +1,1252 @@
+"001"	"SINGLE PLAYER"
+"002"	"MULTIPLAYER"
+"003"	"EDIT PROFILE"
+"004"	"OPTIONS"
+"005"	"QUIT"
+"006"	"Write_here"
+"007"	"NEW"
+"008"	"DELETE"
+"009"	"USE"
+"010"	"PLEASE WAIT! LOADING..."
+"011"	" "
+"012"	"CREATE"
+"013"	"BACK"
+"014"	"CREATE SERVER"
+"015"	"SERVER NAME:"
+"016"	"PLAYER NAME:"
+"017"	"PLAYERNAME"
+"018"	"SERVERNAME"
+"019"	"JOIN"
+"020"	"AVAILABLE SERVERS:"
+"021"	"REFRESH"
+"022"	"RESUME"
+"023"	"ABORT GAME"
+"024"	"RESUME GAME"
+"025"	"OK"
+"026"	"CANCEL"
+"027"	"PROFILES"
+"028"	"FILTERS"
+"029"	"LOCATION"
+"030"	"GAME MODE"
+"031"	"OTHER"
+"032"	"BROWSER"
+"033"	"CREATE"
+"034"	"JOIN"
+"035"	"MODE"
+"036"	"GAME PLAY"
+"037"	"SERVER NAME"
+"038"	"AVAILABLE"
+"039"	"SELECTED"
+"040"	"MAX PLAYERS"
+"041"	"TEAM BALANCING"
+"042"	"32"
+"043"	"START INTERNET"
+"044"	"SKYNET"
+"045"	"TECH-COM"
+"046"	"SKYNET CLASSES"
+"047"	"HUMAN CLASSES"
+"048"	"PRIMARY WEAPON"
+"049"	"SECONDARY WEAPON"
+"050"	"DONE"
+"051"	"PRESS <SPACE> TO CHANGE SETTINGS"
+"052"	"CHANGE SETTINGS"
+"053"	"DISCONNECT"
+"054"	"ENABLE BOTS"
+
+"056"	"RESPAWN TIME"
+"057"	"R"
+"058"	"G"
+"059"	"NETWORK TYPE"
+"060"	"CONTROLS"
+"061"	"VIDEO"
+"062"	"SOUND"
+"063"	"NETWORK"
+"064"	"GAME SETTINGS"
+"065"	"MODEM"
+"066"	"ISDN"
+"067"	"CABLE/DSL"
+"067a"	"T1"
+"068"	"LAN"
+"069"	"GRAPHICS QUALITY"
+"070"	"SETTINGS"
+"071"	"SHADOWS"
+"072"	"LOW   MED   HIGH   EXTRA"
+"073"	"EFFECTS QUALITY"
+"074"	"TEXTURE QUALITY"
+"075"	"MOVEMENT"
+"076"	"FK"
+"077"	"VEHICLES"
+"078"	"ACTIONS"
+"079"	"OTHER"
+"080"	"MOVEMENT"
+"081"	"PRIMARY"
+"082"	"SECONDARY"
+"083"	"LOADING..."
+"084"	"ACCESSING DATA"
+"085"	"PLEASE WAIT"
+"086"	"MASTER VOLUME"
+"087"	"MUSIC VOLUME"
+"088"	"EFFECTS VOLUME"
+"089"	"SETTINGS"
+"090"	"USE EAX"
+"091"	"USE HARDWARE"
+"092"	"AUTODETECT CHANNELS"
+"093"	"SOUND QUALITY"
+"094"	"AVAILABLE DRIVERS"
+"095"	"MUSIC LIST"
+"096"	"PLAYLIST"
+"097"	"MINIMAP TRANSPARENCY"
+"098"	"CROSSHAIR TYPE"
+"099"	"EFFECTS"
+
+"a01"	"BRIGHTNESS"
+"a02"	"CONTRAST"
+"a03"	"GAMMA"
+"a04"	"INVERT MOUSE"
+"a05"	"MOUSE SENSITIVITY"
+"a06"	"AUTO RUN"
+"a07"	"HUMANS"
+"a07a"	"Humans"
+"a08"	"TERMINATORS"
+"a08a"	"Terminators"
+"a09"	"PLAYER STATS"
+"a10"	"TEAM STATS"
+"a11"	"NAME                  FRAG      DEATH           F/D           PING"
+"a12"	"SUMMARY"
+"a13"	"RENAME"
+"a14"	"MINPLAYER"
+"a14a"	"NUMBER OF BOTS"
+"a15"	"FORCE CROSSHAIR"
+"a16"	"RESIZING..."
+"a17"	"WEAPON ON SCREEN"
+"a18"	"MESSAGE DELAY"
+"a19"	"MAP LIST"
+"a20"	"SCORE LIMIT"
+"a21"	"PRESS ANY KEY TO CONTINUE..."
+"a22"	"RESPAWN"
+"a23"	"PROFILE"
+"a24"	"FRAG LIMIT"
+
+"a25"	"ACCELERATE" 
+"a26"	"DECELERATE" 
+"a27"	"TURN LEFT" 
+"a28"	"TURN RIGHT" 
+"a29"	"CHANGE CAMERA" 
+"a30"	"FIRE" 
+"a31"	"ALTERNATE FIRE" 
+"a32"	"RELOAD" 
+"a33"	"USE" 
+"a34"	"BINOCULAR" 
+"a35"	"ZOOM IN" 
+"a36"	"ZOOM OUT" 
+"a37"	"SAY TO TEAM" 
+"a38"	"SAY TO ALL"
+"a39"	"INFO TABLE" 
+
+"a40"	"FRAGS:"
+"a41"	"DEATHS:"
+"a42"	"FRAGS/DEATHS:"
+"a43"	"CONNECTING..."
+"a44"	"TIME LIMIT"
+"a45"	"JOIN LAN"
+"a46"	"JOIN INTERNET"
+"a47"	"CREATE GAME"
+"a48"	"START LOCAL"
+"a49"	"[SEC]"
+"a50"	"RAGDOLL"
+"a51"	"DETAIL OBJECTS"
+"a52"	"DETAIL TEXTURE"
+"a53"	"DEFAULT"
+"a54"	"LOW"
+"a55"	"MED"
+"a56"	"HIGH"
+"a57"	"EXTRA"
+"a58"	"TERMINATOR SCREEN"
+"a59"	"START"
+"a60"	"MAP CHANGE IN"
+"a61"	"SEC"
+"a62"	"20"
+"a63"	"NEXT MAP"
+"a64"	"DEDICATED SERVER"
+"a65"	"MIN"
+"a66"	"ARE YOU SURE?"
+"a67"	"NO"
+"a68"	"YES"
+"a69"	"DISCONNECTING..."
+"a70"	"1 - 8"
+"a71"	"MWHEEL"
+"a72"	"F1"
+"a73"	"DELETE"
+"a74"	"-"
+"a75"	"I"
+"a76"	"1 - 5" 
+
+// Fejléc szövegek
+"100"	"TIME TO JOIN"
+"101"	"TIME LEFT"
+"102"	"00:00"
+
+// Táblázat Fejlécei
+"200"	"NAME"
+"201"	"H/T"
+"202"	"MODE"
+"203"	"MAP"
+"204"	"PING"
+"205"	"SIZE"
+
+// Menu Title
+"300" 	"SERVER BROWSER"
+"301" 	"CREATE SERVER"
+"302" 	"SELECT EQUIPMENT"
+"303" 	"SINGLE PLAYER"
+"304" 	"CUSTOMIZE CONTROLS"
+"305" 	"VIDEO OPTIONS"
+"306" 	"NETWORK OPTIONS"
+"307" 	"SOUND OPTIONS"
+"308" 	"GAME OPTIONS"
+"309"	"LOCAL SERVER BROWSER"
+"310"	"INTERNET SERVER BROWSER"
+"311"	"RESPAWN MENU"
+
+
+// Others
+"400"	"CREDITS"
+"401"	"SELECT MISSION"
+"402"	"PROFILES"
+
+"402a"	"TEAM DM"
+"403"	"TERMINATION"
+"404"	"MISSION"
+"405"	"FULL"
+"406"	"EMPTY"
+"407"	"LOCAL"
+"408"	"INTERNET"
+"409"	"MESSAGE>"
+//"409"	"Message>"
+"410"	"0%                                            100%"
+"411"	"DEDICATED"
+"412"	"1                                             5 [SEC]"
+
+
+
+//Hud Texts
+"1000"	"In Base!"
+"1001"	"/"
+"1002"	"SKYNET"
+"1003"	"TECH-COM"
+
+"1004"	"HP"
+"1005"	"AMMO"
+"1006"	"MISSION INFO"
+"1007"	"MISSION SUCCESSFUL"
+"1008"	"MISSION FAILED"
+"1009"	"CLICK TO CONTINUE"
+"1010"	" TARGET FOUND "
+"1011"	" SEARCHING LIFE FORM "
+"1012"	"HEAT"
+"1013"	"You can not use this"
+
+//Fast Messages
+
+
+//Human
+	//1
+"5000"	"Roger That."
+"5001"	"Negative."
+"5002"	"3"
+"5003"	"4"
+"5004"	"5"
+"5005"	"6"
+"5006"	"7"
+"5007"	"8"
+"5008"	"9"
+
+	//2
+"5009"	"We need pickup!"
+"5010"	"We need reinforcements!"
+"5011"	"We need medicine!"
+"5012"	"We need ammo!"
+"5013"	"5"
+"5014"	"6"
+"5015"	"7"
+"5016"	"8"
+"5017"	"9"
+
+	//3
+"5018"	"Assault!"
+"5019"	"Hold position!"
+"5020"	"Fall back!"
+"5021"	"Charge!"
+"5022"	"Cover me!"
+"5023"	"6"
+"5024"	"7"
+"5025"	"8"
+"5026"	"9"
+
+	//4
+
+"5027"	"Enemy sighted!"
+"5028"	"Attack the T900!"
+"5029"	"Attack the infiltrator!"
+"5030"	"Attack the FK!"
+"5031"	"Attack the base!"
+"5032"	"Medic!"
+"5033"	"I am empty!"
+"5034"	"Help!"
+"5035"	"Defend the base!"
+
+
+
+//Terminator
+
+
+"5100"	"Affirmative!"
+"5101"	"Negative!"
+"5102"	"3"
+"5103"	"4"
+"5104"	"5"
+"5105"	"6"
+"5106"	"7"
+"5107"	"8"
+"5108"	"9"
+
+	//2
+"5109"	"We need a Transport Vehicle!"
+"5110"	"We need reinforcements!"
+"5111"	"We need ammunition!"
+"5112"	"4"
+"5113"	"5"
+"5114"	"6"
+"5115"	"7"
+"5116"	"8"
+"5117"	"9"
+
+	//3
+"5118"	"Assault all humans!"
+"5119"	"Hold position!"
+"5120"	"Fall back!"
+"5121"	"Forward!"
+"5122"	"Cover me!"
+"5123"	"6"
+"5124"	"7"
+"5125"	"8"
+"5126"	"9"
+
+	//4
+"5127"	"Enemy sighted!"
+"5128"	"Human recognized!"
+"5129"	"Human vehicle sighted!"
+"5130"	"Attack!"
+"5131"	"Attack the human!"
+"5132"	"Attack the human vehicle!"
+"5133"	"Attack the base!"
+"5134"	"Support needed!"
+"5135"	"9"
+
+
+
+// Messages
+
+	// Human
+
+"6000" 	"The base is under attack"
+"6001" 	"The main base is under attack"
+"6002" 	"Mission target under attack"
+"6003" 	"Mission critical"
+"6004" 	"Mission complete"
+"6005" 	"Mission failed"
+"6006" 	"HK Attack"
+"6007" 	"We are winning"
+"6008" 	"Base taken"
+
+
+	// Terminator
+
+"6100" 	"Critical hit"
+"6101" 	"Critical hit - system unstable"
+"6102" 	"The base is under attack"
+"6103" 	"The main base is under attack"
+"6104" 	"Mission target under attack"
+"6105" 	"Mission critical"
+"6106" 	"Mission complete"
+"6107" 	"Mission failed"
+"6108" 	"Defend the base"
+
+
+
+//Mission messages
+	//Human
+
+"7000"	"Target destroyed"
+"7001"	"Data downloading"
+"7002"	"Unsuccessful data downloading"
+"7003"	"Data downloading successful, let's go home"
+"7004"	"Data carrier terminated"
+"7005"	"Data recovered"
+"7006"	"Data destroyed"
+"7007"	"I am at the HK wreck"
+"7008"	"HK technology acquired, let's go home"
+"7009"	"We have lost the data carrier"
+"7010"	"We have reacquired the technology"
+"7011"	"Technology destroyed"
+"7012"	"HK technology at the base"
+"7013"	"Enemy at the perimeter"				//????
+"7014"	"We have lost the base outside"
+"7015"	"We have lost the main base"
+"7016"	"Base has been recovered"
+"7017"	"5 minutes left"
+"7018"	"3 minutes left"
+"7019"	"1 minute left"
+"7020"	"30 seconds left"
+"7021"	"Base attack interrupted"
+"7022"	"Searching for data"
+"7023"	"Data search unsuccessful"
+"7024"	"Data acquired, let's go home"
+"7025"	"Data carrier has been terminated"
+"7026"	"I have the data, let's go home"
+"7027"	"Data destroyed"
+"7028"	"Computer destroyed"
+"7029"	"Only one computer left"
+
+
+	//Terminator
+"7100"	"Only three transporters left"
+"7101"	"Only two transporters left"
+"7102"	"Illegal data download"
+"7103"	"Data protected"
+"7104"	"Data has been stolen"
+"7105"	"Data destroyed"
+"7106"	"Technology destroyed"
+"7107"	"Activity at the HK wreck"
+"7108"	"At the perimeter need backup"
+"7109"	"Base taken"
+"7110"	"We have lost the base"
+"7111"	"5 minutes left"
+"7112"	"3 minutes left"
+"7113"	"2 minutes left"
+"7114"	"1 minute left"
+"7115"	"30 seconds left"
+"7116"	"Base attack interrupted"
+"7117"	"Humans in the bunker"
+"7118"	"Bunker cleared"
+"7119"	"Close down the bunkers"
+"7120"	"Data destroyed"
+"7121"	"Humans in the lab 'A'"
+"7122"	"Humans in the lab 'B'"
+
+
+
+//Single player
+
+	//Arnold
+
+
+"8000"	"Human base located"
+"8001"	"Base secured"
+"8002"	"Vehicle approaching"
+"8003"	"Vehicle destroyed"
+"8004"	"Data destroyed"
+"8005"	"Energy level critical"
+"8006"	"Low ammo"
+"8007"	"Target destroyed"
+"8008"	"New program activated. Program run. Primary function is to protect human life."
+"8009"	"Target destroyed"
+"8010"	"Heads up, it's an infiltrator"
+
+
+	//Terminator
+"8100"	"Locating target successful, HK deployed"
+"8101"	"Base secured"
+"8102"	"Vehicle approaching"
+"8103"	"Vehicle destroyed"
+
+	//HELP
+"9117"	"Go to profiles menu"
+"9000"	"Start single player mode"
+"9001"	"Start multiplayer mode"
+"9002"	"Controls, sound, video and other options"
+"9003"	"Who made this game"
+"9004"	"Exit to Windows"
+
+"9005"	"New Profile"
+"9006"	"Delete Profile"
+"9007"	"Rename Profile"
+"9008"	"Use selected Profile"
+
+"9009"	"Back to the Main Menu"
+"9010"	"Server browser"
+"9011"	"Server creation"
+"9012"	"Show servers on the local network"
+"9013"	"Show servers on the internet"
+"9014"	"Show Domination mode servers"
+"9015"	"Show Mission mode servers"
+"9016"	"Show Team Deathmatch mode servers"
+"9017"	"Show password protected servers"
+"9018"	"Show servers in the selected countries"
+"9019"	"Show empty servers"
+"9020"	"Show full servers"
+
+"9021"	"Server name"
+"9022"	"Number of players"
+"9023"	"Server game mode"
+"9024"	"Map name"
+"9025"	"Map size"
+"9026"	"Ping time in milliseconds"
+
+"9027"	"Refresh server list"
+"9028"	"Join to the selected server"
+
+"9029"	"Start dedicated server"
+"9030"	"Create a local network game"
+"9031"	"Create an internet game"
+"9032"	"Create a Domination mode game"
+"9033"	"Create a Mission mode game"
+"9034"	"Create a Team Deathmatch mode game"
+"9035"	"Enable Bots for balancing the game"
+
+"9036"	"Write here the server's name"
+"9037"	"Number of maximum players on this server"
+"9038"	"Team balancing (only if bots are enabled)"
+"9039"	"Respawn Time"
+"9040"	"Number of minimum players on this server"
+"9040a"	"Number of bots"
+"9041"	"Score limit"
+"9042"	"Time limit"
+"9043"	"Add selected map for the playing list"
+
+"9044"	"Select single player mission"
+"9045"	"Start selected mission"
+
+"9046"	"Double click on maps you want to select"
+"9047"	"Double-click on maps if you want to remove"
+"9048"	"Start server"
+
+"9049"	"Click here to set primary key"
+"9050"	"Click here to set secondary key"
+
+"9060"	"Adjust mouse sensitivity"
+"9061"	"Invert vertical mouse axis"
+
+//
+
+"9093"	"Toggle always run on/off"
+"9094"	"Back to options menu"
+"9095"	"Restore default values"
+"9096"	"Accept these settings"
+
+//
+
+"9062"	"Click here to set up your keys and mouse"
+"9063"	"Click here to adjust video settings"
+"9064"	"Click here to adjust sound settings"
+"9065"	"Click here to adjust network settings"
+"9066"	"Click here to adjust game settings"
+
+"9067"	"Choose graphics quality"
+"9068"	"Choose effect quality"
+"9069"	"Choose texture quality"
+"9070"	"Adjust brightness"
+"9071"	"Adjust contrast"
+"9072"	"Adjust gamma"
+"9073"	"Enable/disable dynamic shadows"
+"9079"	"Enable/disable rag doll physics" 		//9079	Auto detect available number of channels
+"9081"	"Enable/disable detail objects"			//9081	Select available sound drivers
+"9125"	"Enable/disable detail textures"
+
+"9074"	"Adjust master volume"
+"9075"	"Adjust music volume"
+"9076"	"Adjust effects volume"
+"9077"	"Use EAX"
+"9078"	"Use hardware"
+//
+"9080"	"Choose audio quality"
+//
+
+"9082"	"Modem optimized configuration"
+"9083"	"ISDN optimized configuration"
+"9084"	"DSL/Cable optimized configuration"
+"9084a"	"T1 optimized configuration"
+"9085"	"LAN optimized configuration"
+
+"9086"	"Set transparency for minimap"
+"9087"	"Choose your favorite crosshair"
+"9088"	"Force the same crosshair"
+"9089"	"Toggle effects on/off"
+"9090"	"Hide weapons"
+"9091"	"Toggle Terminator vision (color) on/off"
+"9092"	"Set message delay"
+
+//93-tol az optionsnel
+
+"9097"	"Set the keys for movement"
+"9098"	"Set the keys for the FK"
+"9099"	"Set the keys for vehicle"
+"9100"	"Set the keys for actions"
+"9101"	"Set the rest of the game keys here"
+
+"9102"	"Toggle dedicated server on/off"
+"9103"	"Enable/disable AI players"
+
+"9104"	"This is the list of available maps"
+"9105"	"This is the list of selected maps"
+
+"9106"	"Change server game mode to domination" 
+"9107"	"Change server game mode to misson" 
+"9108"	"Change server game mode to team deathmatch" 
+
+"9109"	"Back to multiplayer menu"
+"9110"	"Start local server"
+"9111"	"Start an internet server"
+
+"9112"	"show/hide domination mode servers"
+"9113"	"show/hide mission mode servers"
+"9114"	"show/hide tdm mode servers"
+"9115"	"show/hide empty servers"
+"9116"	"show/hide full servers"
+"9116a"	"show/hide dedicated servers"
+"9116b"	"show/hide password protected servers"
+
+//egy mashova
+
+"9118"	"Join to a lan game"
+"9119"	"Join to an internet game"
+"9120"	"Create a server"
+
+//Options mainscreen
+
+"9121"	"Go to control options"
+"9122"	"Go to video options" 
+"9123"	"Go to sound options"
+"9124"	"Go to game options"
+
+//
+//ingame back gomb
+
+"9126"	"Go back to game"
+
+
+"9127"	"Yes"
+"9128"	"No"
+
+
+//UJAK
+
+
+"w001"	"PASSWORD"
+"w002"	"PSW"
+"w003"	"Pass"
+"w004"	"Teamkill"
+"w005"	"TK"
+"w006"	"password protected"
+"w007"	"enter password"
+
+
+
+"w101" 	"Sets password for the server"
+"w104"	"Toggle Teamkill on/off"
+
+"u100"	"left the game."
+"u101"	"joined the game."
+"u102"	"died."
+"u103"	"joined to"
+"u103a"	"spawned."
+"u104"	"team."
+"u105"	"captured."
+"u106"	"lost"
+
+"u107"	"suicide."				
+"u108"	"has committed suicide."		// xy has...
+"u109"	"is killed."				// xy ...
+"u110"	"has been killed."			// xy...
+"u111"	"has been terminated."			// xy...
+
+"u108a"	"killed himself."
+"u111a"	"was killed by"
+"u111b" "was killed by an HK airstrike."
+"u111c" "was killed by an HK."
+ 
+"u112"	"you can't use this."
+"u113"	"you can't capture bases."
+"u113a"	"FKs can't capture bases."
+"u114"	"objective"
+
+	
+"u117"	"low"
+"u118"	"med"    				//medium
+"u119"	"high"
+	
+"u120"	"low	med	high"
+"u120a"	"ON"
+"u120b"	"OFF"
+
+"u121"	"bot skills"
+"u122"	"bot difficulty" 
+
+"u123"	"easy"
+"u124"	"medium"
+"u125"	"hard"
+	
+"u126"	"beginner"
+"u127"	"skilled"
+"u128"	"expert"	
+
+"u153"	"SEC"
+"u154"	"points"
+		
+//uj tool tip
+
+"u129"	"sets the time limit"
+"u130"	"sets score limit"
+"u131"	"sets the skill level of the bots"	
+"u131"	"sets ai difficulty"	
+"u132"	"sets crosshair type"
+
+
+"u133"	"Press Any Key to Continue..."
+	
+
+"u134"	"Loading Mission Object"
+"u135"	"Loading HK"
+"u136"	"Loading vehicle"
+"u137"	"Loading character"
+"u138"	"Loading scene..."
+"u139"	"Loading Terminator"
+"u140"	"Loading"			 // loading xy file
+
+
+//esrb es legalnotice
+
+"u141"	"Terminator (r) 3: War of the Machines(tm) (c) 2003 Atari, Inc. & IC Video LLC."
+"u142"	"All rights reserved."
+"u143"	"Developed by Clever's Games KFT."  
+"u144"	"Terminator (r) used under license." 
+"u145"	"TM (c) 2003 IMF Internationale Medien und Film GmbH & Co. 3 Produktions KG." 
+
+"u146"	"Windows is either a registered trademark or "
+"u147"	"trademark of Microsoft Corporation in the United States"
+"u148"	"and/or other countries."
+"u149"	"The Ratings icon is a trademark of the Interactive Digital Software Association."
+"u150"	"All other Trademarks are the property of their respective owners."
+"u151"	"Manufactured and marketed by Atari, Inc. New York, NY."
+
+"u152"	"esrb notice: game experience may change during online play"
+
+//egybe legalnotice
+
+"u200"	"Terminator (r) 3: War of the Machines(tm) (c) 2003 Atari, Inc. & IC Video LLC. All rights reserved. Developed by Clever's Games KFT. Terminator (r) used under license. TM (c) 2003 IMF Internationale Medien und Film GmbH & Co. 3 Produktions KG. Windows is either a registered trademark or trademark of Microsoft Corporation in the United States and/or other countries. The Ratings icon is a trademark of the Interactive Digital Software Association. All other Trademarks are the property of their respective owners. Manufactured and marketed by Atari, Inc. New York, NY."
+
+//marvan 153-154
+//server kijelzes
+
+"u155"	"med"   //medium
+"u156"	"sml"  //small
+"u157"	"lrg" //large
+
+"u158"	"miss"	//mission
+"u159"	"term"	//termination
+"u159"	"tdm"	//team deathmatch
+
+//hibauzenetek
+
+
+
+"h100"	"Please Select Scene!"
+"h101"	"Server Failure"
+"h102"	"Please Select Server!"
+"h103"	"The Name Already Exists!"
+
+"h104"	"LOGIN REJECTED"
+"h105"	"(SERVER IS FULL)"
+"h106"	"FIREWALL PROBLEM"
+"h107"	"CONNECTION LOST"
+"h108"	"DIFFERENT VERSION"
+"h109"  "CD-KEY ERROR!"
+"h109a" "SERVER CONNECTION PROBLEM. PLEASE WAIT."
+"h109b" "WRONG PASSWORD!"
+"h109c" "PASSWORD ERROR!"
+
+"h110"  "Already Bound!"
+"h111"  "Can not bind!"
+"h112"  "Press 'i' for mission info."
+"h113"  "Press 'i' to close this screen."
+"h114"  "There are unassigned keys!"
+
+
+//map change helyett
+
+"h150"	"PLEASE WAIT, MAP CHANGE IN PROGRESS..."
+"h151"	"WAITING FOR SERVER..."
+"h152"	"MAP CHANGE IN PROGRESS..."
+
+//scoreboard
+
+"s100"	"OBJECTIVE"
+"s101"	"MISSION SUCCESSFUL"
+"s102"	"MISSION FAILED"
+"s103"	"FRAGS"
+"s104"	"DEATHS"
+"s105"	"FRAGS/DEATHS"
+
+"s110"	"TIME IS UP. THE TERMINATORS HAVE WON."
+"s111"	"TIME IS UP. THE HUMANS HAVE WON."
+"s112"	"THE TERMINATORS HAVE WON."
+"s113"	"THE HUMANS HAVE WON."
+"s114"	"THE TERMINATORS HAVE WON ON POINTS."
+"s115"	"THE HUMANS HAVE WON ON POINTS."
+"s116"  "THIS MATCH WAS A DRAW."
+
+//controlls
+
+"z100"	"LEFT"
+"z101"	"RIGHT"
+"z102"	"UP"
+"z103"	"DOWN"
+"z104"	"ENTER"
+"z105"	"BACKSPACE"
+"z106"	"NUMPAD"
+"z107"	"TAB"
+"z108"	"HOME"
+"z109"	"PGUP"
+"z110"	"END"
+"z111"	"PGDN"
+"z112"	"INSERT"
+"z113"	"DELETE"
+"z114"	"R ALT"
+"z115"	"L ALT"
+"z116"	"R SHIFT"
+"z117"	"L SHIFT"
+"z118"	"L CTRL"
+"z119"	"R CTRL"
+"z120"	"SPACE"
+"z121"	"NUMENTER"
+"z122"	"PAUSE"
+"z123"	"MOUSE 1"
+"z124"	"MOUSE 2"
+"z125"	"MOUSE 3"
+
+//movement
+
+
+"z126"	"FORWARD" 
+"z127"	"BACKWARDS" 
+"z128"	"STRAFE LEFT" 
+"z129"	"STRAFE RIGHT" 
+"z130"	"JUMP" 
+"z131"	"CROUCH"
+"z132"	"WALK" 
+
+//fk
+
+"z133"	"UP"
+"z134"	"DOWN"
+"z135"	"ENTER/EXIT"
+
+//auto
+
+"z136"	"ACCELERATE"
+"z137"	"BRAKE"
+"z138"	"TURN LEFT"
+"z139"	"TURN RIGHT"
+"z140"	"HAND BRAKE"
+"z141"	"SWITCH POSITION"
+"z142"	"CHANGE VIEW"
+
+
+//actions
+
+"z143"	"FIRE"
+"z144"	"ALT. FIRE/SCOPE"
+"z145"	"NEXT WEAPON"
+"z146"	"PREVIOUS WEAPON" 
+"z147"	"RELOAD"
+"z148"	"USE"
+"z149"	"BINOCULARS"
+"z150"	"ZOOM IN"
+"z151"	"ZOOM OUT"
+
+
+//other
+
+"z152"	"TALK TO TEAM"
+"z153"	"TALK TO ALL"
+"z154"	"INFO TABLE"
+"z155"	"MAP ZOOM"
+"z156"	"COMMANDS"
+"z157"	"SUICIDE"
+"z158"	"MISSION INFO"
+
+//arnie
+
+"z200"  "YOU HAVE WON 'THE TERMINATOR' ON MOST FRAGS!"
+"z201"  "YOU HAVE WON 'THE TERMINATOR'!"
+"z202"	"YOU CAN CHOOSE 'THE TERMINATOR' FOR MOST FRAGS!"
+
+//deathcam
+
+"z666"	"DEATHCAM"
+"z667"	"DEATH CAMERA"
+"z999"	"TOGGLE DEATH CAMERA ON/OFF"
+
+//loading
+
+//termiantion + single
+
+"n01"	"CANYON" 
+"l01"	"~3humans are driven into the hills after the terminators oust them from the military base. the canyon is of strategic importance for the humans beacuse they can move and concentrate their troops unnoticed. nevertheless, the terminators have found the humans’ main base and they marshall their forces against the humans. both sides now fight for control of the canyon."
+
+"n02"	"CITYCENTER" 
+"l02"	"~3devastated by a nuclear strike, downtown los angeles has been reduced to a rubble-strewn wasteland throughout which a violent struggle among men and machines continues to rage. skynet and techcom forces have converged here upon a collapsed section of freeway, the central part of this level. this hotspot is a key strategic location as it is the only remaining access point through which vehicles may pass. it is the vital juncture in a fragile supply line permitting for the free flow of information and provisions. at this stage of the war, both sides are well aware that a victory in this vital sector will gain the controlling side a distinct advantage in the advancement of their cause. two bases are in this area, buried among the crumbling remains of a once sprawling concrete web of freeway overpasses. on either side of the freeway lie the ruins of office buildings and bombed out businesses, many of which have interiors and multiple floors. stationary weapons are positioned around key human positions. an hk plane patrols the skies, scouring the land below for assault vehicles operated by the humans."
+
+"n03"	"THE DOCKS" 
+"l03"	"~3this battle takes us seaside, to an area that once teemed with commercial activity. although this once thriving harbor is now comprised of nothing more than burned-out containers and ruined warehouses, it nevertheless remains a vital defensive nexus in the ongoing war. controlling the mouth of the port, and its surrounding buildings, will provide access to over 100 miles of navigable inland tributaries created during the earthquakes that ensued subsequent to the numerous nuclear blasts that leveled the city. these waterways will play a vital role in the transport of armaments and machines, and therefore winning the war at the harbor remains a top-level priority for both sides. the humans start from a shipwreck and have a key neutral base nearby constructed from shipping containers. at the center of the level, amidst smoldering toxic debris, is a recently downed hk plane. with four other neutral bases hidden within the maze of containers, and one more base at the corner of the warehouse near the terminator position, this level poses challenges of a particularly high order. the terminator base is at the northern part of the harbor and has a termtransport nearby. the hk plane patrols the air while the humans have a variety of assault vehicles and personnel carriers available to them."
+
+"n04"	"SUBURBAN" 
+"l04"	"~3the suburban level is divided by a large channel with a bridge connecting both sides. somewhere within this once idyllic community, a human courier squadron is holed up in a bombed-out shopping mall, awaiting the arrival of a transport team. the techcom squad must secure the bridge and the surrounding area to ensure safe passage for the transport team’s arrival. the terminators seek to obliterate this safe passage. starting from opposite ends of the bridge, the terminators and humans will vie for control of this key locale. there are slopes leading down on both sides of the channel that players can use for vehicles. there are five bases altogether, two on both sides of the channel and one under the bridge. whoever controls the bridge and the base beneath it is in the best position to force their enemy back. the hk plane patrols the air while humans have light transport as well as assault vehicles at their disposal."
+
+"n05"	"THE PLAZA" 
+"l05"	"~3the plaza, the roof of which is now collapsed after a series of devastating hk attacks, has two entrances - the main gate, accessible by stairs; and the parking zone at the plaza’s base. each of these entrances is adjacent to a neutral base. the human’s main base is in the subfloor of a nearby building, not far from the plaza’s parking zone. the terminator base, on a wide road next to the wreckage of a plane, is on the other side of the plaza. it is rumored that a cache of terminator cpu circuitry was stashed within the walls of the plaza by a retreating techcom force, before their defeat in battle. the humans must first secure the plaza before hunting for the cpus. the terminators seek to control the plaza as it is a strategic outpost in this quadrant of the battlefield."
+
+"n06"	"SUBWAY" //underground
+"l06"	"~3this level is divided into two main sections - one controlled by techcom; the other controlled by the terminators. these sections each contain two bases and are connected by a subway station. the subway station itself contains a single base and is undoubtedly one of the key installations of the entire battlefield as it provides one of the few access points to the underground rail system which winds its way beneath the entire city. whichever side controls this access point will gain the upper hand in controlling the entire warzone’s subterranean infrastructure. there are neither vehicles nor hk planes in this level. the battles will be waged entirely underground, and will feature some of the most savage fighting to date."
+
+"n07"	"MILITARY BASE - JUDGMENT DAY" 
+"l07"	"~3welcome to judgment day. this level is played in the present, among the hangars and runways on the crs military air base. there are two main runway areas connected by two large hangars, but the bunker tunnel entrances are closed. the main human base is in a bunker on one side of the level, while the main terminator base is tucked behind a hangar on the far side. the terminators have deployed both flying fk's and t-1 mini-tanks to take over this base in their initial push for world domination. the humans, taken somewhat by surprise, will fight back with light assault vehicles and personnel transports. only present day technology is available on this level – the level within which judgment day might very well begin."
+
+"n08"	"MILITARY BASE"
+"l08"	"~3from the military air base where judgment day commenced so many years before, the war between men and machines continues to rage. the base, now lying in ruins, remains a key strategic location. it is from this spot where the terminator airships are both deployed and maintained. the humans seek to regain control of this location in an effort to neutralize the terminator air attack. the terminators recognize the importance of the base and will not be easily defeated. one of the hangars is collapsed and provides no access although a nearby hangar will provide free passage. doorways permit the players to enter the bunker system. the bunker goes down two levels."
+
+"n09"	"RESEARCH LAB - JUDGMENT DAY"
+"l09"	"~3this level is played in the research center during the present day. it is within the laboratories of this facility where research and development of various terminator prototypes takes place. the scientific work occurring within these walls, and the battle that will soon be waged here, will forever alter the course of civilization. in addition to the two small garages found in this level, there are two terminator assembly halls as well - one for an fk, the other for the t-1. securing these areas is a top-level priority for both sides at this early juncture of the war."
+
+"n10"	"RESEARCH LAB" 
+"l10"	"~3this research center bears the marks of serious battles that were waged here long ago. now, in the future, the combat engaged in here will have an importance of an even higher magnitude as it is waged for the scant remnants of highly classified information and hardware, including prototypes, spec sheets, and databases. the longer the war continues, the less prevalent such material becomes. as a result, it is deeply valued by both sides. the two assembly halls and the research labs are in ruins. smaller explosions have rocked the corridors and are evidence of the advancing techcom forces."
+
+"n11"	"GRAVEYARD" 
+"l11"   "~3terminators have captured all buildings of strategic importance at the skynet laboratories. their next target is the techcom base in the downtown graveyard. not only has this area proven to be an ideal launch site for the humans’ attacks against the passing machines, but its various mausoleums have also served as prime temporary storage locations for captured terminators which are held there prior to shipment to reverse engineering labs. terminators have surrounded the human troops in the graveyard. soon, their assault will begin. the humans, driven into the area between the fountain and the monument, struggle to survive the onslaught of the machines and attempt to maintain their hold on this important counter-attack launch site and storage facility."
+
+"n12"	"DOWNTOWN" 
+"l12"	"~3techcom forces have created a supply channel trafficking food, weapons, technology, and troops to various arms of the human offensive. the supply channel has its hub at the heart of the city, and therefore control of this area remains a top priority for the humans. fighting in downtown has become ferocious at this stage of the war as humans forge ahead in an attempt at maintaining and creating bases throughout the area in an effort to bolster the supply line. the presence of terminators has been reduced in this zone as humans have executed numerous aggressive and well-planned attacks. terminators will try putting an end to the human advance by seeking to wipe out the human bases."
+
+
+//tdm
+
+"tdm01"	"~3a road cuts through a deep and wide canyon within which a military airbase is positioned. a key combat location, this airstrip is the spot from which the terminators have established their air superiority. techcom intelligence has learned that an immense terminator airship prototype, with low earth orbit capability and a nuclear missile payload, is soon to be deployed from this sight. the road and the canyon are the central parts of this level. but there are two bunker systems as well. one of these systems has not been used in years. its structural integrity is unknown. all that is known of the other bunker is that it contains two exits leading toward the ground level. an hk plane patrols the skies above the canyon, trying to spot the rapid ground vehicles driven by the humans."
+
+"tdm02"	"~3a sprawling section of collapsed freeway overpasses comprise the main part of this sector. the freeway lies largely in ruins at this stage of the war, but it remains a key component of the human resistance. it is used by techcom support convoys trafficking supplies to a team of mobile technicians who are currently attempting to resurrect a fragile network of computers. these computers, which will eventually serve as the hub of a citywide network, are housed in what remains of an office park adjacent to this hotly contested section of decimated freeway. this section of tumbled down concrete is the only way through for the convoy. the terminators have singled it out for elimination. they will attack the area with hks. the humans will counter the attack with ground-based vehicles."
+
+"tdm03"	"~3shipping containers, bombed out warehouses, and a recently crashed hk airship – now oozing toxic sludge into the bay - make up the hostile terrain of this harbor level. techcom forces believe the still smoldering hk was intentionally crashed at the harbor as a means of delivering contaminants into the bay in order to overwhelm the nearby water purification facility. with their water supply now threatened, the humans must work hastily to cordon off the wreck site. but first, they must clear the area of all terminators who will continue their onslaught both through the air and on the ground with hk tanks. to meet the challenge, techcom forces will have a full range of vehicles at their disposal."
+
+"tdm04"	"~3a bridge, spanning a wide channel, connects the two halves of this suburban level. the edges of the channel slope gradually down and provide vehicle access into the gulch. controlling this bridge and its immediate surroundings is the first step in an aggressive and daring move at gentrifying this downtrodden area, which has never been the same since those damn terminators moved in. once the war is over, property values are sure to skyrocket (despite the groundwater’s radioactivity), and techcom veterans are seeking to grab their piece of the pie right now. fighting will be fierce, as hk planes patrol the skies in an effort to dash those insidious suburban dreams once and for all."
+
+"tdm05"	"~3the central part of this level is the plaza which has two entrances. one entrance is the main gate, accessible by stairs. the other entrance is through the parking structure at the bottom of the plaza. the roof is collapsed, brought down as a result of numerous hk attacks. a downed airplane lies smoldering on a wide road at the other side of the structure. humans and terminators have simultaneously descended upon this area in an effort to secure a widely valued cache of skynet hardware rumored to be somewhere in the vicinity. the combat promises to be particularly heated at this level as the skynet hardware is of a highly classified nature."
+
+"tdm06"	"~3this level is divided into two main sections - one controlled by techcom; the other controlled by the terminators. these sections each contain two bases and are connected by a subway station. throughout the war, humans have typically controlled the underground. recently, however, in an effort to eliminate what they cannot control, the terminators have employed a successful stratagem of systematic destruction of the subterranean infrastructure. this tactic began in the far northeast quadrant of the warzone and has now moved here. the humans, not wanting to cede this valuable sector, will battle for the underground with a rarely seen ferocity. this level, fought underground, features no planes or vehicles and will surely go down as one of the most fiercely contested campaigns of the entire war."
+
+"tdm07"	"~3it was a typical day at the crs military airbase. flight crews made lazy circles in the sky, mechanics in the hangars serviced the f-117s, and, back at the main base, the top brass played cards in the lounge. then, with the errant flickering of a circuit in an earthbound fk airship, a typical day turned into judgment day as the machines asserted a long dormant power resulting in a paradigm shift that would forever alter the course of civilization. and in this manner, the war of the ages begins. this level is played in the present day, among the hangars and the runway of the crs airbase. there are underground passages – some accessible, some not – that lead toward the main base. a bunker system is adjacent to the hangars but their entrances are closed."
+
+"tdm08"	"~3control of this airbase, which now lies mostly in ruins, has switched hands numerous times throughout the course of the war. currently, it is up for grabs. both humans and terminators have tenuous control over small sections of the base. the time has come, however, to determine who will take control once and for all. several techcom squads and terminators have gathered at spots throughout this key location that remains tactically significant for any side hoping to mount, or defend against, an air attack. one of the hangars is collapsed and provides no access, although another hangar nearby will provide free passage. the bunker system, which goes down two levels, may be accessed through doorways."
+
+"tdm09"	"~3it is the hope of the many hard working professionals presently toiling away within the labyrinthine assembly halls of this facility, that the work they are doing will change the future world in profound ways. unbeknownst to these men and women of science, however, is the fact that this future world will soon be ushered in by an army of self-aware, blood thirsty, machines with a penchant for running things their way. the two assembly halls on this level are for the t-1 and the fk. two small garages exist at this site as well, where the future war is only moments away from commencing."
+
+"tdm10"	"~3terminators and techcom forces converge upon this facility in the hope of securing what remains of some highly classified information and hardware. terminator prototypes, spec sheets, and databases all exist within these walls. the longer the war continues, the less prevalent such material has become. as a result, it is deeply valued by both sides. the two assembly halls and the research labs are in ruins. smaller explosions have rocked the corridors and are evidence of the advancing techcom forces. as both sides near the suspected location of the material they seek, the intensity level of the fighting ramps up significantly."
+
+"tdm11"	"~3now, more than ever, the battlefield has become a graveyard. terminators have been programmed to make this area a “deathzone” meaning that all signs of life within a three mile radius must be obliterated. humans view this area as vital to their war plans in that it stores captured terminators awaiting transport to reverse engineering facilities in the outlying areas. techcom is aware of the terminators ramped up activity in this zone. techcom plans to meet the aggression head on in an effort to hold this location and the valuable material it contains."
+
+"tdm12"	"~3fighting in downtown is quickly devolving into pure chaos as machines and humans vie for control of this key locale. several techcom bases have been destroyed by a relentless terminator onslaught and the hub of the techcom supply chain is now jeopardized. human forces have made controlling this region the top priority at this stage of the war. an all-out offensive, launched by both sides, promises to bring some of the most ruthless fighting to date."
+
+
+//mission
+
+"mis01"	"~3humans are driven into the hills after the terminators oust them from the military base. the canyon is a strategically important route for the humans because they can move and concentrate their troops unnoticed. nevertheless, the terminators have found the humans' main base and they marshall their forces against it. the purpose of the teminators is to destroy the last human base and to annihilate the human movements in the canyon . the goal of the humans is to hold on to as much of the canyon as they can and to survive the terminator attacks."
+
+"mis02"	"~3not long ago, a human reconnaissance team worked its way deep into the rubble of what is now downtown and radioed back the location of an information channel for the machines existing in the basement of a hotel. before destroying this informational hub, however, the techcom unit was taken out by the terminators. now a new techcom team has been assigned the task of gaining access to the hotel and holding this position until all of the information on the mainframe can be downloaded."
+
+"mis03"	"~3having been victorious in several clashes against the machines, the techcom forces have gained a multitude of valuable information. captured terminators have been disassembled and reverse engineered. skynet databases have been raided. and now an opportunity has arisen for the humans to gain access to a downed hk. successfully defending this position is imperative as it will be the first step toward enabling the humans to eventually neutralize the terminator air attack."
+
+"mis04"	"~3this battle takes place in a suburban area with humans entrenched in a channel around which a perimeter has been constructed. the perimeter has been established to defend the channel which has become a key conduit for the delivery of supplies to the techcom forces. the machines will attempt destroying this perimeter in order to start an invasion into the channel, thereby disabling an important tactical element of the techcom war plan."
+
+"mis05"	"~3the machines have removed the humans from downtown and swept away the techcom bases from the plaza and parking zone. the machines will now try taking out the last of the human forces in this area - a techcom regiment that somehow made its way from deep within the plaza. it is rumored that this group of humans knows the whereabouts of a cache of highly classified skynet materiel existing somewhere within the walls of the plaza. the humans must defend their position and await the arrival of reinforcements if they hope to pass this vital information along to their allies."
+
+"mis06"	"~3the war’s fiercest fighting has now moved to the underground. both the humans and machines seek to control the subway system - a key logistical component which will gain the controlling side a distinct advantage in the war. the subway system provides a natural entrenchment as well as protected access to numerous key locations throughout the city. currently the humans control it. but will they be able to maintain this position against a relentless terminator attack?"
+
+"mis07"	"~3this level is played in the present at the crs military air base. it is a historic moment in the history of civilization as the machines have just asserted themselves and seek nothing less than world domination. they have already proven to be formidable opponents and have decimated much of the human resistance at this locale. the humans who remain have retreated to the hangar, now under attack from all positions by an army of t-1 terminators. the humans are hanging on to their lives by the thinnest thread. a call has been placed for assistance, but chaos rules now on a global scale and there is no telling how long the humans will be required to withstand the terminator attack."
+
+"mis08"	"~3entrenched within an abandoned bunker at the central part of the military base, and armed with a determined ferocity, the humans defend against the encroaching terminators. this base represents a valuable location as it is from here where the terminators have established, and where they continue to maintain, their air superiority. should the humans have any hope at victory, this base must be won. defending this bunker is an important first step in furtherance of the techcom cause."
+
+"mis09"	"~3it is the present, and t-1 terminators are attempting to take control of the laboratories within which they themselves were created. in doing this, they are attempting to take control not only of themselves; but, by logical extension, of the entire globe as well. caught off guard, the humans have been driven into a laboratory which houses a mainframe that remotely coordinates a portion of the t-1 cooling system. they must hold this position in the hope that either overexertion will render the terminators inoperable, or that reinforcements will soon arrive."
+
+"mis10"	"~3the upper hand now belongs to a techcom squadron that has just captured the skynet building. however, terminators are quickly descending upon this location which remains one of the key positions of the combat territory as it is suspected of housing a vault of information and hardware. controlling the material within this facility is pivotal for both sides. holding the position against a fierce terminator attack will pose one of the greatest challenges faced by techcom to date."
+
+"mis11"	"~3both techcom and terminators have suffered great loss in the battle for the graveyard, and the area remains highly unstable. the humans have re-trenched within a few key bases in an effort to protect several nonworking terminators which have been captured in battle and are currently being held awaiting transport to the reverse engineering labs in the suburbs. a terminator attack is soon to be launched. the humans are expecting the machines to utilize both a land and air attack and must hold their positions until re-enforcements arrive."
+
+"mis12"	"~3control of downtown has been shifting between men and machines over the course of several hard-fought battles. techcom forces, seeking to maintain the hub of the supply chain, have taken up key positions around its perimeter. terminators, seeking to wipe out the supply chain once and for all, are preparing for what is planned to be a final offensive upon this location. control of this area may very well determine the war’s outcome." 
+
+//Credits - do not translate!
+
+"c100"	"Credits List"
+
+"c101"   "Special thanks to Arnold Schwarzenegger, "
+"c102"   "Jonathan Mostow, C2 Pictures and"
+"c103"   "everyone involved in the making of"
+"c104"   " the Terminator 3 film for their support!!"
+"c105"   "DEVELOPED BY:  CLEVER’S GAMES KFT"
+"c106"   "Executive producer - Alex Sandor Rabb"
+"c107"   "MANAGEMENT:"
+"c108"   "Managing Director - Német László"
+"c109"   "Project Manager, Problem Solver - Rákos Péter"
+"c110"   "PR Manager - Botfa Zsolt"
+"c111"   "DESIGN:"
+"c112"   "Lead Designer - Regényi Ádám"
+"c113"   "Senior Designer - Pozsgay Gyula"
+"c114"   "Level Designer - Horváth Péter"
+"c115"   "Designer - Hajma Miklós"
+"c116"   "Concept Artist, Animation - Pénzes Szabolcs"
+"c117"   "Designer - Kadlecsik Barnabás"
+"c118"   "PROGRAMMING:"
+"c119"   "Lead Programmer - Schlägl Tamás"
+"c120"   "Senior Programmer - Nagy Péter"
+"c121"   "Effects Programmer - Balázs Péter"
+"c122"   "Tool Programmer - Berényi Csaba"
+"c123"   "Tool Programmer - Klingl János"
+"c124"   "AI Programmer - Mátis Miklós"
+"c125"   "Physics Programmer - Strezeneczki Tamás"
+"c126"   "UI Programmer - Tóth Gábor"
+"c127"   "GRAPHICS:"
+"c128"   "Lead Artist - Pócza Zoltán"
+"c129"   "Lead Level Builder - Seliga Márton"
+"c130"   "3D, Level Builder - Gaál Attila"
+"c131"   "3D, Level Builder - Kanál Csaba"
+"c132"   "3D, Level Builder, Animation - Mátéfy Szabolcs"
+"c133"   "2D, 3D, Level Builder - Szalai Ádám"
+"c134"   "Animation - Weszely Zoltán"
+"c135"   "2D, 3D, Level Builder - Wégner Raymond"
+"c136"   "2D- Haui Balázs"
+"c137"   "MUSIC & SOUND:"
+"c138"   "Music & Sound Effects - Szabó Gábor Dénes"
+"c139"   "SPECIAL THANKS TO OUR FAMILIES"
+"c140"   "EAGLE 3D Audio Modeling, "
+"c141"   "Copyright (c) 2000 - 2002 Creative Labs"
+"c142"   "FMOD Sound and Music System, "
+"c143"   "Copyright (c) Firelight Technologies Pty, Ltd, 1994 - 2003"
+"c144"   "C2 PICTURES"
+"c145"   "Co-Chairman and President - Andrew G. Vajna"
+"c146"   "Co-Chairman and President  -  Mario F. Kassar"
+"c147"   "Vice President - Interactive Entertainment - Alex Sandor Rabb"
+"c148"   "Chief Operating Officer and "
+"c149"   "Chief Financial Officer - Sam Falconello, Jr."
+"c150"   "Executive Vice President "
+"c151"   "and General Counsel - Erik Feitshans"
+"c152"   "President of Production - Joel Michaels"
+"c153"   "Vice President - Development - Michael Hackett"
+"c154"   "TERMINATOR 3™: "
+"c155"   "RISE OF THE MACHINES™ "
+"c156"   "FILM PRODUCTION"
+"c157"   "Director - Jonathan Mostow"
+"c158"   "Post-Production Supervisor - Michael Tinger"
+"c159"   "T3 PRODUCTIONS, INC."
+"c160"   "Paula Hoppe"
+"c161"   "EUROPLAY CAPITAL ADVISORS, LLC"
+"c162"   "Mark Dyne - Chairman and Managing Partner"
+"c163"   "Pam Colburn - Managing Director"
+"c164"   "Damien Petty - Senior Associate"
+"c165"   "INTERMEDIA"
+"c166"   "Moritz Borman - President"
+"c167"   "STUBBS, ALDERTON & MARKILES, LLP"
+"c168"   "Scott Alderton - Partner"
+"c169"   "ATARI- UNITED STATES"
+"c170"   "PRODUCT DEVELOPMENT"
+"c171"   "Senior V.P. - Santa Monica Label - Jean-Philippe Agati"
+"c172"   "VP Product Development / Executive Producer - Steve Ackrich"
+"c173"   "Senior Producer - Peter Wyse"
+"c174"   "Producer - Aron Drayer"
+"c175"   "Art Director - Mark Soderwall"
+"c176"   "Audio Director - Scott Snyder"
+"c177"   "Senior Artist - Shawn Monroe"
+"c178"   "Administrative Support - Patricia Swanson"
+"c179"   "Production Intern - Aaron Berger"
+"c180"   "Micah Winklespecht"
+"c181"   "MARKETING"
+"c182"   "V.P. of Brand Marketing - Steve Allison"
+"c183"   "Director of Brand Marketing - Jean Raymond"
+"c184"   "Brand Manager - Serene Chan"
+"c185"   "Director of Marketing Communications - Kristine Keever"
+"c186"   "Public Relations - Matt Frary"
+"c187"   "Public Relations - Brandon Smith"
+"c188"   "Executive Web Producer - Jon Nelson"
+"c189"   "Senior Web Producer - Kyle Peschel"
+"c190"   "LICENSING"
+"c191"   "Director of New Business Development - Tim Campbell"
+"c192"   "Content Manager - Mark T. Morrison"
+"c193"   "Licensing - Jamie Wilson"
+"c194"   "LEGAL"
+"c195"   "VP of Business and Legal Affairs - Steve Madsen"
+"c196"   "Director of Business and Legal Affairs - Travis Stansbury"
+"c197"   "MARKETING SERVICES"
+"c198"   "VP of Marketing Services - Gale Alles"
+"c199"   "Director of Creative Services - Steve Martin"
+"c200"   "Art Director - David Gaines"
+"c201"   "Director of Editorial and Documentation Services - Liz Mackney"
+"c202"   "Documentation Specialist - Chris Dawley"
+"c203"   "ENGINEERING SERVICES"
+"c204"   "Senior Manager - Luis Rivas"
+"c205"   "Engineering Specialist - Ken Edwards"
+"c206"   "Technician - Eugene Lai"
+"c207"   "QUALITY ASSURANCE"
+"c208"   "Director of Publishing Support - Michael Gilmartin" 
+"c209"   "Project Lead - Lenny Montone"
+"c210"   "Assistant Lead - Scott Rollins"
+"c211"   "Core Testers - Greg Amato"
+"c212"   "Joseph Taylor"
+"c213"   "Tom Andrade"
+"c214"   "Scott Bigwood"
+"c215"   "Randy Buchholz"
+"c216"   "Dennis Chan"
+"c217"   "Clement Cherlin"
+"c218"   "Sarah Cherlin"
+"c219"   "P.J. Cody"
+"c220"   "Jason Cordero"
+"c221"   "Dan Frisoli"
+"c222"   "Tim Higgins"
+"c223"   "Helen Hinchcliffe"
+"c224"   "Jose 'Pepe' Jauregui"
+"c225"   "Jeff Loney"
+"c226"   "Sam Mansour"
+"c227"   "Chris McQuinn"
+"c228"   "Chris Salings"
+"c229"   "Howell Selburn"
+"c230"   "Dave Strang"
+"c231"   "Carl Vogel"
+"c232"   "SPECIAL THANKS"
+"c233"   "Yves Blehaut"
+"c234"   "Jean-Claude Boursiquot"
+"c235"   "Kathy Butters"
+"c236"   "Sara Buxton"
+"c237"   "Steve Cavazos"
+"c238"   "James Gaines"
+"c239"   "Jim Galis"
+"c240"   "Lorraine Garcia"
+"c241"   "Dave Gatchel"
+"c242"   "Josh Hackney"
+"c243"   "Tim Hess"
+"c244"   "John Hight"
+"c245"   "Kristene Lowell"
+"c246"   "Simon Miller"
+"c247"   "Tony Peterson"
+"c248"   "Paula Richardson"
+"c249"   "Harry Rubin"
+"c250"   "Susan Tumang"
+"c251"   "Karen Williams"
+"c252"   "Shawn Wright"
+"c253"   "Picture Plane"
+"c254"   "Kathleen Ciampa"
+"c255"   "Sarah McIlroy"
+"c256"   "Rachel Hoagland"
+"c257"   "Cecelia Hernandez"
+"c258"   "Christine Fromm"
+"c259"   "Eddie Pritchard"
+"c260"   "ATARI EU"
+"c261"   "Senior VP, International Product Services - Jean-Marcel Nicolaï"
+"c262"   "Republishing Team - Rebecka Pernered"
+"c263"   "Sébastien Chaudat"
+"c264"   "Caroline Fauchille"
+"c265"   "Jenny Clark"
+"c266"   "Vincent Hattenberger"
+"c267"   "Estelle Baudet"
+"c268"   "Marion Gallavardin"
+"c269"   "Ludovic Bony"
+"c270"   "Quality Control Team - Lewis Glover"
+"c271"   "Olivier Robin"
+"c272"   "Carine Mawart"
+"c273"   "Software Testing Team - RelQ Software PVT LTD"
+"c274"   "Engineering Services - Philippe Louvet"
+"c275"   "Stéphane Enteric"
+"c276"   "Emeric Polin"
+"c277"   "Localisation Support Group  -  David Chomard"
+"c278"   "Maud Favier"
+"c279"   "Gérard Barnaud"
+"c280"   "Monika Steinhauer"
+"c281"   "Localisation Testing - Babel Media Ltd."
+"c282"   "Translation - KBP"
+"c283"   "Synthesis International"
+"c284"   "Certification and Planning Support Group - Sophie Wibaux"
+"c285"   "Jérôme Di Tullio"
+"c286"   "International Marketing Team - Martin Spiess"
+"c287"   "Cyril Voiron"
+"c288"   "Cindy Church"
+"c289"   "Mathieu Brossette"
+"c290"   "Aidan Minter"
+"c291"   "International PR team - Sonia O’Keeffe"
+"c292"   "Lynn Daniel"
+"c293"   "Lee Kirton"
+"c294"   "Simon Callaghan"
+"c295"   "Local Marketing Teams - United Kingdom - Emma Rush"
+"c296"   "France - Alexandre Enklaar"
+"c297"   "Germany - Heiko Kaspers"
+"c298"   "Spain - Carlos Sacristan"
+"c299"   "Iberica - Laura Aznar"
+"c300"   "Nordic - Nikke Lindner"
+"c301"   "Switzerland - Simon Stratton"
+"c302"   "Australia - Jeff Wong"
+"c303"   "Benelux - Simone Goudsmit"
+"c304"   "Repackaging Agency - A Creative Experience"
+"c305"   "Special Thanks to: - ATARI US Creative Services"
+"c306"   "Advanced Graphics - Chuck Highlund"
+"c307"   "VP Sales and Marketing, sales@advancedgraphics.com"
+"c308"   "Darren Epstein, Cards,Inc."
+"c309"   "darren@cardsinc.com"
+"c310"   "For more details on obtaining official "
+"c311"   "Terminato(r) 3: Rise of the Machines™ Standees "
+"c312"   "visit Advanced graphics at "
+"c313"   "www.advancedgraphics.com"
+"c314"   "ATARI JAPAN K.K."
+"c315"   "Chief Operating Officer  -  Nicolas di Costanzo"
+"c316"   "Marketing Manager - Takafumi Ueoro"
+"c317"   "Executive Producer - Masatoshi Higuchi"
+"c318"   "Producer - Shinji Yoshikawa"
+"c319"   "Special Thanks - Kyoko Makino"
+"c320"   "ATARI MELBOURNE HOUSE"
+"c321"   "Localisation Producer- Asia  -  Paul Motion"
+"c322"   "ATARI BRAZIL"
+"c323"   "Marketing Manager - Glauco D'Alessandro Bueno"
+"c324"   "MUSIC COMPOSITION"
+"c325"   "Producer- Atari Melbourne House - Marshall Parker"
+"c326"   "Composers - Ric Formosa"
+"c327"   "Danny Beckerman"
+"c328"   "Additional Music composed by - Ricky Edwards"
+"c329"   "Rob Clarke"
+"c330"   "John Barrett"
+"c331"   "Recorded at Alan Eaton Studios - Melbourne Australia"
+"c332"   "Mixed at Sing Sing - Melbourne Australia"
+"c333"   "Engineered and mixed by Chris Scallan & Robin Gray"
+"c334"   "Performed by The Victorian Philharmonic Orchestra"
+"c335"   "RIPTIDE MUSIC"
+"c336"   "Audio Director - Rich Goldman"
+"c337"   "Sound Design - Martin Jacob Lopez"
+"c338"   "Sound Design - Dan Silver"
+"c339"   "Sound Design - Peter O’Brien"
+"c340"   "Sound Design - Andreas Fetz"
+"c341"   "SCORPIO SOUND"
+"c342"   "IN GAME"
+"c343"   "SAG Voice Over Casting, Recording and Editing by "
+"c344"   "Scorpio Sound"
+"c345"   "Voice Over / Dialogue Editors"
+"c346"   "Gregory J. Hainer, MPSE"
+"c347"   "Shawn Johnson"
+"c348"   "J.S. (Mongo) Ross"
+"c349"   "James Warren"
+"c350"   "Henri Yonet"
+"c351"   "VOICE ACTORS"
+"c352"   "Arnold Schwarzenegger"
+"c353"   "Billy Brown"
+"c354"   "Nicholas Guest"
+"c355"   "Phil Lamarr"
+"c356"   "Steve Susskind"
+"c357"   "Fred Tatasciore"
+"c358"   "ADDITIONAL MUSIC"
+"c359"   "'Terminator 2: Judgment Day'"
+"c360"   "Written and performed by Brad Fiedel"
+"c361"   "© 1991 StudioCanal Image S.A."
+"c362"   "All rights reserved."
+"c363"   "T3 remix by Sonic Mayhem www.sonicmayhem.com"
+"c364"   "© 1991 StudioCanal Image S.A."
+"c365"   "All rights reserved."
