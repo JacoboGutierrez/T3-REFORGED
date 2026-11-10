@@ -17,9 +17,9 @@
 
 ## This Mod Features:
 
-- 🔺 **Enhanced Skynet Models, Animations and Shading.**
+🔺 **Enhanced Skynet Models, Animations and Shading.**
 
-- 🔺 **New Skynet Units:**
+🔺 **New Skynet Units:**
   - **T-900 Heavy Assault:**
     > A dual-wielding T-900 variant.
 
