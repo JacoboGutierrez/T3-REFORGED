@@ -18,11 +18,9 @@
 ## This Mod Features:
 
 🔺 **Enhanced Skynet Models, Animations and Shading.**
-
 🔺 **New Skynet Units:**
   - **T-900 Heavy Assault:**
     > A dual-wielding T-900 variant.
-
 🔺 **New Weapons:**
   - **Dual Wield WM-20**
   - **WM-27 [Has a dual-wield variant]**
