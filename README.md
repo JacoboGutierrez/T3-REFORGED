@@ -14,20 +14,27 @@
    - `t3_original_soundtracks`
 3. Make sure you're using T3-ModTools version 0.6.12 or later to ensure compatibility with the mod.
 
-This Mod Features:
-🔺 Enhanced Skynet Models, Animations and Shading.
-🔺 New Skynet Units:
-:SKYNET:  T-900 Heavy Assault: 
-A dual wielded T-900 variant.
-🔺 New Weapons
-:SKYNET: Dual Wield WM-20
-:SKYNET: WM-27 [Has a dual wield variant]
-causes more damage than the WM-20, lower fire rate, no grenade launcher.
-:SKYNET: WM-32 [Has a dual wield variant]
-More damage than the WM-20 but less than the WM-27, plasma launcher.
-🔺  Enhanced & New Special Effects
-Changes to the HUD and more effects such as weapon muzzles, projectile impacts, sound and more.
-🔺 Terminator 3 Original Movie Soundtracks
+
+## This Mod Features:
+
+- 🔺 **Enhanced Skynet Models, Animations and Shading.**
+
+- 🔺 **New Skynet Units:**
+  - **T-900 Heavy Assault:**
+    > A dual-wielding T-900 variant.
+
+- 🔺 **New Weapons:**
+  - **Dual Wield WM-20**
+  - **WM-27 [Has a dual-wield variant]**
+    > Deals more damage than the WM-20, has a lower fire rate, and does not include a grenade launcher.
+  - **WM-32 [Has a dual-wield variant]**
+    > Deals more damage than the WM-20 but less than the WM-27. Includes a plasma launcher.
+
+- 🔺 **Enhanced & New Special Effects**
+  > Changes to the HUD and additional effects, such as weapon muzzle flashes, projectile impacts, sounds, and more.
+
+- 🔺 **Terminator 3 Original Movie Soundtrack**
+
 
 <br>
 <p align="center">
