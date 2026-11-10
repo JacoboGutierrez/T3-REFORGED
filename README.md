@@ -8,7 +8,7 @@
 $\color{yellow}\textsf{1. The first time you launch the game after patching the executable, it will crash and automatically restart. This is expected behavior and will only happen once, unless you install or modify another mod that patches the game's engine.}$
 
 $\color{yellow}\textsf{2. **Remove the following mods from your `mods` folder if you have them installed**, as they are already built into T3 Reforged and may cause conflicts:}$
-$\color{red}\textsf{- `accurate_weapon_damage`}$
+   - `accurate_weapon_damage`
    - `t3_enhanced_sfx`
    - `t3_enhanced_t_units`
    - `t3_original_soundtracks`
