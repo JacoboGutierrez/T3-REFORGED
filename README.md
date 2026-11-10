@@ -12,6 +12,7 @@ $\color{yellow}\textsf{2. **Remove the following mods from your `mods` folder if
    - `t3_enhanced_sfx`
    - `t3_enhanced_t_units`
    - `t3_original_soundtracks`
+
 $\color{yellow}\textsf{3. Make sure you're using T3-ModTools version 0.6.12 or later to ensure compatibility with the mod.}$
 
 
