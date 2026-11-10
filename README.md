@@ -5,7 +5,7 @@
 4. Once the patching process is complete, the mod is ready to play. Launch the game using `T3_Modded.exe`. Otherwise, the mods won't load, and the game will run in vanilla mode.
 
 ## Important Notes
-$\color{yellow}\textsf{1. The first time you launch the game after patching the executable, it will crash and automatically restart. This is expected behavior and will only happen once, unless you install or modify another mod that patches the game's engine.}$
+$\color{cyan}\textsf{1. The first time you launch the game after patching the executable, it will crash and automatically restart. This is expected behavior and will only happen once, unless you install or modify another mod that patches the game's engine.}$
 
 $\color{yellow}\textsf{2. Remove the following mods from your moods folder if you have them installed, as they are already built into T3 Reforged and may cause conflicts:}$
    - `accurate_weapon_damage`
