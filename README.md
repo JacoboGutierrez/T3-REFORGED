@@ -5,15 +5,14 @@
 4. Once the patching process is complete, the mod is ready to play. Launch the game using `T3_Modded.exe`. Otherwise, the mods won't load, and the game will run in vanilla mode.
 
 ## Important Notes
-$\color{cyan}\textsf{1. The first time you launch the game after patching the executable, it will crash and automatically restart. This is expected behavior and will only happen once, unless you install or modify another mod that patches the game's engine.}$
+1. The first time you launch the game after patching the executable, it will crash and automatically restart. This is expected behavior and will only happen once, unless you install or modify another mod that patches the game's engine.
 
-$\color{cyan}\textsf{2. Remove the following mods from your moods folder if you have them installed, as they are already built into T3 Reforged and may cause conflicts:}$
+2. **Remove the following mods from your `mods` folder if you have them installed**, as they are already built into T3 Reforged and may cause conflicts:
    - `accurate_weapon_damage`
    - `t3_enhanced_sfx`
    - `t3_enhanced_t_units`
    - `t3_original_soundtracks`
-
-$\color{cyan}\textsf{3. Make sure you're using T3-ModTools version 0.6.12 or later to ensure compatibility with the mod.}$
+3. Make sure you're using T3-ModTools version 0.6.12 or later to ensure compatibility with the mod.
 
 
 ## This Mod Features:
