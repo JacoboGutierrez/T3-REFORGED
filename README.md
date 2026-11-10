@@ -23,17 +23,17 @@
   - **T-900 Heavy Assault:**
     > A dual-wielding T-900 variant.
 
-- 🔺 **New Weapons:**
+🔺 **New Weapons:**
   - **Dual Wield WM-20**
   - **WM-27 [Has a dual-wield variant]**
     > Deals more damage than the WM-20, has a lower fire rate, and does not include a grenade launcher.
   - **WM-32 [Has a dual-wield variant]**
     > Deals more damage than the WM-20 but less than the WM-27. Includes a plasma launcher.
 
-- 🔺 **Enhanced & New Special Effects**
+🔺 **Enhanced & New Special Effects**
   > Changes to the HUD and additional effects, such as weapon muzzle flashes, projectile impacts, sounds, and more.
 
-- 🔺 **Terminator 3 Original Movie Soundtrack**
+🔺 **Terminator 3 Original Movie Soundtrack**
 
 
 <br>
