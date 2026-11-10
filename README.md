@@ -1,7 +1,7 @@
 ## Installation
 1. Create a `mods` folder in your T3 root directory.
 2. Copy the `t3_reforged` mod into your `T3/mods` folder.
-3. Use [T3-ModTools](https://github.com/JacoboGutierrez/T3-ModTools) to patch the mod into the game's executable.
+3. Use [T3-ModTools](https://github.com/JacoboGutierrez/T3-ModTools) (version 0.6.12 or later) to patch the mod into the game's executable.
 4. Once the patching process is complete, the mod is ready to play. Launch the game using `T3_Modded.exe`. Otherwise, the mods won't load, and the game will run in vanilla mode.
 
 ## Important Notes
