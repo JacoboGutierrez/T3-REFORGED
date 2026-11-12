@@ -1,3 +1,5 @@
+## V1.0
+
 ## Installation
 1. Create a `mods` folder in your T3 root directory.
 2. Copy the `t3_reforged` mod into your `T3/mods` folder.
